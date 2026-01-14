@@ -264,6 +264,120 @@ function translateWineTerms(text) {
 }
 
 // =============================================================================
+// GÉNÉRATION FAQ ENRICHIE
+// =============================================================================
+
+function generateDegustationAnswer(wine) {
+  const parts = [];
+  const color = wine.colorFr || 'Rouge';
+  const region = wine.regionFr || '';
+  const style = translateWineTerms(wine.Style || '');
+  const drinkingWindow = wine.Drinking_Window || '';
+  const servingTemp = wine.Serving_Temp || '';
+  const decanting = wine.Decanting || '';
+  const agingPotential = wine.Aging_Potential || '';
+
+  // Introduction basée sur la fenêtre de dégustation
+  if (drinkingWindow) {
+    if (drinkingWindow.includes('now') || drinkingWindow.includes('maintenant')) {
+      parts.push(`Ce ${color.toLowerCase()} peut être dégusté dès maintenant, même s'il gagnera en complexité avec quelques années de cave.`);
+    } else if (drinkingWindow.includes('+') || drinkingWindow.includes('years')) {
+      parts.push(`Ce ${color.toLowerCase()} est un vin de garde. La fenêtre de dégustation optimale se situe ${drinkingWindow.replace('years', 'ans').replace('-', ' à ')}.`);
+    } else {
+      parts.push(`La fenêtre de dégustation optimale pour ce ${color.toLowerCase()} se situe ${drinkingWindow.replace('years', 'ans').replace('-', ' à ')}.`);
+    }
+  } else {
+    if (color === 'Rouge') {
+      parts.push(`Ce rouge peut être apprécié dans sa jeunesse pour son fruit éclatant, ou conservé quelques années pour développer des arômes tertiaires plus complexes.`);
+    } else if (color === 'Blanc') {
+      parts.push(`Ce blanc révèle toute sa fraîcheur et sa minéralité dans les premières années, tout en ayant un beau potentiel de garde pour les amateurs de vins évolués.`);
+    } else if (color === 'Effervescent') {
+      parts.push(`Ce champagne/crémant peut être dégusté dès maintenant pour profiter de sa vivacité, ou conservé pour développer des notes plus vineuses et briochées.`);
+    } else {
+      parts.push(`Ce vin peut être apprécié dès maintenant ou conservé quelques années selon vos préférences.`);
+    }
+  }
+
+  // Température de service
+  if (servingTemp) {
+    parts.push(`Servir à ${servingTemp} pour une dégustation optimale.`);
+  } else {
+    if (color === 'Rouge') {
+      parts.push(`Servir entre 16 et 18°C. Sortir la bouteille de la cave 30 minutes avant le service.`);
+    } else if (color === 'Blanc') {
+      parts.push(`Servir frais, entre 10 et 12°C. Une légère fraîcheur sublimera sa minéralité.`);
+    } else if (color === 'Rosé') {
+      parts.push(`Servir bien frais, entre 8 et 10°C.`);
+    } else if (color === 'Effervescent') {
+      parts.push(`Servir frais, entre 8 et 10°C. Éviter le seau à glace qui masque les arômes.`);
+    }
+  }
+
+  // Carafage
+  if (decanting) {
+    parts.push(translateWineTerms(decanting));
+  } else if (color === 'Rouge' && (style.includes('puissant') || style.includes('structuré') || style.includes('tannique'))) {
+    parts.push(`Un passage en carafe d'une à deux heures permettra d'assouplir les tanins et de révéler toute la palette aromatique.`);
+  }
+
+  return parts.join(' ');
+}
+
+function generateAccordAnswer(wine) {
+  const parts = [];
+  const color = wine.colorFr || 'Rouge';
+  const region = wine.regionFr || '';
+  const style = translateWineTerms(wine.Style || '').toLowerCase();
+  const grape = wine.Grape_Variety || '';
+  const foodPairing = wine.Food_Pairing || '';
+
+  // Si on a des accords spécifiques
+  if (foodPairing && foodPairing.length > 20) {
+    return translateWineTerms(foodPairing);
+  }
+
+  // Sinon, générer selon le type de vin
+  if (color === 'Rouge') {
+    if (region === 'Bourgogne') {
+      parts.push(`Les Pinot Noir bourguignons s'accordent merveilleusement avec les volailles rôties (poulet de Bresse, pintade), le bœuf bourguignon, les viandes blanches en sauce, et les fromages à croûte lavée comme l'Époisses.`);
+      if (style.includes('puissant') || style.includes('structuré')) {
+        parts.push(`Pour ce vin plus charpenté, privilégiez le gibier (faisan, chevreuil) ou un carré d'agneau aux herbes.`);
+      } else if (style.includes('élégant') || style.includes('soyeux')) {
+        parts.push(`Sa finesse l'oriente vers des préparations délicates : pigeon rôti, ris de veau, ou champignons des bois.`);
+      }
+    } else if (region === 'Rhône Nord') {
+      parts.push(`Cette Syrah du Rhône Nord accompagne idéalement les viandes grillées, le gibier à plumes, l'agneau aux herbes de Provence, ou les plats épicés comme un tajine d'agneau.`);
+    } else {
+      parts.push(`Ce rouge s'accordera avec les viandes rouges grillées ou en sauce, les plats mijotés, le gibier, et les fromages affinés.`);
+    }
+  } else if (color === 'Blanc') {
+    if (region === 'Bourgogne') {
+      parts.push(`Les grands Chardonnay bourguignons subliment les poissons nobles (turbot, sole meunière, bar), les crustacés (homard, langoustines), les volailles à la crème, et les fromages comme le Comté affiné.`);
+      if (style.includes('minéral') || style.includes('tendu')) {
+        parts.push(`Sa tension minérale en fait un compagnon idéal des huîtres, des fruits de mer, et des poissons crus.`);
+      } else if (style.includes('riche') || style.includes('opulent')) {
+        parts.push(`Sa richesse permet des accords avec des plats plus opulents : ris de veau, volaille truffée, ou foie gras mi-cuit.`);
+      }
+    } else if (region === 'Loire') {
+      parts.push(`Ce blanc ligérien est parfait avec les poissons de rivière, les fromages de chèvre (crottin de Chavignol, Selles-sur-Cher), et les fruits de mer.`);
+    } else {
+      parts.push(`Ce blanc accompagnera poissons, fruits de mer, volailles en sauce blanche, et fromages frais.`);
+    }
+  } else if (color === 'Effervescent') {
+    parts.push(`Ce champagne/crémant est idéal à l'apéritif, mais brille également à table avec des huîtres, du caviar, des sushis de qualité, ou une volaille truffée. Les cuvées vinifiées en fût supportent même le foie gras.`);
+  } else if (color === 'Rosé') {
+    parts.push(`Ce rosé accompagne parfaitement la cuisine méditerranéenne, les grillades estivales, la cuisine asiatique légèrement épicée, et les salades composées.`);
+  }
+
+  // Ajouter conseil régional si disponible
+  if (region && !parts[0]?.includes(region)) {
+    parts.push(`Pensez également aux spécialités de ${region} pour un accord régional authentique.`);
+  }
+
+  return parts.join(' ');
+}
+
+// =============================================================================
 // UTILITAIRES
 // =============================================================================
 
@@ -721,7 +835,7 @@ function generateWinePage(wine, allWines) {
         "name": `Quel est le meilleur moment pour déguster ${wine.WINE} ?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": `Ce vin peut être apprécié ${wine.Drinking_Window || 'dès maintenant'}. Servir à ${wine.Serving_Temp || '16-18°C'}.`
+          "text": generateDegustationAnswer(wine)
         }
       },
       {
@@ -729,7 +843,7 @@ function generateWinePage(wine, allWines) {
         "name": `Quels plats accompagnent ${wine.WINE} ?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": wine.Food_Pairing || `Ce ${wine.colorFr} s'accorde avec de nombreux plats.`
+          "text": generateAccordAnswer(wine)
         }
       }
     ]
@@ -845,12 +959,12 @@ ${getHeader()}
 
       <div class="faq-item">
         <h3>Quel est le meilleur moment pour déguster ${escapeHtml(wine.WINE)} ?</h3>
-        <p>Ce vin peut être apprécié ${escapeHtml(wine.Drinking_Window || 'dès maintenant')}. Servir à ${escapeHtml(wine.Serving_Temp || '16-18°C')}.</p>
+        <p>${escapeHtml(generateDegustationAnswer(wine))}</p>
       </div>
 
       <div class="faq-item">
         <h3>Quels plats accompagnent ${escapeHtml(wine.WINE)} ?</h3>
-        <p>${escapeHtml(wine.Food_Pairing || `Ce ${wine.colorFr} s'accorde avec de nombreux plats.`)}</p>
+        <p>${escapeHtml(generateAccordAnswer(wine))}</p>
       </div>
     </section>
 
