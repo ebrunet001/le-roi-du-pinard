@@ -105,6 +105,10 @@ function loadData() {
   const wines = readExcel('Wine_Database_440_COMPLET_FINAL.xlsx');
   console.log(`  - ${wines.length} vins chargés`);
 
+  // Données XXL avec avis du Roi du Pinard
+  const winesXXL = readExcel('Wine_Database_Roi_Pinard_XXL.xlsx');
+  console.log(`  - ${winesXXL.length} avis du Roi chargés`);
+
   // Producteurs (mixer les deux sources)
   const producers1 = readExcel('Page_producteurs_complete_1.xlsx');
   const producers2 = readExcel('Page producteurs - contenus.xlsx');
@@ -122,6 +126,7 @@ function loadData() {
 
   return {
     wines,
+    winesXXL,
     producers1,
     producers2,
     categories1,
@@ -135,10 +140,19 @@ function loadData() {
 // TRAITEMENT DES DONNÉES
 // =============================================================================
 
-function processWines(wines) {
+function processWines(wines, winesXXL = []) {
+  // Créer un map des données XXL par nom de vin
+  const xxlMap = new Map();
+  winesXXL.forEach(w => {
+    if (w.WINE) xxlMap.set(w.WINE, w);
+  });
+
   return wines.map(wine => {
     const regionFr = translateRegion(wine.Region || '');
     const colorFr = translateColor(wine.COLOR || '');
+
+    // Récupérer l'avis du Roi du Pinard depuis le fichier XXL
+    const xxlData = xxlMap.get(wine.WINE) || {};
 
     return {
       ...wine,
@@ -147,7 +161,8 @@ function processWines(wines) {
       regionSlug: createSlug(regionFr),
       colorFr,
       appellationSlug: createSlug(wine.Appellation),
-      producerSlug: createSlug(wine.Producer)
+      producerSlug: createSlug(wine.Producer),
+      avisRoiPinard: xxlData.L_Avis_du_Roi_du_Pinard || ''
     };
   });
 }
@@ -574,15 +589,22 @@ ${getHeader()}
     </section>
     ` : ''}
 
-    ${wine.Ce_qui_rend_ce_vin_special ? `
+    ${wine.avisRoiPinard ? `
     <section class="roi-says">
       <div class="roi-header">
         <img src="/assets/images/logo-roi-du-pinard.jpg" alt="Le Roi du Pinard" class="roi-avatar">
         <h2>👑 Ce qu'en dit le Roi du Pinard</h2>
       </div>
       <blockquote class="roi-quote">
-        ${escapeHtml(wine.Ce_qui_rend_ce_vin_special)}
+        ${escapeHtml(wine.avisRoiPinard)}
       </blockquote>
+    </section>
+    ` : ''}
+
+    ${wine.Ce_qui_rend_ce_vin_special ? `
+    <section class="soyons-serieux">
+      <h2>📚 Soyons sérieux</h2>
+      <p>${escapeHtml(wine.Ce_qui_rend_ce_vin_special)}</p>
 
       ${wine.CellarTracker_Consensus ? `
       <div class="community-says">
@@ -1469,7 +1491,7 @@ async function build() {
 
   // Traiter les données
   console.log('\nTraitement des données...');
-  const wines = processWines(data.wines);
+  const wines = processWines(data.wines, data.winesXXL);
   const producers = processProducers(data.producers1, data.producers2, wines);
   const regions = processRegions(data.categories1, data.categories2, wines);
   const appellations = processAppellations(data.subcat1, data.subcat2, wines);

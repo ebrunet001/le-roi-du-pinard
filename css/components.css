@@ -72,6 +72,34 @@
 }
 
 /* =============================================================================
+   SOYONS SERIEUX - Bloc informatif sérieux
+   ============================================================================= */
+
+.soyons-serieux {
+  background: var(--blanc-casse);
+  border: 1px solid var(--parchemin);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-lg);
+  margin: var(--spacing-lg) 0;
+}
+
+.soyons-serieux h2 {
+  font-size: 1.4rem;
+  color: var(--bourgogne);
+  margin-bottom: var(--spacing-md);
+}
+
+.soyons-serieux > p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--encre);
+}
+
+.soyons-serieux .community-says {
+  border-top: 1px solid var(--parchemin);
+}
+
+/* =============================================================================
    WINE CARDS
    ============================================================================= */
 
