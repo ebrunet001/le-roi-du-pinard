@@ -44,13 +44,13 @@
 
 .roi-says h2 {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: var(--bourgogne);
 }
 
 .roi-quote {
   font-family: var(--font-royal);
-  font-size: 1.15rem;
+  font-size: 1.35rem;
   font-style: italic;
   color: var(--encre);
   line-height: 1.8;
