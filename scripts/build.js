@@ -105,6 +105,30 @@ const WINE_PHRASES_FR = {
   '18-24 months in old oak': '18-24 mois en vieux fûts',
   'Extended barrel aging': 'Élevage prolongé en fûts',
 
+  // Terroir termes additionnels
+  'Decomposed granite and schist': 'Granit décomposé et schiste',
+  'Decomposed granite': 'Granit décomposé',
+  'decomposed granite': 'granit décomposé',
+  'granite and schist': 'granit et schiste',
+  'Granite and schist slopes': 'Coteaux de granit et schiste',
+
+  // Vinification termes additionnels
+  'natural winemaking': 'vinification naturelle',
+  'Natural winemaking': 'Vinification naturelle',
+  'Semi-carbonic': 'Semi-carbonique',
+  'semi-carbonic': 'semi-carbonique',
+  'carbonic maceration': 'macération carbonique',
+  'Carbonic maceration': 'Macération carbonique',
+  'or traditional fermentation': 'ou fermentation traditionnelle',
+  'traditional fermentation': 'fermentation traditionnelle',
+  'Traditional fermentation': 'Fermentation traditionnelle',
+
+  // Style termes additionnels
+  'age-worthy': 'de garde',
+  'Age-worthy': 'De garde',
+  'Beaujolais cru': 'cru du Beaujolais',
+  'Structured, age-worthy Beaujolais cru': 'Cru du Beaujolais structuré, de garde',
+
   // Termes simples qui peuvent apparaître seuls
   'Biodynamic': 'Biodynamique',
   'Organic': 'Biologique',
@@ -122,8 +146,6 @@ const WINE_PHRASES_FR = {
   'clay': 'argile',
   'Marl': 'Marne',
   'marl': 'marne',
-  'Schist': 'Schiste',
-  'schist': 'schiste',
   'Sand': 'Sable',
   'sand': 'sable',
 
@@ -232,7 +254,7 @@ function translateWineTerms(text) {
   // Si le texte est déjà majoritairement en français, le retourner tel quel
   const frenchIndicators = ['é', 'è', 'ê', 'à', 'ù', 'ç', 'œ', 'î', 'ô'];
   const hasFrenchChars = frenchIndicators.some(c => text.includes(c));
-  const englishIndicators = ['Traditional', 'Organic', 'Oak', 'oak', 'lees', 'Chalk', 'chalk', 'Rich', 'Bold', 'months', 'years', 'Limestone', 'limestone'];
+  const englishIndicators = ['Traditional', 'Organic', 'Oak', 'oak', 'lees', 'Chalk', 'chalk', 'Rich', 'Bold', 'months', 'years', 'Limestone', 'limestone', 'Decomposed', 'granite', 'schist', 'winemaking', 'carbonic', 'fermentation', 'age-worthy', 'Structured', 'clay', 'Clay', 'marl', 'Marl', 'slopes', 'soils'];
   const hasEnglish = englishIndicators.some(e => text.includes(e));
   if (hasFrenchChars && !hasEnglish) {
     return text;
