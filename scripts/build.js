@@ -41,6 +41,7 @@ const TRANSLATIONS = {
 // Dictionnaire de traduction pour phrases complètes (prioritaires)
 const WINE_PHRASES_FR = {
   // Terroir - Phrases complètes
+  'Chalk and limestone soils of Champagne': 'Sols de craie et calcaire de Champagne',
   'Limestone and clay soils of Burgundy': 'Sols argilo-calcaires de Bourgogne',
   'Limestone and clay-limestone soils': 'Sols calcaires et argilo-calcaires',
   'Limestone, marl and clay': 'Calcaire, marne et argile',
@@ -72,6 +73,7 @@ const WINE_PHRASES_FR = {
   'Organic, biodynamic, very old vines': 'Biologique, biodynamique, très vieilles vignes',
 
   // Vinification - Phrases complètes
+  'Traditional method, secondary fermentation in bottle': 'Méthode traditionnelle, prise de mousse en bouteille',
   'Traditional Burgundian methods, barrel fermentation and aging': 'Méthodes bourguignonnes traditionnelles, fermentation et élevage en fûts',
   'Traditional Burgundian methods': 'Méthodes bourguignonnes traditionnelles',
   'Traditional Burgundian': 'Bourguignonne traditionnelle',
@@ -106,10 +108,99 @@ const WINE_PHRASES_FR = {
   // Termes simples qui peuvent apparaître seuls
   'Biodynamic': 'Biodynamique',
   'Organic': 'Biologique',
+  'Practicing organic': 'En conversion biologique',
   'Whole cluster': 'Grappe entière',
   'Whole bunch': 'Vendange entière',
   'Limestone': 'Calcaire',
+  'limestone': 'calcaire',
+  'Chalk': 'Craie',
+  'chalk': 'craie',
+  'Chalk, limestone': 'Craie, calcaire',
   'Granite': 'Granit',
+  'granite': 'granit',
+  'Clay': 'Argile',
+  'clay': 'argile',
+  'Marl': 'Marne',
+  'marl': 'marne',
+  'Schist': 'Schiste',
+  'schist': 'schiste',
+  'Sand': 'Sable',
+  'sand': 'sable',
+
+  // Vinification termes additionnels
+  'Levures indigèness': 'Levures indigènes',  // Correction typo source
+  'no malo': 'sans malo',
+  'new oak': 'fûts neufs',
+  '% new oak': '% fûts neufs',
+  'indigenous yeast': 'levures indigènes',
+  'Indigenous yeast': 'Levures indigènes',
+  'native yeast': 'levures indigènes',
+  'Native yeast': 'Levures indigènes',
+  'wild yeast': 'levures sauvages',
+  'Wild yeast': 'Levures sauvages',
+  'partial whole cluster': 'grappe entière partielle',
+  'Partial whole cluster': 'Grappe entière partielle',
+
+  // Élevage termes additionnels
+  'months on lees': 'mois sur lies',
+  'years on lees': 'ans sur lies',
+  'on lees': 'sur lies',
+  'in tank': 'en cuve',
+  'in barrel': 'en fût',
+  'in barrels': 'en fûts',
+  'stainless steel': 'inox',
+  'Stainless steel': 'Inox',
+  'concrete': 'béton',
+  'Concrete': 'Béton',
+  'amphora': 'amphore',
+  'Amphora': 'Amphore',
+
+  // Style termes additionnels
+  'Rich': 'Riche',
+  'rich': 'riche',
+  'Bold': 'Audacieux',
+  'bold': 'audacieux',
+  'with bubbles': 'effervescent',
+  'Burgundy with bubbles': 'Bourgogne effervescent',
+  'Rich, bold': 'Riche, audacieux',
+  'Rich, bold, Burgundy with bubbles': 'Riche, audacieux, Crémant de Bourgogne',
+  'Fine bubbles, complex, elegant sparkling wine': 'Fines bulles, complexe, effervescent élégant',
+  'Fine bubbles': 'Fines bulles',
+  'sparkling wine': 'effervescent',
+  'sparkling': 'effervescent',
+  'Sparkling': 'Effervescent',
+  'certified': 'certifié',
+  'Certified': 'Certifié',
+  'Tense': 'Tendu',
+  'tense': 'tendu',
+  'Crisp': 'Vif',
+  'crisp': 'vif',
+  'Round': 'Rond',
+  'round': 'rond',
+  'Soft': 'Souple',
+  'soft': 'souple',
+  'Dry': 'Sec',
+  'dry': 'sec',
+  'Sweet': 'Doux',
+  'sweet': 'doux',
+  'Light': 'Léger',
+  'light': 'léger',
+  'Full-bodied': 'Corsé',
+  'full-bodied': 'corsé',
+  'Medium-bodied': 'Mi-corsé',
+  'medium-bodied': 'mi-corsé',
+  'Aromatic': 'Aromatique',
+  'aromatic': 'aromatique',
+  'Floral': 'Floral',
+  'floral': 'floral',
+  'Spicy': 'Épicé',
+  'spicy': 'épicé',
+  'Smoky': 'Fumé',
+  'smoky': 'fumé',
+  'Oaky': 'Boisé',
+  'oaky': 'boisé',
+  'Toasty': 'Toasté',
+  'toasty': 'toasté',
 
   // Style - Phrases complètes
   'Traditional Burgundy red with finesse and terroir expression': 'Rouge bourguignon traditionnel avec finesse et expression du terroir',
@@ -141,7 +232,9 @@ function translateWineTerms(text) {
   // Si le texte est déjà majoritairement en français, le retourner tel quel
   const frenchIndicators = ['é', 'è', 'ê', 'à', 'ù', 'ç', 'œ', 'î', 'ô'];
   const hasFrenchChars = frenchIndicators.some(c => text.includes(c));
-  if (hasFrenchChars && !text.includes('Traditional') && !text.includes('Organic') && !text.includes('Oak')) {
+  const englishIndicators = ['Traditional', 'Organic', 'Oak', 'oak', 'lees', 'Chalk', 'chalk', 'Rich', 'Bold', 'months', 'years', 'Limestone', 'limestone'];
+  const hasEnglish = englishIndicators.some(e => text.includes(e));
+  if (hasFrenchChars && !hasEnglish) {
     return text;
   }
 
@@ -156,9 +249,16 @@ function translateWineTerms(text) {
 
   for (const phrase of sortedPhrases) {
     if (result.includes(phrase)) {
-      result = result.replace(phrase, WINE_PHRASES_FR[phrase]);
+      result = result.split(phrase).join(WINE_PHRASES_FR[phrase]);
     }
   }
+
+  // Patterns avec regex pour les nombres variables
+  result = result.replace(/(\d+)\s*%\s*new oak/gi, '$1% fûts neufs');
+  result = result.replace(/(\d+)\+?\s*months?\s+on\s+lees/gi, '$1+ mois sur lies');
+  result = result.replace(/(\d+)\+?\s*years?\s+on\s+lees/gi, '$1+ ans sur lies');
+  result = result.replace(/(\d+)-(\d+)\s*months?\s+in\s+(oak|barrel)/gi, '$1-$2 mois en fûts');
+  result = result.replace(/(\d+)\s*months?\s+in\s+(oak|barrel)/gi, '$1 mois en fûts');
 
   return result;
 }
