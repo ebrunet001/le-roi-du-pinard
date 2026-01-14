@@ -400,6 +400,97 @@ function generateAccordAnswer(wine) {
 }
 
 // =============================================================================
+// GÉNÉRATION TEXTE VIVINO HUMORISTIQUE
+// =============================================================================
+
+function generateVivinoHumor(profile) {
+  if (!profile || profile === 'Données insuffisantes') return null;
+
+  // Dictionnaire de traductions humoristiques pour les profils Vivino
+  const humorMap = {
+    // Fruits
+    'Fruit rouge': 'des cerises qui ont fait de la danse classique',
+    'Fruit noir': 'des mûres qui ont voyagé en première classe',
+    "Fruit d'arbre": 'des pommes qui ont fréquenté les grandes écoles',
+    'Agrume': "des citrons qui n'ont peur de rien",
+    'Fruit tropical': 'des mangues en vacances sur la Côte d\'Azur',
+    'Baie': 'des framboises avec un CV impressionnant',
+
+    // Terroir / Minéralité
+    'Terreux': 'un parfum de sous-bois après la pluie royale',
+    'Minéral': 'des cailloux léchés par les anges',
+    'Pierre': 'le goût d\'un château qu\'on aurait pu construire',
+
+    // Boisé / Élevage
+    'Boisé': 'un petit séjour dans des fûts 5 étoiles',
+    'Vieillissement': 'la sagesse des moines qui ont gardé le secret',
+    'Chêne': 'des chênes centenaires qui ont des histoires à raconter',
+    'Toast': 'une baguette grillée par un artisan dévoué',
+    'Vanille': 'la douceur d\'une grand-mère gâteau',
+
+    // Épices
+    'Épices': 'des épices rapportées des croisades',
+    'Épicé': 'un petit côté aventurier très séduisant',
+    'Poivre': 'un moulin à poivre qui a des opinions',
+
+    // Floral
+    'Floral': 'des fleurs cueillies à l\'aube par une princesse',
+    'Rose': 'des pétales de rose dans un bain moussant',
+
+    // Autres
+    'Crémeux': 'du velours pour les papilles',
+    'Gras': 'une texture qui fait des câlins',
+    'Frais': 'une brise matinale sur le vignoble',
+    'Vif': 'une acidité qui vous réveille mieux que le clairon',
+    'Tannique': 'des tanins qui ont fait de la musculation'
+  };
+
+  // Séparer les termes du profil
+  const terms = profile.split(',').map(t => t.trim());
+
+  // Traduire chaque terme
+  const humorousTerms = terms.map(term => {
+    // Chercher une correspondance exacte ou partielle
+    for (const [key, value] of Object.entries(humorMap)) {
+      if (term.toLowerCase().includes(key.toLowerCase()) || key.toLowerCase().includes(term.toLowerCase())) {
+        return value;
+      }
+    }
+    // Si pas de correspondance, garder le terme original avec une touche d'humour
+    return `un soupçon de ${term.toLowerCase()} mystérieux`;
+  });
+
+  // Construire la phrase finale
+  if (humorousTerms.length === 1) {
+    return `Les dégustateurs de Vivino y ont décelé ${humorousTerms[0]}.`;
+  } else if (humorousTerms.length === 2) {
+    return `Les dégustateurs de Vivino y ont trouvé ${humorousTerms[0]} et ${humorousTerms[1]}.`;
+  } else {
+    const last = humorousTerms.pop();
+    return `Les dégustateurs de Vivino y ont repéré ${humorousTerms.join(', ')}, et ${last}.`;
+  }
+}
+
+function formatVivinoRating(rating) {
+  if (!rating || isNaN(parseFloat(rating))) return null;
+  const r = parseFloat(rating);
+  const fullStars = Math.floor(r);
+  const halfStar = r % 1 >= 0.3 && r % 1 < 0.8;
+  const emptyStars = 5 - fullStars - (halfStar ? 1 : 0);
+  return '★'.repeat(fullStars) + (halfStar ? '½' : '') + '☆'.repeat(emptyStars);
+}
+
+function formatVivinoReviews(reviews) {
+  if (!reviews) return null;
+  const str = String(reviews).trim();
+  if (str.includes('<')) return str; // "< 20" par exemple
+  const num = parseInt(str.replace(/\s/g, ''));
+  if (isNaN(num)) return str;
+  if (num >= 1000) return Math.round(num / 1000) + 'k+ avis';
+  return num + ' avis';
+}
+
+// =============================================================================
 // CORRECTION DES FAUTES DE FRAPPE
 // =============================================================================
 
@@ -487,6 +578,10 @@ function loadData() {
   const winesXXL = readExcel('Wine_Database_Roi_Pinard_XXL.xlsx');
   console.log(`  - ${winesXXL.length} avis du Roi chargés`);
 
+  // Données Vivino
+  const winesVivino = readExcel('Wine_Database_Complete_Final_CORRIGEE.xlsx');
+  console.log(`  - ${winesVivino.length} données Vivino chargées`);
+
   // Producteurs (mixer les deux sources)
   const producers1 = readExcel('Page_producteurs_complete_1.xlsx');
   const producers2 = readExcel('Page producteurs - contenus.xlsx');
@@ -505,6 +600,7 @@ function loadData() {
   return {
     wines,
     winesXXL,
+    winesVivino,
     producers1,
     producers2,
     categories1,
@@ -518,11 +614,17 @@ function loadData() {
 // TRAITEMENT DES DONNÉES
 // =============================================================================
 
-function processWines(wines, winesXXL = []) {
+function processWines(wines, winesXXL = [], winesVivino = []) {
   // Créer un map des données XXL par nom de vin
   const xxlMap = new Map();
   winesXXL.forEach(w => {
     if (w.WINE) xxlMap.set(w.WINE, w);
+  });
+
+  // Créer un map des données Vivino par nom de vin
+  const vivinoMap = new Map();
+  winesVivino.forEach(w => {
+    if (w.WINE) vivinoMap.set(w.WINE, w);
   });
 
   return wines.map(wine => {
@@ -532,6 +634,9 @@ function processWines(wines, winesXXL = []) {
     // Récupérer l'avis du Roi du Pinard depuis le fichier XXL
     const xxlData = xxlMap.get(wine.WINE) || {};
 
+    // Récupérer les données Vivino
+    const vivinoData = vivinoMap.get(wine.WINE) || {};
+
     return {
       ...wine,
       slug: createSlug(wine.WINE),
@@ -540,7 +645,10 @@ function processWines(wines, winesXXL = []) {
       colorFr,
       appellationSlug: createSlug(wine.Appellation),
       producerSlug: createSlug(wine.Producer),
-      avisRoiPinard: fixTypos(xxlData.L_Avis_du_Roi_du_Pinard || '')
+      avisRoiPinard: fixTypos(xxlData.L_Avis_du_Roi_du_Pinard || ''),
+      vivinoRating: vivinoData.Vivino_Rating || null,
+      vivinoReviews: vivinoData.Vivino_Reviews || null,
+      vivinoProfile: vivinoData.Vivino_Profile || null
     };
   });
 }
@@ -988,6 +1096,20 @@ ${getHeader()}
       <div class="community-says">
         <h3>🗣️ La parole aux sujets du royaume</h3>
         <p>${escapeHtml(wine.CellarTracker_Consensus)}</p>
+      </div>
+      ` : ''}
+
+      ${wine.vivinoRating ? `
+      <div class="vivino-says">
+        <h3>🍷 Ça jase chez Vivino</h3>
+        <div class="vivino-rating">
+          <span class="stars">${formatVivinoRating(wine.vivinoRating)}</span>
+          <span class="score">${wine.vivinoRating}/5</span>
+          ${wine.vivinoReviews ? `<span class="reviews">(${formatVivinoReviews(wine.vivinoReviews)})</span>` : ''}
+        </div>
+        ${wine.vivinoProfile && wine.vivinoProfile !== 'Données insuffisantes' ? `
+        <p class="vivino-profile">${generateVivinoHumor(wine.vivinoProfile)}</p>
+        ` : ''}
       </div>
       ` : ''}
     </section>
@@ -1869,7 +1991,7 @@ async function build() {
 
   // Traiter les données
   console.log('\nTraitement des données...');
-  const wines = processWines(data.wines, data.winesXXL);
+  const wines = processWines(data.wines, data.winesXXL, data.winesVivino);
   const producers = processProducers(data.producers1, data.producers2, wines);
   const regions = processRegions(data.categories1, data.categories2, wines);
   const appellations = processAppellations(data.subcat1, data.subcat2, wines);

@@ -99,6 +99,51 @@
   border-top: 1px solid var(--parchemin);
 }
 
+/* Vivino section */
+.vivino-says {
+  margin-top: var(--spacing-lg);
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--parchemin);
+}
+
+.vivino-says h3 {
+  font-size: 1.125rem;
+  margin-bottom: var(--spacing-sm);
+  color: var(--bordeaux);
+}
+
+.vivino-rating {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+  flex-wrap: wrap;
+}
+
+.vivino-rating .stars {
+  color: var(--or);
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+}
+
+.vivino-rating .score {
+  font-weight: 600;
+  color: var(--bordeaux);
+  font-size: 1.1rem;
+}
+
+.vivino-rating .reviews {
+  color: var(--encre);
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+
+.vivino-profile {
+  font-style: italic;
+  color: var(--encre);
+  margin: 0;
+}
+
 /* =============================================================================
    WINE CARDS
    ============================================================================= */
