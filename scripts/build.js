@@ -1094,7 +1094,7 @@ ${getFooter()}`;
   // Index des producteurs
   let producersHtml = getHead(
     'Producteurs de vins de France | Le Roi du Pinard',
-    'Découvrez les ${producers.length} producteurs et domaines viticoles référencés par le Roi du Pinard.',
+    `Découvrez les ${producers.length} producteurs et domaines viticoles référencés par le Roi du Pinard.`,
     `${BASE_URL}/producteurs/`
   );
 
@@ -1111,12 +1111,19 @@ ${getHeader()}
   <p class="intro">${producers.length} domaines et vignerons à découvrir.</p>
 
   <div class="producer-grid">
-    ${producers.sort((a, b) => a.name.localeCompare(b.name)).map(p => `
+    ${producers.sort((a, b) => a.name.localeCompare(b.name)).map(p => {
+      // Extraire 1-2 phrases de la description sérieuse
+      const desc = p.descriptionSerieuse || '';
+      const sentences = desc.split(/(?<=[.!?])\s+/).slice(0, 2).join(' ');
+      const excerpt = truncate(sentences, 200);
+      return `
     <a href="/producteurs/${p.slug}.html" class="producer-card">
       <h2>${escapeHtml(p.name)}</h2>
-      <p>${escapeHtml(p.region)} • ${p.wines.length} vins</p>
+      <p class="producer-meta">${escapeHtml(p.region)} • ${p.wines.length} vins</p>
+      ${excerpt ? `<p class="producer-excerpt">${escapeHtml(excerpt)}</p>` : ''}
     </a>
-    `).join('')}
+    `;
+    }).join('')}
   </div>
 </main>
 ${getFooter()}`;

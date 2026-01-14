@@ -215,16 +215,24 @@
 }
 
 .producer-card h2 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: var(--spacing-xs);
   color: var(--bourgogne);
 }
 
-.producer-card p {
-  font-size: 0.875rem;
+.producer-card .producer-meta {
+  font-size: 0.85rem;
+  margin: 0 0 var(--spacing-sm) 0;
+  color: var(--bordeaux);
+  font-weight: 600;
+}
+
+.producer-card .producer-excerpt {
+  font-size: 0.9rem;
   margin: 0;
   color: var(--encre);
-  opacity: 0.8;
+  opacity: 0.85;
+  line-height: 1.5;
 }
 
 /* =============================================================================
