@@ -1,0 +1,805 @@
+/* =============================================================================
+   LE ROI DU PINARD - COMPOSANTS
+   ============================================================================= */
+
+/* =============================================================================
+   ROI SAYS - Bloc signature du Roi du Pinard
+   ============================================================================= */
+
+.roi-says {
+  background: linear-gradient(135deg, var(--parchemin) 0%, var(--champagne) 100%);
+  border: 3px solid var(--or);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-xl);
+  margin: var(--spacing-xl) 0;
+  position: relative;
+  box-shadow: var(--shadow-lg);
+}
+
+.roi-says::before {
+  content: '👑';
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.5rem;
+  background: var(--parchemin);
+  padding: 0 var(--spacing-md);
+}
+
+.roi-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+}
+
+.roi-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid var(--or);
+  object-fit: cover;
+}
+
+.roi-says h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--bourgogne);
+}
+
+.roi-quote {
+  font-family: var(--font-royal);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--encre);
+  line-height: 1.8;
+  margin: 0;
+  padding-left: var(--spacing-lg);
+  border-left: 4px solid var(--bordeaux);
+  background: transparent;
+}
+
+.community-says {
+  margin-top: var(--spacing-lg);
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--or);
+}
+
+.community-says h3 {
+  font-size: 1.125rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+/* =============================================================================
+   WINE CARDS
+   ============================================================================= */
+
+.wine-cards, .wine-list, .wine-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.wine-card {
+  background: var(--blanc-casse);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.wine-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+  text-decoration: none;
+}
+
+.wine-card .color-indicator {
+  height: 8px;
+  width: 100%;
+}
+
+.wine-card .color-indicator.red {
+  background: var(--rouge-vin);
+}
+
+.wine-card .color-indicator.white {
+  background: var(--blanc-vin);
+}
+
+.wine-card .color-indicator.rosé,
+.wine-card .color-indicator.rose {
+  background: var(--rose-vin);
+}
+
+.wine-card .card-content {
+  padding: var(--spacing-md);
+}
+
+.wine-card h3 {
+  font-size: 1rem;
+  margin-bottom: var(--spacing-xs);
+  color: var(--bourgogne);
+  line-height: 1.4;
+}
+
+.wine-card p {
+  font-size: 0.875rem;
+  color: var(--encre);
+  margin-bottom: var(--spacing-sm);
+  opacity: 0.8;
+}
+
+.wine-card .badge {
+  font-size: 0.75rem;
+}
+
+/* =============================================================================
+   REGION CARDS
+   ============================================================================= */
+
+.regions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.region-card {
+  background: linear-gradient(135deg, var(--parchemin) 0%, var(--champagne) 100%);
+  border: 2px solid var(--or);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-lg);
+  text-decoration: none;
+  color: inherit;
+  transition: all var(--transition-normal);
+}
+
+.region-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+  text-decoration: none;
+  border-color: var(--bordeaux);
+}
+
+.region-card h2, .region-card h3 {
+  font-size: 1.25rem;
+  color: var(--bourgogne);
+  margin-bottom: var(--spacing-sm);
+}
+
+.region-card p {
+  font-size: 0.875rem;
+  margin: 0;
+  color: var(--encre);
+  opacity: 0.8;
+}
+
+.region-card .region-stats {
+  display: flex;
+  gap: var(--spacing-md);
+  font-size: 0.875rem;
+}
+
+.region-card .region-stats span {
+  color: var(--bordeaux);
+}
+
+/* =============================================================================
+   PRODUCER CARDS
+   ============================================================================= */
+
+.producer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.producer-card {
+  background: var(--blanc-casse);
+  border: 1px solid var(--parchemin);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-md);
+  text-decoration: none;
+  color: inherit;
+  transition: all var(--transition-fast);
+}
+
+.producer-card:hover {
+  border-color: var(--bordeaux);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+}
+
+.producer-card h2 {
+  font-size: 1rem;
+  margin-bottom: var(--spacing-xs);
+  color: var(--bourgogne);
+}
+
+.producer-card p {
+  font-size: 0.875rem;
+  margin: 0;
+  color: var(--encre);
+  opacity: 0.8;
+}
+
+/* =============================================================================
+   APPELLATION & PRODUCER LISTS
+   ============================================================================= */
+
+.appellation-list, .producer-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--spacing-sm);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.appellation-list li, .producer-list li {
+  margin: 0;
+}
+
+.appellation-list a, .producer-list a {
+  display: block;
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--parchemin);
+  border-radius: var(--border-radius);
+  transition: all var(--transition-fast);
+}
+
+.appellation-list a:hover, .producer-list a:hover {
+  background: var(--champagne);
+  text-decoration: none;
+  transform: translateX(5px);
+}
+
+/* =============================================================================
+   STATS
+   ============================================================================= */
+
+.region-stats {
+  display: flex;
+  gap: var(--spacing-xl);
+  margin: var(--spacing-lg) 0;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-value, .stat-number {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--bordeaux);
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 0.875rem;
+  color: var(--encre);
+  opacity: 0.8;
+}
+
+/* Stats Banner (homepage) */
+.stats-banner {
+  background: var(--bourgogne);
+  color: var(--blanc-casse);
+  padding: var(--spacing-xl) 0;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-2xl);
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-item .stat-number {
+  color: var(--or);
+}
+
+.stat-item .stat-label {
+  color: var(--blanc-casse);
+  opacity: 0.9;
+}
+
+/* =============================================================================
+   SCORES
+   ============================================================================= */
+
+.wine-scores {
+  background: var(--parchemin);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius);
+  margin: var(--spacing-lg) 0;
+}
+
+.scores-grid {
+  display: flex;
+  gap: var(--spacing-lg);
+  flex-wrap: wrap;
+}
+
+.score {
+  text-align: center;
+  padding: var(--spacing-md);
+  background: var(--blanc-casse);
+  border-radius: var(--border-radius);
+  min-width: 120px;
+}
+
+.score .value {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--bordeaux);
+}
+
+.score .source {
+  font-size: 0.75rem;
+  color: var(--encre);
+  opacity: 0.7;
+}
+
+/* =============================================================================
+   SERVING INFO
+   ============================================================================= */
+
+.serving-info {
+  display: flex;
+  gap: var(--spacing-lg);
+  flex-wrap: wrap;
+  margin-top: var(--spacing-lg);
+  padding: var(--spacing-md);
+  background: var(--parchemin);
+  border-radius: var(--border-radius);
+}
+
+.serving-info span {
+  font-size: 0.95rem;
+}
+
+/* =============================================================================
+   FAQ
+   ============================================================================= */
+
+.wine-faq {
+  margin: var(--spacing-xl) 0;
+}
+
+.faq-item {
+  margin-bottom: var(--spacing-lg);
+  padding: var(--spacing-md);
+  background: var(--blanc-casse);
+  border-radius: var(--border-radius);
+  border-left: 4px solid var(--bordeaux);
+}
+
+.faq-item h3 {
+  font-size: 1.125rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.faq-item p {
+  margin: 0;
+  color: var(--encre);
+}
+
+/* =============================================================================
+   RELATED WINES
+   ============================================================================= */
+
+.related-wines {
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-xl);
+  border-top: 2px solid var(--parchemin);
+}
+
+/* =============================================================================
+   HERO SECTION (Homepage)
+   ============================================================================= */
+
+.hero {
+  background: linear-gradient(135deg, var(--bourgogne) 0%, var(--bordeaux) 100%);
+  color: var(--blanc-casse);
+  padding: var(--spacing-2xl) 0;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid var(--or);
+  margin-bottom: var(--spacing-lg);
+}
+
+.hero h1 {
+  color: var(--or);
+  font-size: 2.25rem;
+  margin-bottom: var(--spacing-lg);
+}
+
+.hero-intro {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: var(--spacing-md);
+}
+
+.hero-tagline {
+  font-family: var(--font-royal);
+  font-size: 1.25rem;
+  font-style: italic;
+  margin-bottom: var(--spacing-xl);
+}
+
+.hero-cta {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero .btn-primary {
+  background: var(--or);
+  color: var(--bourgogne);
+}
+
+.hero .btn-primary:hover {
+  background: var(--champagne);
+}
+
+.hero .btn-secondary {
+  background: transparent;
+  border: 2px solid var(--or);
+  color: var(--or);
+}
+
+.hero .btn-secondary:hover {
+  background: var(--or);
+  color: var(--bourgogne);
+}
+
+/* =============================================================================
+   NAVIGATION BLOCKS (Homepage)
+   ============================================================================= */
+
+.navigation-blocks {
+  padding: var(--spacing-2xl) 0;
+  background: var(--blanc-casse);
+}
+
+.navigation-blocks h2 {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.nav-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.nav-card {
+  background: var(--parchemin);
+  border: 2px solid transparent;
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-xl);
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  transition: all var(--transition-normal);
+}
+
+.nav-card:hover {
+  border-color: var(--or);
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+  text-decoration: none;
+}
+
+.nav-icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: var(--spacing-md);
+}
+
+.nav-card h3 {
+  color: var(--bourgogne);
+  margin-bottom: var(--spacing-sm);
+}
+
+.nav-card p {
+  font-size: 0.95rem;
+  margin: 0;
+  color: var(--encre);
+}
+
+/* =============================================================================
+   FEATURED WINES (Homepage)
+   ============================================================================= */
+
+.featured-wines {
+  padding: var(--spacing-2xl) 0;
+  background: var(--parchemin);
+}
+
+.featured-wines h2 {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+/* =============================================================================
+   DID YOU KNOW (Homepage)
+   ============================================================================= */
+
+.did-you-know {
+  padding: var(--spacing-2xl) 0;
+  background: var(--blanc-casse);
+}
+
+.did-you-know h2 {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.facts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.fact-card {
+  background: var(--champagne);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-lg);
+  border-left: 4px solid var(--or);
+}
+
+.fact-card p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.fact-card strong {
+  color: var(--bordeaux);
+}
+
+/* =============================================================================
+   ROYAL QUOTE (Homepage)
+   ============================================================================= */
+
+.royal-quote {
+  background: var(--bourgogne);
+  color: var(--blanc-casse);
+  padding: var(--spacing-2xl) 0;
+  text-align: center;
+}
+
+.royal-quote blockquote {
+  max-width: 800px;
+  margin: 0 auto;
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: var(--blanc-casse);
+  font-size: 1.5rem;
+}
+
+.royal-quote blockquote p {
+  margin-bottom: var(--spacing-md);
+}
+
+.royal-quote cite {
+  color: var(--or);
+  font-size: 1.125rem;
+}
+
+/* =============================================================================
+   REGIONS PREVIEW (Homepage)
+   ============================================================================= */
+
+.regions-preview {
+  padding: var(--spacing-2xl) 0;
+  background: var(--blanc-casse);
+}
+
+.regions-preview h2 {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+/* =============================================================================
+   TESTIMONIALS (Homepage)
+   ============================================================================= */
+
+.testimonials {
+  padding: var(--spacing-2xl) 0;
+  background: var(--parchemin);
+}
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.testimonial-card {
+  background: var(--blanc-casse);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.testimonial-card p {
+  font-style: italic;
+  margin-bottom: var(--spacing-md);
+}
+
+.testimonial-card cite {
+  font-size: 0.875rem;
+  color: var(--bordeaux);
+  font-style: normal;
+}
+
+/* =============================================================================
+   SEARCH PAGE
+   ============================================================================= */
+
+.search-box {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto var(--spacing-xl);
+}
+
+.search-box input {
+  width: 100%;
+  padding: var(--spacing-md) var(--spacing-xl);
+  padding-right: 60px;
+  font-size: 1.125rem;
+  font-family: var(--font-body);
+  border: 2px solid var(--bordeaux);
+  border-radius: var(--border-radius-lg);
+  outline: none;
+  transition: all var(--transition-fast);
+}
+
+.search-box input:focus {
+  border-color: var(--or);
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.3);
+}
+
+.search-box .search-icon {
+  position: absolute;
+  right: var(--spacing-lg);
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+}
+
+.search-results {
+  min-height: 300px;
+}
+
+.search-hint {
+  text-align: center;
+  color: var(--encre);
+  opacity: 0.7;
+  font-style: italic;
+}
+
+.search-result-item {
+  display: block;
+  padding: var(--spacing-md);
+  border-bottom: 1px solid var(--parchemin);
+  text-decoration: none;
+  color: inherit;
+  transition: background var(--transition-fast);
+}
+
+.search-result-item:hover {
+  background: var(--parchemin);
+  text-decoration: none;
+}
+
+.search-result-item h3 {
+  font-size: 1.125rem;
+  margin-bottom: var(--spacing-xs);
+}
+
+.search-result-item p {
+  font-size: 0.875rem;
+  margin: 0;
+  color: var(--encre);
+  opacity: 0.8;
+}
+
+/* =============================================================================
+   ERROR PAGES
+   ============================================================================= */
+
+.error-page main, .maintenance-page main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+.error-content, .maintenance-content {
+  text-align: center;
+  max-width: 600px;
+  padding: var(--spacing-xl);
+}
+
+.error-content h1, .maintenance-content h1 {
+  font-size: 2rem;
+  margin-bottom: var(--spacing-lg);
+}
+
+.error-content ul, .maintenance-content ul {
+  list-style: none;
+  margin: var(--spacing-lg) 0;
+  padding: 0;
+  text-align: left;
+}
+
+.error-content li, .maintenance-content li {
+  padding: var(--spacing-sm) 0;
+}
+
+.error-cta {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+  margin: var(--spacing-xl) 0;
+  flex-wrap: wrap;
+}
+
+.maintenance-logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid var(--or);
+  margin-bottom: var(--spacing-lg);
+}
+
+/* =============================================================================
+   LEGAL PAGE
+   ============================================================================= */
+
+.legal-content {
+  max-width: 800px;
+  margin: var(--spacing-xl) auto;
+}
+
+.legal-content h2 {
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--parchemin);
+}
+
+.legal-content h2:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}

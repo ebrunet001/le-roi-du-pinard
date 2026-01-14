@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le Roi du Pinard — Apprends le vin sans te prendre le bouchon</title>
+  <meta name="description" content="Découvrez les vins de France avec humour ! 440 vins, 17 régions, 143 producteurs. Le Roi du Pinard vous guide dans le monde du vin avec sérieux et décal...">
+  <link rel="canonical" href="https://leroidupinard.fr/">
+
+  <meta property="og:title" content="Le Roi du Pinard — Apprends le vin sans te prendre le bouchon">
+  <meta property="og:description" content="Découvrez les vins de France avec humour ! 440 vins, 17 régions, 143 producteurs. Le Roi du Pinard vous guide dans le monde du vin avec sérieux et décal...">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://leroidupinard.fr/">
+  <meta property="og:site_name" content="Le Roi du Pinard">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+
+  <link rel="icon" type="image/jpeg" href="/assets/images/logo-roi-du-pinard.jpg">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HYPPWGGV19"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-HYPPWGGV19');
+  </script>
+</head>
+<body class="homepage">
+
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="logo">
+      <img src="/assets/images/logo-roi-du-pinard.jpg" alt="Le Roi du Pinard">
+      <span>Le Roi du Pinard</span>
+    </a>
+    <nav class="main-nav">
+      <a href="/regions/">Régions</a>
+      <a href="/producteurs/">Producteurs</a>
+      <a href="/vins/">Tous les Vins</a>
+      <a href="/search.html" class="nav-icon" title="Rechercher">🔍</a>
+      <a href="#" onclick="randomWine(); return false;" class="btn-random">🎲 Surprenez-moi !</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <img src="/assets/images/logo-roi-du-pinard.jpg" alt="Le Roi du Pinard" class="hero-logo">
+        <h1>Bienvenue dans mon Royaume, Assoiffés de Savoir !</h1>
+        <p class="hero-intro">Moi, le Roi du Pinard, Premier du Nom, Seigneur des Cépages et Protecteur des Tire-Bouchons, je vous ouvre les portes de ma cave royale ! Ici, point de snobisme qui pique le nez comme un Muscadet trop frais. Non ! Ici, on apprend le vin en rigolant, on découvre les terroirs en trinquant, et on devient connaisseur sans se prendre le chou... ni le raisin.</p>
+        <p class="hero-tagline"><strong>J'ai bu pour vous. J'ai souffert pour vous. J'ai même recraché (une fois, par accident).</strong></p>
+        <div class="hero-cta">
+          <a href="/regions/" class="btn btn-primary">Explorer le Royaume</a>
+          <a href="#" onclick="randomWine(); return false;" class="btn btn-secondary">🎲 Au Petit Bonheur</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats-banner">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-number">440</span>
+          <span class="stat-label">Vins référencés</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">17</span>
+          <span class="stat-label">Régions viticoles</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">144</span>
+          <span class="stat-label">Producteurs</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="navigation-blocks">
+    <div class="container">
+      <h2>Comment Surfer sur ce Site (Sans Tomber dans le Tonneau)</h2>
+      <div class="nav-grid">
+        <a href="/regions/" class="nav-card">
+          <span class="nav-icon">🍇</span>
+          <h3>Les Régions</h3>
+          <p>Parcourez les terroirs de France comme je parcours mes domaines : avec curiosité et une soif insatiable.</p>
+        </a>
+        <a href="/producteurs/" class="nav-card">
+          <span class="nav-icon">🏆</span>
+          <h3>Les Producteurs</h3>
+          <p>Découvrez les vignerons qui font le vin que vous aimez (ou que vous allez aimer).</p>
+        </a>
+        <a href="/vins/" class="nav-card">
+          <span class="nav-icon">🍾</span>
+          <h3>Tous les Vins</h3>
+          <p>440 fiches de vins détaillées avec mes commentaires royaux. De quoi occuper vos soirées !</p>
+        </a>
+        <a href="#" onclick="randomWine(); return false;" class="nav-card">
+          <span class="nav-icon">🎲</span>
+          <h3>Au Petit Bonheur</h3>
+          <p>Cliquez et laissez le destin choisir votre prochaine découverte !</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured-wines">
+    <div class="container">
+      <h2>Quelques Pépites de la Cave Royale</h2>
+      <div class="wine-cards">
+        
+        <a href="/vins/maison-glandien-l-ouverture-rouge-vdf.html" class="wine-card">
+          <div class="color-indicator red"></div>
+          <div class="card-content">
+            <h3>Maison Glandien, L&#039;Ouverture Rouge, VdF</h3>
+            <p>Maison Glandien</p>
+            <span class="badge">France</span>
+          </div>
+        </a>
+        
+        <a href="/vins/jean-paul-benoit-droin-chablis-grand-cru-valmur.html" class="wine-card">
+          <div class="color-indicator white"></div>
+          <div class="card-content">
+            <h3>Jean-Paul &amp; Benoit Droin, Chablis Grand Cru, Valmur</h3>
+            <p>Domaine Jean-Paul &amp; Benoît Droin</p>
+            <span class="badge">Bourgogne</span>
+          </div>
+        </a>
+        
+        <a href="/vins/meo-camuzet-frere-et-soeurs-nuits-saint-georges-premier-cru.html" class="wine-card">
+          <div class="color-indicator red"></div>
+          <div class="card-content">
+            <h3>Meo Camuzet Frere et Soeurs, Nuits-Saint-Georges Premier Cru</h3>
+            <p>Méo-Camuzet Frère &amp; Soeurs (négociant)</p>
+            <span class="badge">Bourgogne</span>
+          </div>
+        </a>
+        
+        <a href="/vins/jean-claude-bachelet-saint-aubin-premier-cru-les-champlots.html" class="wine-card">
+          <div class="color-indicator white"></div>
+          <div class="card-content">
+            <h3>Jean-Claude Bachelet, Saint-Aubin Premier Cru, Les Champlots</h3>
+            <p>Jean-Claude Bachelet et Fils</p>
+            <span class="badge">Bourgogne</span>
+          </div>
+        </a>
+        
+        <a href="/vins/jean-marc-roulot-bourgogne-blanc.html" class="wine-card">
+          <div class="color-indicator white"></div>
+          <div class="card-content">
+            <h3>Jean-Marc Roulot, Bourgogne, Blanc</h3>
+            <p>Domaine Roulot</p>
+            <span class="badge">Bourgogne</span>
+          </div>
+        </a>
+        
+        <a href="/vins/vincent-dureuil-janthial-rully-blanc.html" class="wine-card">
+          <div class="color-indicator white"></div>
+          <div class="card-content">
+            <h3>Vincent Dureuil Janthial, Rully, Blanc</h3>
+            <p>Domaine Vincent Dureuil-Janthial</p>
+            <span class="badge">Bourgogne</span>
+          </div>
+        </a>
+        
+      </div>
+      <p class="see-all"><a href="/vins/">Voir tous les vins →</a></p>
+    </div>
+  </section>
+
+  <section class="did-you-know">
+    <div class="container">
+      <h2>🎯 Le Saviez-Vous ?</h2>
+      <div class="facts-grid">
+        <div class="fact-card">
+          <p>🍇 Le vin rouge n'existe pas. C'est du jus de raisin blanc fermenté avec la peau des raisins noirs. <strong>COMPLOT RÉVÉLÉ.</strong></p>
+        </div>
+        <div class="fact-card">
+          <p>🍇 Il y a plus de 10 000 cépages dans le monde. Et j'ai l'intention de tous les goûter. J'en suis à 847. <strong>IL ME RESTE DU TRAVAIL.</strong></p>
+        </div>
+        <div class="fact-card">
+          <p>🍇 Les moines du Moyen Âge buvaient environ 1,5 litre de vin par jour. "Pour la santé." <strong>ILS AVAIENT COMPRIS LA VIE.</strong></p>
+        </div>
+        <div class="fact-card">
+          <p>🍇 "Trinquer" vient de l'époque où l'on cognait les verres pour que le vin passe d'un verre à l'autre, prouvant qu'il n'était pas empoisonné. <strong>J'AI GARDÉ L'HABITUDE.</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="royal-quote">
+    <div class="container">
+      <blockquote>
+        <p>"Le vin est la seule chose qui s'améliore quand on la laisse dans un coin sombre pendant des années. Comme mon humour."</p>
+        <cite>— Le Roi du Pinard</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="regions-preview">
+    <div class="container">
+      <h2>Les Régions du Royaume</h2>
+      <div class="regions-grid">
+        
+        <a href="/regions/champagne/" class="region-card">
+          <h3>Champagne</h3>
+          <p>28 vins • 3 appellations</p>
+        </a>
+        
+        <a href="/regions/bourgogne/" class="region-card">
+          <h3>Bourgogne</h3>
+          <p>333 vins • 68 appellations</p>
+        </a>
+        
+        <a href="/regions/rhone-nord/" class="region-card">
+          <h3>Rhône Nord</h3>
+          <p>15 vins • 8 appellations</p>
+        </a>
+        
+        <a href="/regions/loire/" class="region-card">
+          <h3>Loire</h3>
+          <p>5 vins • 3 appellations</p>
+        </a>
+        
+        <a href="/regions/rhone/" class="region-card">
+          <h3>Rhône</h3>
+          <p>1 vins • 1 appellations</p>
+        </a>
+        
+        <a href="/regions/jura/" class="region-card">
+          <h3>Jura</h3>
+          <p>10 vins • 4 appellations</p>
+        </a>
+        
+        <a href="/regions/toscane/" class="region-card">
+          <h3>Toscane</h3>
+          <p>1 vins • 1 appellations</p>
+        </a>
+        
+        <a href="/regions/maconnais/" class="region-card">
+          <h3>Mâconnais</h3>
+          <p>7 vins • 5 appellations</p>
+        </a>
+        
+      </div>
+      <p class="see-all"><a href="/regions/">Voir toutes les régions →</a></p>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <h2>🏆 Ce Qu'ils Disent de Nous</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p>"Depuis que je lis ce site, je ne dis plus 'c'est bon' mais 'quelle belle expression du terroir'. Ma femme me regarde bizarrement, mais JE SAIS ce que je dis maintenant !"</p>
+          <cite>— Gontran de la Treille, écuyer repenti</cite>
+        </div>
+        <div class="testimonial-card">
+          <p>"Le Roi du Pinard m'a appris que le rosé n'était pas un vin de débutant. J'ai arrêté d'avoir honte."</p>
+          <cite>— Dame Cunégonde, consommatrice éclairée</cite>
+        </div>
+        <div class="testimonial-card">
+          <p>"Grâce à ce site, j'ai impressionné mon beau-père au dîner de Noël. Il ne m'adresse toujours pas la parole, mais maintenant c'est par RESPECT."</p>
+          <cite>— Perceval le Hardi, gendre victorieux</cite>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <img src="/assets/images/logo-roi-du-pinard.jpg" alt="Le Roi du Pinard" class="footer-logo">
+        <p><strong>LeRoiDuPinard.fr</strong></p>
+        <p>Parce que le vin, c'est sérieux, mais pas trop.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="/regions/">Régions viticoles</a></li>
+          <li><a href="/producteurs/">Producteurs</a></li>
+          <li><a href="/vins/">Tous les vins</a></li>
+          <li><a href="/search.html">Recherche</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Informations</h4>
+        <ul>
+          <li><a href="/mentions-legales.html">Mentions légales</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="alcohol-warning">⚠️ L'abus d'alcool est dangereux pour la santé. À consommer avec modération.</p>
+      <p class="copyright">© 2026 Le Roi du Pinard. Tous droits réservés.</p>
+    </div>
+  </div>
+</footer>
+<script src="/js/main.js"></script>
+<script src="/js/random.js"></script>
+</body>
+</html>

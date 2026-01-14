@@ -1,0 +1,408 @@
+/* =============================================================================
+   LE ROI DU PINARD - STYLES RESPONSIVE
+   ============================================================================= */
+
+/* =============================================================================
+   TABLET (max-width: 1024px)
+   ============================================================================= */
+
+@media (max-width: 1024px) {
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+    text-align: center;
+    align-items: center;
+  }
+
+  .info-grid {
+    grid-template-columns: 150px 1fr;
+  }
+
+  .region-stats {
+    flex-wrap: wrap;
+    gap: var(--spacing-lg);
+  }
+
+  .stat-value, .stat-number {
+    font-size: 2rem;
+  }
+}
+
+/* =============================================================================
+   TABLET PORTRAIT / LARGE MOBILE (max-width: 768px)
+   ============================================================================= */
+
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    padding: 0 var(--spacing-md);
+  }
+
+  /* Header */
+  .site-header .container {
+    flex-wrap: wrap;
+  }
+
+  .main-nav {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: var(--spacing-md);
+  }
+
+  .main-nav.active {
+    display: flex;
+  }
+
+  .main-nav a {
+    padding: var(--spacing-sm);
+    text-align: center;
+    border-radius: var(--border-radius);
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  /* Hero */
+  .hero {
+    padding: var(--spacing-xl) 0;
+  }
+
+  .hero-logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .hero h1 {
+    font-size: 1.75rem;
+  }
+
+  .hero-intro {
+    font-size: 1rem;
+  }
+
+  .hero-tagline {
+    font-size: 1.125rem;
+  }
+
+  .hero-cta {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-cta .btn {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  /* Stats */
+  .stats-grid {
+    flex-direction: column;
+    gap: var(--spacing-lg);
+  }
+
+  .region-stats {
+    justify-content: center;
+  }
+
+  /* Navigation blocks */
+  .nav-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Cards */
+  .wine-cards, .wine-list, .wine-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .regions-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .producer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .facts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Info grid */
+  .info-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xs);
+  }
+
+  .info-grid dt {
+    margin-top: var(--spacing-md);
+  }
+
+  .info-grid dt:first-child {
+    margin-top: 0;
+  }
+
+  /* Scores */
+  .scores-grid {
+    justify-content: center;
+  }
+
+  .score {
+    flex: 1 1 calc(50% - var(--spacing-md));
+    min-width: 100px;
+  }
+
+  /* Serving info */
+  .serving-info {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+  }
+
+  /* Roi says */
+  .roi-says {
+    padding: var(--spacing-lg);
+  }
+
+  .roi-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .roi-quote {
+    padding-left: var(--spacing-md);
+  }
+
+  /* Breadcrumb */
+  .breadcrumb {
+    font-size: 0.8rem;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: var(--spacing-sm);
+  }
+
+  /* Badges */
+  .wine-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-xs);
+  }
+
+  /* Filters */
+  .filters {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filters label {
+    margin-bottom: var(--spacing-sm);
+  }
+
+  /* Footer */
+  .footer-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-links {
+    text-align: center;
+  }
+
+  /* Lists */
+  .appellation-list, .producer-list {
+    grid-template-columns: 1fr;
+  }
+
+  /* Search */
+  .search-box input {
+    font-size: 1rem;
+    padding: var(--spacing-sm) var(--spacing-md);
+    padding-right: 50px;
+  }
+
+  /* Royal quote */
+  .royal-quote blockquote {
+    font-size: 1.25rem;
+    padding: 0 var(--spacing-md);
+  }
+}
+
+/* =============================================================================
+   SMALL MOBILE (max-width: 480px)
+   ============================================================================= */
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  .site-header .logo span {
+    display: none;
+  }
+
+  .site-header .logo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .hero-logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .nav-card {
+    padding: var(--spacing-md);
+  }
+
+  .nav-icon {
+    font-size: 2rem;
+  }
+
+  .wine-card .card-content {
+    padding: var(--spacing-sm);
+  }
+
+  .wine-card h3 {
+    font-size: 0.9rem;
+  }
+
+  .roi-says::before {
+    font-size: 2rem;
+    top: -16px;
+  }
+
+  .roi-avatar {
+    width: 50px;
+    height: 50px;
+  }
+
+  .roi-says h2 {
+    font-size: 1.25rem;
+  }
+
+  .roi-quote {
+    font-size: 1rem;
+  }
+
+  .score {
+    flex: 1 1 100%;
+  }
+
+  .stat-value, .stat-number {
+    font-size: 1.75rem;
+  }
+
+  .error-cta {
+    flex-direction: column;
+  }
+
+  .error-cta .btn {
+    width: 100%;
+  }
+}
+
+/* =============================================================================
+   PRINT STYLES
+   ============================================================================= */
+
+@media print {
+  .site-header,
+  .site-footer,
+  .breadcrumb,
+  .btn,
+  .hero-cta,
+  .related-wines,
+  .nav-grid,
+  .search-box,
+  .menu-toggle {
+    display: none !important;
+  }
+
+  body {
+    font-size: 12pt;
+    color: black;
+    background: white;
+  }
+
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+
+  .roi-says {
+    border: 2px solid #ccc;
+    background: #f5f5f5;
+  }
+
+  .wine-card {
+    break-inside: avoid;
+    border: 1px solid #ccc;
+  }
+}
+
+/* =============================================================================
+   REDUCED MOTION
+   ============================================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* =============================================================================
+   HIGH CONTRAST MODE
+   ============================================================================= */
+
+@media (prefers-contrast: high) {
+  :root {
+    --bordeaux: #5a0000;
+    --or: #b8860b;
+    --parchemin: #fff;
+    --encre: #000;
+  }
+
+  .wine-card,
+  .region-card,
+  .producer-card,
+  .nav-card {
+    border: 2px solid currentColor;
+  }
+}

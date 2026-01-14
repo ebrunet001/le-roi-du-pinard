@@ -1,0 +1,4402 @@
+[
+  {
+    "slug": "agrapart-fils-avizoise-blanc-de-blancs-extra-brut-grand-cru-avize",
+    "name": "Agrapart & Fils, Avizoise Blanc de Blancs Extra Brut Grand Cru, Avize",
+    "producer": "Agrapart & Fils",
+    "region": "Champagne",
+    "appellation": "Champagne Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "100% Chardonnay",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "alain-hudelot-noellat-clos-de-vougeot-grand-cru",
+    "name": "Alain Hudelot-Noellat, Clos de Vougeot Grand Cru",
+    "producer": "Domaine Alain Hudelot-Noëllat",
+    "region": "Bourgogne",
+    "appellation": "Clos de Vougeot Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "alain-hudelot-noellat-nuits-saint-georges-premier-cru-aux-murgers",
+    "name": "Alain Hudelot-Noellat, Nuits-Saint-Georges Premier Cru, Aux Murgers",
+    "producer": "Domaine Alain Hudelot-Noëllat",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "alain-voge-cornas-les-viellies-vignes",
+    "name": "Alain Voge, Cornas, Les Viellies Vignes",
+    "producer": "Alain Voge",
+    "region": "Rhône Nord",
+    "appellation": "Cornas AOC",
+    "color": "Rouge",
+    "grape_variety": "100% Syrah",
+    "classification": ""
+  },
+  {
+    "slug": "alex-moreau-chassagne-montrachet-premier-cru-la-cardeuse-rouge",
+    "name": "Alex Moreau, Chassagne-Montrachet Premier Cru, La Cardeuse Rouge",
+    "producer": "Alex Moreau",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet 1er Cru AOC",
+    "color": "Rouge",
+    "grape_variety": "100% Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "alex-moreau-chassagne-montrachet-blanc",
+    "name": "Alex Moreau, Chassagne-Montrachet, Blanc",
+    "producer": "Alex Moreau",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet AOC",
+    "color": "Blanc",
+    "grape_variety": "100% Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "alex-moreau-chassagne-montrachet-vieilles-vignes-rouge",
+    "name": "Alex Moreau, Chassagne-Montrachet, Vieilles Vignes Rouge",
+    "producer": "Alex Moreau",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet AOC",
+    "color": "Rouge",
+    "grape_variety": "100% Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "anne-boisson-meursault-les-chevalieres",
+    "name": "Anne Boisson, Meursault, Les Chevalieres",
+    "producer": "Anne Boisson",
+    "region": "Bourgogne",
+    "appellation": "Meursault AOC",
+    "color": "Blanc",
+    "grape_variety": "100% Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "antoine-sanzay-saumur-champigny-poyeux",
+    "name": "Antoine Sanzay, Saumur-Champigny, Poyeux",
+    "producer": "Domaine Antoine Sanzay",
+    "region": "Loire",
+    "appellation": "Saumur-Champigny",
+    "color": "Rouge",
+    "grape_variety": "Cabernet Franc",
+    "classification": ""
+  },
+  {
+    "slug": "arnaud-mortet-gevrey-chambertin-ma-cuvee",
+    "name": "Arnaud Mortet, Gevrey-Chambertin, Ma Cuvee",
+    "producer": "Arnaud Mortet",
+    "region": "Bourgogne",
+    "appellation": "Gevrey-Chambertin",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Village"
+  },
+  {
+    "slug": "auguste-clape-cornas",
+    "name": "Auguste Clape, Cornas",
+    "producer": "Domaine Auguste Clape",
+    "region": "Rhône",
+    "appellation": "Cornas",
+    "color": "Rouge",
+    "grape_variety": "Syrah",
+    "classification": ""
+  },
+  {
+    "slug": "benedicte-stephane-tissot-bruyeres-vin-jaune-arbois",
+    "name": "Benedicte & Stephane Tissot, Bruyeres Vin Jaune, Arbois",
+    "producer": "Domaine Bénédicte & Stéphane Tissot",
+    "region": "Jura",
+    "appellation": "Arbois",
+    "color": "Blanc",
+    "grape_variety": "Savagnin, Chardonnay, Trousseau, Poulsard",
+    "classification": ""
+  },
+  {
+    "slug": "benedicte-stephane-tissot-la-mailloche-arbois",
+    "name": "Benedicte & Stephane Tissot, La Mailloche, Arbois",
+    "producer": "Domaine Bénédicte & Stéphane Tissot",
+    "region": "Jura",
+    "appellation": "Arbois",
+    "color": "Blanc",
+    "grape_variety": "Savagnin, Chardonnay, Trousseau, Poulsard",
+    "classification": ""
+  },
+  {
+    "slug": "benedicte-stephane-tissot-vin-jaune-vasee-arbois",
+    "name": "Benedicte & Stephane Tissot, Vin Jaune Vasee, Arbois",
+    "producer": "Domaine Bénédicte & Stéphane Tissot",
+    "region": "Jura",
+    "appellation": "Arbois",
+    "color": "Blanc",
+    "grape_variety": "Savagnin, Chardonnay, Trousseau, Poulsard",
+    "classification": ""
+  },
+  {
+    "slug": "benedicte-stephane-tissot-vin-jaune-chateau-chalon",
+    "name": "Benedicte & Stephane Tissot, Vin Jaune, Chateau-Chalon",
+    "producer": "Domaine Bénédicte & Stéphane Tissot",
+    "region": "Jura",
+    "appellation": "Château-Chalon",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "benoit-moreau-saint-aubin-premier-cru-en-remilly",
+    "name": "Benoit Moreau, Saint-Aubin Premier Cru, En Remilly",
+    "producer": "Benoit Moreau",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin 1er Cru AOC",
+    "color": "Blanc",
+    "grape_variety": "100% Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "bibi-graetz-testamatta-rosso-toscana",
+    "name": "Bibi Graetz, Testamatta Rosso, Toscana",
+    "producer": "Azienda Agricola Testamatta (Bibi Graetz)",
+    "region": "Toscane",
+    "appellation": "Toscana IGT",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "bret-brothers-pouilly-fuisse-climat-la-roche",
+    "name": "Bret Brothers, Pouilly-Fuisse, Climat La Roche",
+    "producer": "Bret Brothers",
+    "region": "Mâconnais",
+    "appellation": "Pouilly-Fuissé",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "caroline-morey-beaune-premier-cru-les-greves-blanc",
+    "name": "Caroline Morey, Beaune Premier Cru, Les Greves Blanc",
+    "producer": "Domaine Caroline Morey",
+    "region": "Bourgogne",
+    "appellation": "Beaune Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Pinot Noir, Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "caroline-morey-beaune-premier-cru-les-greves-rouge",
+    "name": "Caroline Morey, Beaune Premier Cru, Les Greves Rouge",
+    "producer": "Domaine Caroline Morey",
+    "region": "Bourgogne",
+    "appellation": "Beaune Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir, Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "caroline-morey-chassagne-montrachet-premier-cru-cailleret",
+    "name": "Caroline Morey, Chassagne-Montrachet Premier Cru, Cailleret",
+    "producer": "Caroline Morey",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet 1er Cru AOC",
+    "color": "Blanc",
+    "grape_variety": "100% Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "caroline-morey-chassagne-montrachet-premier-cru-les-champs-gain",
+    "name": "Caroline Morey, Chassagne-Montrachet Premier Cru, Les Champs Gain",
+    "producer": "Caroline Morey",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet 1er Cru AOC",
+    "color": "Blanc",
+    "grape_variety": "100% Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "caroline-morey-chassagne-montrachet-premier-cru-les-champs-gain-rouge",
+    "name": "Caroline Morey, Chassagne-Montrachet Premier Cru, Les Champs Gain Rouge",
+    "producer": "Caroline Morey",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet 1er Cru AOC",
+    "color": "Rouge",
+    "grape_variety": "100% Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "caroline-morey-chassagne-montrachet-premier-cru-les-chaumees-blanc",
+    "name": "Caroline Morey, Chassagne-Montrachet Premier Cru, Les Chaumees Blanc",
+    "producer": "Caroline Morey",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet 1er Cru AOC",
+    "color": "Blanc",
+    "grape_variety": "100% Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "caroline-morey-chassagne-montrachet-chambrees",
+    "name": "Caroline Morey, Chassagne-Montrachet, Chambrees",
+    "producer": "Caroline Morey",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet AOC",
+    "color": "Blanc",
+    "grape_variety": "100% Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "caroline-morey-chassagne-montrachet-rouge",
+    "name": "Caroline Morey, Chassagne-Montrachet, Rouge",
+    "producer": "Caroline Morey",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet AOC",
+    "color": "Rouge",
+    "grape_variety": "100% Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "cedric-bouchard-roses-de-jeanne-presle",
+    "name": "Cedric Bouchard, Roses de Jeanne Presle",
+    "producer": "Cédric Bouchard (Roses de Jeanne)",
+    "region": "Champagne",
+    "appellation": "Champagne",
+    "color": "Blanc",
+    "grape_variety": "100% Pinot Noir",
+    "classification": "Récoltant-Manipulant"
+  },
+  {
+    "slug": "charles-lachaux-nuits-saint-georges-la-petite-charmotte",
+    "name": "Charles Lachaux, Nuits-Saint-Georges, La Petite Charmotte",
+    "producer": "Domaine Charles Lachaux",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "chartogne-taillet-couarres-chateau-extra-brut",
+    "name": "Chartogne-Taillet, Couarres Chateau Extra Brut",
+    "producer": "Chartogne-Taillet",
+    "region": "Champagne",
+    "appellation": "Champagne",
+    "color": "Blanc",
+    "grape_variety": "100% Pinot Noir",
+    "classification": "Récoltant-Manipulant"
+  },
+  {
+    "slug": "chartogne-taillet-les-barres-extra-brut",
+    "name": "Chartogne-Taillet, Les Barres Extra Brut",
+    "producer": "Chartogne-Taillet",
+    "region": "Champagne",
+    "appellation": "Champagne",
+    "color": "Blanc",
+    "grape_variety": "100% Pinot Meunier",
+    "classification": "Récoltant-Manipulant"
+  },
+  {
+    "slug": "chartogne-taillet-sainte-anne-brut",
+    "name": "Chartogne-Taillet, Sainte Anne Brut",
+    "producer": "Chartogne-Taillet",
+    "region": "Champagne",
+    "appellation": "Champagne",
+    "color": "Blanc",
+    "grape_variety": "60% Chardonnay, 40% Pinot Noir",
+    "classification": "Récoltant-Manipulant"
+  },
+  {
+    "slug": "chateau-les-carmes-haut-brion-pessac-leognan",
+    "name": "Chateau Les Carmes Haut-Brion, Pessac-Leognan",
+    "producer": "Château Les Carmes Haut-Brion",
+    "region": "Bordeaux",
+    "appellation": "Pessac-Léognan",
+    "color": "Rouge",
+    "grape_variety": "Cabernet Sauvignon, Merlot, Cabernet Franc",
+    "classification": ""
+  },
+  {
+    "slug": "chateau-pontet-canet-5eme-cru-classe-pauillac",
+    "name": "Chateau Pontet-Canet 5eme Cru Classe, Pauillac",
+    "producer": "Château Pontet-Canet",
+    "region": "Bordeaux",
+    "appellation": "Pauillac",
+    "color": "Rouge",
+    "grape_variety": "Cabernet Sauvignon, Merlot, Cabernet Franc",
+    "classification": "5ème Cru Classé 1855"
+  },
+  {
+    "slug": "chateau-simone-rouge-palette",
+    "name": "Chateau Simone, Rouge, Palette",
+    "producer": "Château Simone",
+    "region": "Provence",
+    "appellation": "Palette",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "christophe-mignon-adn-de-foudre-chardonnay-champagne",
+    "name": "Christophe Mignon ADN de Foudre Chardonnay, Champagne",
+    "producer": "Christophe Mignon",
+    "region": "Champagne",
+    "appellation": "Champagne",
+    "color": "Blanc",
+    "grape_variety": "100% Chardonnay",
+    "classification": "Récoltant-Manipulant"
+  },
+  {
+    "slug": "christophe-mignon-adn-de-foudre-pinot-noir-brut-nature-champagne",
+    "name": "Christophe Mignon, ADN de Foudre Pinot Noir Brut Nature, Champagne",
+    "producer": "Christophe Mignon",
+    "region": "Champagne",
+    "appellation": "Champagne",
+    "color": "Blanc",
+    "grape_variety": "100% Pinot Noir",
+    "classification": "Récoltant-Manipulant"
+  },
+  {
+    "slug": "christophe-mignon-adn-de-foudre-pinot-noir-extra-brut-champagne",
+    "name": "Christophe Mignon, ADN de Foudre Pinot Noir Extra Brut, Champagne",
+    "producer": "Champagne Christophe Mignon",
+    "region": "Champagne",
+    "appellation": "Champagne",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay, Pinot Noir, Pinot Meunier",
+    "classification": ""
+  },
+  {
+    "slug": "clandestin-les-semblables-austral-brut-nature-champagne",
+    "name": "Clandestin, Les Semblables Austral Brut Nature, Champagne",
+    "producer": "Clandestin",
+    "region": "Champagne",
+    "appellation": "Champagne",
+    "color": "Blanc",
+    "grape_variety": "100% Pinot Noir",
+    "classification": "Négociant-Manipulant"
+  },
+  {
+    "slug": "clos-rougeard-saumur-champigny",
+    "name": "Clos Rougeard, Saumur-Champigny",
+    "producer": "Clos Rougeard",
+    "region": "Vallée de la Loire",
+    "appellation": "Saumur-Champigny",
+    "color": "Rouge",
+    "grape_variety": "Cabernet Franc 100%",
+    "classification": "AOC Saumur-Champigny"
+  },
+  {
+    "slug": "clos-rougeard-saumur-champigny-bourg",
+    "name": "Clos Rougeard, Saumur-Champigny, Bourg",
+    "producer": "Clos Rougeard",
+    "region": "Vallée de la Loire",
+    "appellation": "Saumur-Champigny",
+    "color": "Rouge",
+    "grape_variety": "Cabernet Franc 100%",
+    "classification": "AOC Saumur-Champigny"
+  },
+  {
+    "slug": "clos-rougeard-saumur-champigny-les-poyeux",
+    "name": "Clos Rougeard, Saumur-Champigny, Les Poyeux",
+    "producer": "Clos Rougeard",
+    "region": "Vallée de la Loire",
+    "appellation": "Saumur-Champigny",
+    "color": "Rouge",
+    "grape_variety": "Cabernet Franc 100%",
+    "classification": "AOC Saumur-Champigny"
+  },
+  {
+    "slug": "clos-rougeard-saumur-breze",
+    "name": "Clos Rougeard, Saumur, Breze",
+    "producer": "Clos Rougeard",
+    "region": "Vallée de la Loire",
+    "appellation": "Saumur",
+    "color": "Blanc",
+    "grape_variety": "Chenin Blanc",
+    "classification": "AOC Saumur"
+  },
+  {
+    "slug": "clos-saint-jean-chateauneuf-du-pape-rouge",
+    "name": "Clos Saint Jean, Chateauneuf-du-Pape, Rouge",
+    "producer": "Clos Saint Jean",
+    "region": "Rhône Sud",
+    "appellation": "Châteauneuf-du-Pape AOC",
+    "color": "Rouge",
+    "grape_variety": "Grenache dominant + traditional varieties",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-arlaud-clos-de-la-roche-grand-cru",
+    "name": "Domaine Arlaud, Clos de la Roche Grand Cru",
+    "producer": "Domaine Arlaud",
+    "region": "Bourgogne",
+    "appellation": "Clos de la Roche Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-arlaud-gevrey-chambertin-premier-cru-aux-combottes",
+    "name": "Domaine Arlaud, Gevrey-Chambertin Premier Cru, Aux Combottes",
+    "producer": "Domaine Arlaud",
+    "region": "Bourgogne",
+    "appellation": "Gevrey-Chambertin Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-arnoux-lachaux-chambolle-musigny",
+    "name": "Domaine Arnoux-Lachaux, Chambolle-Musigny",
+    "producer": "Domaine Arnoux-Lachaux",
+    "region": "Bourgogne",
+    "appellation": "Chambolle-Musigny",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": "Village"
+  },
+  {
+    "slug": "domaine-arnoux-lachaux-echezeaux-grand-cru-les-rouges",
+    "name": "Domaine Arnoux-Lachaux, Echezeaux Grand Cru, Les Rouges",
+    "producer": "Domaine Arnoux-Lachaux",
+    "region": "Bourgogne",
+    "appellation": "Echezeaux Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir (Pinot Fin)",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-arnoux-lachaux-nuits-saint-georges-rouge",
+    "name": "Domaine Arnoux-Lachaux, Nuits-Saint-Georges, Rouge",
+    "producer": "Domaine Arnoux-Lachaux",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": "Village"
+  },
+  {
+    "slug": "domaine-arnoux-lachaux-vosne-romanee",
+    "name": "Domaine Arnoux-Lachaux, Vosne-Romanee",
+    "producer": "Domaine Arnoux-Lachaux",
+    "region": "Bourgogne",
+    "appellation": "Vosne-Romanée",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": "Village"
+  },
+  {
+    "slug": "domaine-arnoux-lachaux-vosne-romanee-premier-cru-les-chaumes",
+    "name": "Domaine Arnoux-Lachaux, Vosne-Romanee Premier Cru, Les Chaumes",
+    "producer": "Domaine Arnoux-Lachaux",
+    "region": "Bourgogne",
+    "appellation": "Vosne-Romanée Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-bachey-legros-santenay-premier-cru-la-comme-vieilles-vignes",
+    "name": "Domaine Bachey-Legros, Santenay Premier Cru, La Comme Vieilles Vignes",
+    "producer": "Domaine Bachey-Legros",
+    "region": "Bourgogne",
+    "appellation": "Santenay 1er Cru AOC",
+    "color": "Rouge",
+    "grape_variety": "100% Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-bernard-bonin-bourgogne-initiales-bb-blanc",
+    "name": "Domaine Bernard Bonin, Bourgogne, Initiales BB Blanc",
+    "producer": "Domaine Bernard Bonin",
+    "region": "Bourgogne",
+    "appellation": "Bourgogne",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-bernard-bonin-meursault-premier-cru-charmes-dessus",
+    "name": "Domaine Bernard Bonin, Meursault Premier Cru, Charmes Dessus",
+    "producer": "Domaine Bernard-Bonin",
+    "region": "Bourgogne",
+    "appellation": "Meursault 1er Cru AOC",
+    "color": "Blanc",
+    "grape_variety": "100% Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-bernard-bonin-meursault-premier-cru-les-charmes-du-milieu",
+    "name": "Domaine Bernard Bonin, Meursault Premier Cru, Les Charmes du Milieu",
+    "producer": "Domaine Bernard-Bonin",
+    "region": "Bourgogne",
+    "appellation": "Meursault 1er Cru AOC",
+    "color": "Blanc",
+    "grape_variety": "100% Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-bernard-bonin-meursault-le-cromin-le-pre-de-manche",
+    "name": "Domaine Bernard Bonin, Meursault, Le Cromin Le Pre de Manche",
+    "producer": "Domaine Bernard-Bonin",
+    "region": "Bourgogne",
+    "appellation": "Meursault AOC",
+    "color": "Blanc",
+    "grape_variety": "100% Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-bernard-bonin-meursault-le-limozin",
+    "name": "Domaine Bernard Bonin, Meursault, Le Limozin",
+    "producer": "Domaine Bernard-Bonin",
+    "region": "Bourgogne",
+    "appellation": "Meursault AOC",
+    "color": "Blanc",
+    "grape_variety": "100% Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-bernard-bonin-meursault-les-tillets",
+    "name": "Domaine Bernard Bonin, Meursault, Les Tillets",
+    "producer": "Domaine Bernard-Bonin",
+    "region": "Bourgogne",
+    "appellation": "Meursault AOC",
+    "color": "Blanc",
+    "grape_variety": "100% Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-bernard-bonin-puligny-montrachet-premier-cru-la-romance",
+    "name": "Domaine Bernard Bonin, Puligny-Montrachet Premier Cru, La Romance",
+    "producer": "Domaine Bernard-Bonin",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet 1er Cru AOC",
+    "color": "Blanc",
+    "grape_variety": "100% Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-bernard-moreau-chassagne-montrachet-premier-cru-clos-saint-jean",
+    "name": "Domaine Bernard Moreau, Chassagne-Montrachet Premier Cru, Clos Saint-Jean",
+    "producer": "Domaine Bernard Moreau et Fils",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-bernard-moreau-chassagne-montrachet-premier-cru-la-cardeuse-rouge",
+    "name": "Domaine Bernard Moreau, Chassagne-Montrachet Premier Cru, La Cardeuse Rouge",
+    "producer": "Domaine Bernard Moreau et Fils",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-bernard-moreau-chassagne-montrachet-premier-cru-morgeot",
+    "name": "Domaine Bernard Moreau, Chassagne-Montrachet Premier Cru, Morgeot",
+    "producer": "Domaine Bernard Moreau et Fils",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-bernard-moreau-chassagne-montrachet-vieilles-vignes-rouge",
+    "name": "Domaine Bernard Moreau, Chassagne-Montrachet, Vieilles Vignes Rouge",
+    "producer": "Domaine Bernard Moreau et Fils",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": "Village - Vieilles Vignes"
+  },
+  {
+    "slug": "domaine-bertagna-vosne-romanee-premier-cru-les-beaux-monts",
+    "name": "Domaine Bertagna, Vosne-Romanee Premier Cru, Les Beaux Monts",
+    "producer": "Domaine Bertagna",
+    "region": "Bourgogne",
+    "appellation": "Vosne-Romanée Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-berthaut-gerbet-clos-de-vougeot-grand-cru",
+    "name": "Domaine Berthaut-Gerbet, Clos de Vougeot Grand Cru",
+    "producer": "Domaine Berthaut-Gerbet",
+    "region": "Bourgogne",
+    "appellation": "Clos de Vougeot Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-de-bellevue-jerome-bretaudeau-la-justice-vdf",
+    "name": "Domaine de Bellevue (Jerome Bretaudeau), La Justice, VdF",
+    "producer": "Domaine de Bellevue (Jérôme Bretaudeau)",
+    "region": "Loire",
+    "appellation": "Vin de France",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-de-bellevue-jerome-bretaudeau-maceration-vdf",
+    "name": "Domaine de Bellevue (Jerome Bretaudeau), Maceration, VdF",
+    "producer": "Domaine de Bellevue (Jérôme Bretaudeau)",
+    "region": "Loire",
+    "appellation": "Vin de France",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-de-bellevue-jerome-bretaudeau-muscadet-gaia-cuvee-ovoide",
+    "name": "Domaine de Bellevue (Jerome Bretaudeau), Muscadet, Gaia Cuvee Ovoide",
+    "producer": "Domaine de Bellevue (Jérôme Bretaudeau)",
+    "region": "Loire",
+    "appellation": "Muscadet",
+    "color": "Blanc",
+    "grape_variety": "Melon de Bourgogne",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-de-bellevue-jerome-bretaudeau-statera-vdf",
+    "name": "Domaine de Bellevue (Jerome Bretaudeau), Statera, VdF",
+    "producer": "Domaine de Bellevue (Jérôme Bretaudeau)",
+    "region": "Loire",
+    "appellation": "Vin de France",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-de-cambes-bordeaux",
+    "name": "Domaine de Cambes, Bordeaux",
+    "producer": "Domaine de Cambes",
+    "region": "Bordeaux",
+    "appellation": "Bordeaux",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-de-la-grange-des-peres-pays-d-herault-blanc",
+    "name": "Domaine de la Grange des Peres, Pays d'Herault, Blanc",
+    "producer": "Domaine de la Grange des Pères",
+    "region": "Languedoc",
+    "appellation": "IGP Pays d'Hérault",
+    "color": "Blanc",
+    "grape_variety": "Roussanne, Marsanne, Chardonnay",
+    "classification": "IGP"
+  },
+  {
+    "slug": "domaine-de-la-grange-des-peres-pays-d-herault-rouge",
+    "name": "Domaine de la Grange des Peres, Pays d'Herault, Rouge",
+    "producer": "Domaine de la Grange des Pères",
+    "region": "Languedoc",
+    "appellation": "IGP Pays d'Hérault",
+    "color": "Rouge",
+    "grape_variety": "Syrah 40%, Mourvèdre 40%, Cabernet Sauvignon 20%",
+    "classification": "IGP"
+  },
+  {
+    "slug": "domaine-de-la-vieille-julienne-chateauneuf-du-pape-les-trois-sources",
+    "name": "Domaine de la Vieille Julienne, Chateauneuf-du-Pape, Les Trois Sources",
+    "producer": "Domaine de la Vieille Julienne",
+    "region": "Rhône Sud",
+    "appellation": "Châteauneuf-du-Pape AOC",
+    "color": "Rouge",
+    "grape_variety": "Grenache dominant + traditional varieties",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-de-la-vougeraie-batard-montrachet-grand-cru",
+    "name": "Domaine de la Vougeraie, Batard-Montrachet Grand Cru",
+    "producer": "Domaine de la Vougeraie",
+    "region": "Bourgogne",
+    "appellation": "Bâtard-Montrachet Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-de-la-vougeraie-bonnes-mares-grand-cru",
+    "name": "Domaine de la Vougeraie, Bonnes Mares Grand Cru",
+    "producer": "Domaine de la Vougeraie",
+    "region": "Bourgogne",
+    "appellation": "Bonnes-Mares Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-de-la-vougeraie-charmes-chambertin-grand-cru-les-mazoyeres",
+    "name": "Domaine de la Vougeraie, Charmes-Chambertin Grand Cru, Les Mazoyeres",
+    "producer": "Domaine de la Vougeraie",
+    "region": "Bourgogne",
+    "appellation": "Charmes-Chambertin Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-de-la-vougeraie-chevalier-montrachet-grand-cru",
+    "name": "Domaine de la Vougeraie, Chevalier-Montrachet Grand Cru",
+    "producer": "Domaine de la Vougeraie",
+    "region": "Bourgogne",
+    "appellation": "Chevalier-Montrachet Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-de-la-vougeraie-corton-grand-cru-le-clos-du-roi",
+    "name": "Domaine de la Vougeraie, Corton Grand Cru, Le Clos du Roi",
+    "producer": "Domaine de la Vougeraie",
+    "region": "Bourgogne",
+    "appellation": "Corton Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-de-la-vougeraie-corton-charlemagne-le-charlemagne-grand-cru",
+    "name": "Domaine de la Vougeraie, Corton-Charlemagne, Le Charlemagne Grand Cru",
+    "producer": "Domaine de la Vougeraie",
+    "region": "Bourgogne",
+    "appellation": "Corton-Charlemagne Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-de-la-vougeraie-savigny-les-beaune-premier-cru-les-marconnets",
+    "name": "Domaine de la Vougeraie, Savigny-les-Beaune Premier Cru, Les Marconnets",
+    "producer": "Domaine de la Vougeraie",
+    "region": "Bourgogne",
+    "appellation": "Savigny-lès-Beaune Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-de-trevallon-blanc-alpilles-igp",
+    "name": "Domaine de Trevallon, Blanc, Alpilles IGP",
+    "producer": "Domaine de Trévallon",
+    "region": "Provence",
+    "appellation": "IGP Alpilles",
+    "color": "Blanc",
+    "grape_variety": "Marsanne, Roussanne, Chardonnay",
+    "classification": "IGP"
+  },
+  {
+    "slug": "domaine-de-trevallon-rouge-alpilles-igp",
+    "name": "Domaine de Trevallon, Rouge, Alpilles IGP",
+    "producer": "Domaine de Trévallon",
+    "region": "Provence",
+    "appellation": "IGP Alpilles",
+    "color": "Rouge",
+    "grape_variety": "Cabernet Sauvignon 50%, Syrah 50%",
+    "classification": "IGP"
+  },
+  {
+    "slug": "domaine-denis-mortet-clos-de-vougeot-grand-cru",
+    "name": "Domaine Denis Mortet, Clos de Vougeot Grand Cru",
+    "producer": "Domaine Denis Mortet",
+    "region": "Bourgogne",
+    "appellation": "Clos de Vougeot Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-denis-mortet-gevrey-chambertin-premier-cru-champeaux",
+    "name": "Domaine Denis Mortet, Gevrey-Chambertin Premier Cru, Champeaux",
+    "producer": "Domaine Denis Mortet",
+    "region": "Bourgogne",
+    "appellation": "Gevrey-Chambertin Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-denis-mortet-gevrey-chambertin-premier-cru-lavaut-saint-jacques",
+    "name": "Domaine Denis Mortet, Gevrey-Chambertin Premier Cru, Lavaut Saint-Jacques",
+    "producer": "Domaine Denis Mortet",
+    "region": "Bourgogne",
+    "appellation": "Gevrey-Chambertin Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-des-comtes-lafon-meursault-premier-cru-les-gouttes-d-or",
+    "name": "Domaine des Comtes Lafon, Meursault Premier Cru, Les Gouttes d'Or",
+    "producer": "Domaine des Comtes Lafon",
+    "region": "Bourgogne",
+    "appellation": "Meursault Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-des-heritiers-louis-jadot-beaune-premier-cru-clos-des-couchereaux",
+    "name": "Domaine des Heritiers Louis Jadot, Beaune Premier Cru, Clos des Couchereaux",
+    "producer": "Domaine des Héritiers Louis Jadot",
+    "region": "Bourgogne",
+    "appellation": "Beaune",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-des-lambrays-morey-saint-denis-premier-cru-loups",
+    "name": "Domaine des Lambrays, Morey-Saint-Denis Premier Cru, Loups",
+    "producer": "Domaine des Lambrays",
+    "region": "Bourgogne",
+    "appellation": "Morey-Saint-Denis",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-dominique-belluard-ayze-eponyme-mise-tardive-vin-de-savoie",
+    "name": "Domaine Dominique Belluard, Ayze Eponyme Mise Tardive, Vin de Savoie",
+    "producer": "Domaine Dominique Belluard",
+    "region": "Savoie",
+    "appellation": "Vin de Savoie Ayze",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-dominique-belluard-mondeuse-vin-de-savoie",
+    "name": "Domaine Dominique Belluard, Mondeuse, Vin de Savoie",
+    "producer": "Domaine Dominique Belluard",
+    "region": "Savoie",
+    "appellation": "Vin de Savoie",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-dujac-charmes-chambertin-grand-cru",
+    "name": "Domaine Dujac, Charmes-Chambertin Grand Cru",
+    "producer": "Domaine Dujac",
+    "region": "Bourgogne",
+    "appellation": "Charmes-Chambertin Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-dujac-clos-de-la-roche-grand-cru",
+    "name": "Domaine Dujac, Clos de la Roche Grand Cru",
+    "producer": "Domaine Dujac",
+    "region": "Bourgogne",
+    "appellation": "Clos de la Roche Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-dujac-echezeaux-grand-cru",
+    "name": "Domaine Dujac, Echezeaux Grand Cru",
+    "producer": "Domaine Dujac",
+    "region": "Bourgogne",
+    "appellation": "Echezeaux Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-dujac-morey-saint-denis",
+    "name": "Domaine Dujac, Morey-Saint-Denis",
+    "producer": "Domaine Dujac",
+    "region": "Bourgogne",
+    "appellation": "Morey-Saint-Denis",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Village"
+  },
+  {
+    "slug": "domaine-dujac-morey-saint-denis-premier-cru",
+    "name": "Domaine Dujac, Morey-Saint-Denis Premier Cru",
+    "producer": "Domaine Dujac",
+    "region": "Bourgogne",
+    "appellation": "Morey-Saint-Denis Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-dujac-puligny-montrachet-premier-cru-les-folatieres",
+    "name": "Domaine Dujac, Puligny-Montrachet Premier Cru, Les Folatieres",
+    "producer": "Domaine Dujac",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-dujac-vosne-romanee-premier-cru-aux-malconsorts",
+    "name": "Domaine Dujac, Vosne-Romanee Premier Cru, Aux Malconsorts",
+    "producer": "Domaine Dujac",
+    "region": "Bourgogne",
+    "appellation": "Vosne-Romanée Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-dujac-vosne-romanee-premier-cru-les-beaux-monts",
+    "name": "Domaine Dujac, Vosne-Romanee Premier Cru, Les Beaux Monts",
+    "producer": "Domaine Dujac",
+    "region": "Bourgogne",
+    "appellation": "Vosne-Romanée Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-fontaine-gagnard-chassagne-montrachet-premier-cru-cailleret",
+    "name": "Domaine Fontaine-Gagnard, Chassagne-Montrachet Premier Cru, Cailleret",
+    "producer": "Domaine Fontaine-Gagnard",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-fontaine-gagnard-chassagne-montrachet-premier-cru-la-boudriotte",
+    "name": "Domaine Fontaine-Gagnard, Chassagne-Montrachet Premier Cru, La Boudriotte",
+    "producer": "Domaine Fontaine-Gagnard",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-fontaine-gagnard-chassagne-montrachet-premier-cru-la-grande-montagne",
+    "name": "Domaine Fontaine-Gagnard, Chassagne-Montrachet Premier Cru, La Grande Montagne",
+    "producer": "Domaine Fontaine-Gagnard",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-fontaine-gagnard-chassagne-montrachet-premier-cru-la-romanee",
+    "name": "Domaine Fontaine-Gagnard, Chassagne-Montrachet Premier Cru, La Romanee",
+    "producer": "Domaine Fontaine-Gagnard",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-fontaine-gagnard-chassagne-montrachet-premier-cru-les-chenevottes",
+    "name": "Domaine Fontaine-Gagnard, Chassagne-Montrachet Premier Cru, Les Chenevottes",
+    "producer": "Domaine Fontaine-Gagnard",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-fontaine-gagnard-chassagne-montrachet-premier-cru-les-murees",
+    "name": "Domaine Fontaine-Gagnard, Chassagne-Montrachet Premier Cru, Les Murees",
+    "producer": "Domaine Fontaine-Gagnard",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-fourrier-gevrey-chambertin-premier-cru-combe-au-moine-vieille-vigne",
+    "name": "Domaine Fourrier, Gevrey-Chambertin Premier Cru, Combe au Moine Vieille Vigne",
+    "producer": "Domaine Fourrier",
+    "region": "Bourgogne",
+    "appellation": "Gevrey-Chambertin Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-fourrier-gevrey-chambertin-vieille-vigne",
+    "name": "Domaine Fourrier, Gevrey-Chambertin, Vieille Vigne",
+    "producer": "Domaine Fourrier",
+    "region": "Bourgogne",
+    "appellation": "Gevrey-Chambertin",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Village"
+  },
+  {
+    "slug": "domaine-francois-raveneau-chablis-grand-cru-blanchot",
+    "name": "Domaine Francois Raveneau, Chablis Grand Cru, Blanchot",
+    "producer": "Domaine François Raveneau",
+    "region": "Bourgogne",
+    "appellation": "Chablis Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-francois-raveneau-chablis-grand-cru-valmur",
+    "name": "Domaine Francois Raveneau, Chablis Grand Cru, Valmur",
+    "producer": "Domaine François Raveneau",
+    "region": "Bourgogne",
+    "appellation": "Chablis Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-francois-raveneau-chablis-premier-cru-foret",
+    "name": "Domaine Francois Raveneau, Chablis Premier Cru, Foret",
+    "producer": "Domaine François Raveneau",
+    "region": "Bourgogne",
+    "appellation": "Chablis Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-francois-raveneau-chablis-premier-cru-montee-de-tonnerre",
+    "name": "Domaine Francois Raveneau, Chablis Premier Cru, Montee de Tonnerre",
+    "producer": "Domaine François Raveneau",
+    "region": "Bourgogne",
+    "appellation": "Chablis Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-georges-mugneret-gibourg-chambolle-musigny-premier-cru-les-feusselottes",
+    "name": "Domaine Georges Mugneret Gibourg, Chambolle-Musigny Premier Cru, Les Feusselottes",
+    "producer": "Domaine Georges Mugneret-Gibourg",
+    "region": "Bourgogne",
+    "appellation": "Chambolle-Musigny Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-georges-mugneret-gibourg-clos-de-vougeot-grand-cru",
+    "name": "Domaine Georges Mugneret Gibourg, Clos de Vougeot Grand Cru",
+    "producer": "Domaine Georges Mugneret-Gibourg",
+    "region": "Bourgogne",
+    "appellation": "Clos de Vougeot Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-georges-mugneret-gibourg-echezeaux-grand-cru",
+    "name": "Domaine Georges Mugneret Gibourg, Echezeaux Grand Cru",
+    "producer": "Domaine Georges Mugneret-Gibourg",
+    "region": "Bourgogne",
+    "appellation": "Echezeaux Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-georges-mugneret-gibourg-nuits-saint-georges-premier-cru-aux-chaignots",
+    "name": "Domaine Georges Mugneret Gibourg, Nuits-Saint-Georges Premier Cru, Aux Chaignots",
+    "producer": "Domaine Georges Mugneret-Gibourg",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-georges-mugneret-gibourg-nuits-saint-georges-au-bas-de-combe",
+    "name": "Domaine Georges Mugneret Gibourg, Nuits-Saint-Georges, Au Bas de Combe",
+    "producer": "Domaine Georges Mugneret-Gibourg",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Village"
+  },
+  {
+    "slug": "domaine-georges-mugneret-gibourg-ruchottes-chambertin-grand-cru",
+    "name": "Domaine Georges Mugneret Gibourg, Ruchottes-Chambertin Grand Cru",
+    "producer": "Domaine Georges Mugneret-Gibourg",
+    "region": "Bourgogne",
+    "appellation": "Ruchottes-Chambertin Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-georges-mugneret-gibourg-vosne-romanee",
+    "name": "Domaine Georges Mugneret Gibourg, Vosne-Romanee",
+    "producer": "Domaine Georges Mugneret-Gibourg",
+    "region": "Bourgogne",
+    "appellation": "Vosne-Romanée",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Village"
+  },
+  {
+    "slug": "domaine-georges-mugneret-gibourg-vosne-romanee-la-colombiere",
+    "name": "Domaine Georges Mugneret Gibourg, Vosne-Romanee, La Colombiere",
+    "producer": "Domaine Georges Mugneret-Gibourg",
+    "region": "Bourgogne",
+    "appellation": "Vosne-Romanée",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Village"
+  },
+  {
+    "slug": "domaine-gerard-julien-fils-nuits-saint-georges",
+    "name": "Domaine Gerard Julien & Fils, Nuits-Saint-Georges",
+    "producer": "Domaine Gérard Julien & Fils",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-gerard-julien-fils-nuits-saint-georges-aux-saints-juliens",
+    "name": "Domaine Gerard Julien & Fils, Nuits-Saint-Georges, Aux Saints-Juliens",
+    "producer": "Domaine Gérard Julien & Fils",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-gerard-thomas-saint-aubin-premier-cru-les-murgers-des-dents-de-chien",
+    "name": "Domaine Gerard Thomas, Saint-Aubin Premier Cru, Les Murgers des Dents de Chien",
+    "producer": "Domaine Gérard Thomas et Filles",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-henri-boillot-batard-montrachet-grand-cru",
+    "name": "Domaine Henri Boillot, Batard-Montrachet Grand Cru",
+    "producer": "Domaine Henri Boillot",
+    "region": "Bourgogne",
+    "appellation": "Bâtard-Montrachet Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-henri-boillot-meursault-premier-cru-genevrieres",
+    "name": "Domaine Henri Boillot, Meursault Premier Cru, Genevrieres",
+    "producer": "Domaine Henri Boillot",
+    "region": "Bourgogne",
+    "appellation": "Meursault Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-henri-boillot-puligny-montrachet",
+    "name": "Domaine Henri Boillot, Puligny-Montrachet",
+    "producer": "Domaine Henri Boillot",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Village"
+  },
+  {
+    "slug": "domaine-henri-boillot-puligny-montrachet-premier-cru-les-pucelles",
+    "name": "Domaine Henri Boillot, Puligny-Montrachet Premier Cru, Les Pucelles",
+    "producer": "Domaine Henri Boillot",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-henri-boillot-volnay-premier-cru-les-caillerets",
+    "name": "Domaine Henri Boillot, Volnay Premier Cru, Les Caillerets",
+    "producer": "Domaine Henri Boillot",
+    "region": "Bourgogne",
+    "appellation": "Volnay Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-jamet-cote-rotie",
+    "name": "Domaine Jamet, Cote Rotie",
+    "producer": "Domaine Jamet",
+    "region": "Rhône Nord",
+    "appellation": "Côte-Rôtie",
+    "color": "Rouge",
+    "grape_variety": "Syrah 95-98%, Viognier 2-5%",
+    "classification": "AOC Côte-Rôtie"
+  },
+  {
+    "slug": "domaine-jamet-cote-rotie-cote-brune",
+    "name": "Domaine Jamet, Cote Rotie, Cote Brune",
+    "producer": "Domaine Jamet",
+    "region": "Rhône Nord",
+    "appellation": "Côte-Rôtie",
+    "color": "Rouge",
+    "grape_variety": "Syrah 100%",
+    "classification": "AOC Côte-Rôtie"
+  },
+  {
+    "slug": "domaine-jean-grivot-clos-de-vougeot-grand-cru",
+    "name": "Domaine Jean Grivot, Clos de Vougeot Grand Cru",
+    "producer": "Domaine Jean Grivot",
+    "region": "Bourgogne",
+    "appellation": "Clos de Vougeot Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-jean-grivot-nuits-saint-georges-premier-cru-ronciere",
+    "name": "Domaine Jean Grivot, Nuits-Saint-Georges Premier Cru, Ronciere",
+    "producer": "Domaine Jean Grivot",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-jean-louis-chave-hermitage-blanc",
+    "name": "Domaine Jean Louis Chave, Hermitage, Blanc",
+    "producer": "Domaine Jean-Louis Chave",
+    "region": "Rhône Nord",
+    "appellation": "Hermitage",
+    "color": "Blanc",
+    "grape_variety": "Marsanne 80%, Roussanne 20%",
+    "classification": "AOC Hermitage"
+  },
+  {
+    "slug": "domaine-jean-louis-chave-saint-joseph",
+    "name": "Domaine Jean Louis Chave, Saint-Joseph",
+    "producer": "Domaine Jean-Louis Chave",
+    "region": "Rhône Nord",
+    "appellation": "Saint-Joseph",
+    "color": "Rouge",
+    "grape_variety": "Syrah 100%",
+    "classification": "AOC Saint-Joseph"
+  },
+  {
+    "slug": "domaine-jean-louis-chave-saint-joseph-clos-florentin",
+    "name": "Domaine Jean Louis Chave, Saint-Joseph, Clos Florentin",
+    "producer": "Domaine Jean-Louis Chave",
+    "region": "Rhône Nord",
+    "appellation": "Saint-Joseph",
+    "color": "Rouge",
+    "grape_variety": "Syrah 100%",
+    "classification": "AOC Saint-Joseph"
+  },
+  {
+    "slug": "domaine-jean-jacques-confuron-cote-de-nuits-villages-les-vignottes",
+    "name": "Domaine Jean-Jacques Confuron, Cote de Nuits-Villages, Les Vignottes",
+    "producer": "Domaine Jean-Jacques Confuron",
+    "region": "Bourgogne",
+    "appellation": "Côte de Nuits-Villages",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-jean-jacques-confuron-nuits-saint-georges-premier-cru-les-chaboeufs",
+    "name": "Domaine Jean-Jacques Confuron, Nuits-Saint-Georges Premier Cru, Les Chaboeufs",
+    "producer": "Domaine Jean-Jacques Confuron",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-jobard-morey-meursault-premier-cru-charmes",
+    "name": "Domaine Jobard-Morey, Meursault Premier Cru, Charmes",
+    "producer": "Domaine Jobard-Morey",
+    "region": "Bourgogne",
+    "appellation": "Meursault",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-jobard-morey-meursault-premier-cru-porusot",
+    "name": "Domaine Jobard-Morey, Meursault Premier Cru, Porusot",
+    "producer": "Domaine Jobard-Morey",
+    "region": "Bourgogne",
+    "appellation": "Meursault",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-la-bergerie-de-l-arcade-rouge-languedoc",
+    "name": "Domaine La Bergerie de l'Arcade, Rouge, Languedoc",
+    "producer": "Domaine La Bergerie de l'Arcade",
+    "region": "Languedoc",
+    "appellation": "Languedoc",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-labet-cotes-du-jura-trousseau",
+    "name": "Domaine Labet, Cotes du Jura, Trousseau",
+    "producer": "Domaine Labet",
+    "region": "Jura",
+    "appellation": "Côtes du Jura",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-labet-vin-jaune-les-singuliers-cotes-du-jura",
+    "name": "Domaine Labet,Vin Jaune Les Singuliers, Cotes du Jura",
+    "producer": "Domaine Labet",
+    "region": "Jura",
+    "appellation": "Côtes du Jura",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-leflaive-bourgogne-blanc",
+    "name": "Domaine Leflaive, Bourgogne, Blanc",
+    "producer": "Domaine Leflaive",
+    "region": "Bourgogne",
+    "appellation": "Bourgogne",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Regional"
+  },
+  {
+    "slug": "domaine-leflaive-puligny-montrachet",
+    "name": "Domaine Leflaive, Puligny-Montrachet",
+    "producer": "Domaine Leflaive",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Village"
+  },
+  {
+    "slug": "domaine-meo-camuzet-clos-de-vougeot-grand-cru",
+    "name": "Domaine Meo Camuzet, Clos de Vougeot Grand Cru",
+    "producer": "Domaine Méo-Camuzet",
+    "region": "Bourgogne",
+    "appellation": "Clos de Vougeot Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-meo-camuzet-clos-de-vougeot-grand-cru-pres-le-cellier",
+    "name": "Domaine Meo Camuzet, Clos de Vougeot Grand Cru, Pres le Cellier",
+    "producer": "Domaine Méo-Camuzet",
+    "region": "Bourgogne",
+    "appellation": "Clos de Vougeot Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-michel-lafarge-beaune-premier-cru-les-aigrots-blanc",
+    "name": "Domaine Michel Lafarge, Beaune Premier Cru, Les Aigrots Blanc",
+    "producer": "Domaine Michel Lafarge",
+    "region": "Bourgogne",
+    "appellation": "Beaune",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-michel-lafarge-beaune-premier-cru-les-aigrots-rouge",
+    "name": "Domaine Michel Lafarge, Beaune Premier Cru, Les Aigrots Rouge",
+    "producer": "Domaine Michel Lafarge",
+    "region": "Bourgogne",
+    "appellation": "Beaune",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-michel-lafarge-bourgogne-aligote-raisins-dores",
+    "name": "Domaine Michel Lafarge, Bourgogne Aligote, Raisins Dores",
+    "producer": "Domaine Michel Lafarge",
+    "region": "Bourgogne",
+    "appellation": "Bourgogne",
+    "color": "Blanc",
+    "grape_variety": "Aligoté",
+    "classification": "Village"
+  },
+  {
+    "slug": "domaine-michel-lafarge-bourgogne-rouge",
+    "name": "Domaine Michel Lafarge, Bourgogne, Rouge",
+    "producer": "Domaine Michel Lafarge",
+    "region": "Bourgogne",
+    "appellation": "Bourgogne",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": "Village"
+  },
+  {
+    "slug": "domaine-michel-lafarge-meursault",
+    "name": "Domaine Michel Lafarge, Meursault",
+    "producer": "Domaine Michel Lafarge",
+    "region": "Bourgogne",
+    "appellation": "Meursault",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "domaine-michel-lafarge-pommard-premier-cru-les-pezerolles",
+    "name": "Domaine Michel Lafarge, Pommard Premier Cru, Les Pezerolles",
+    "producer": "Domaine Michel Lafarge",
+    "region": "Bourgogne",
+    "appellation": "Pommard",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-michel-lafarge-volnay",
+    "name": "Domaine Michel Lafarge, Volnay",
+    "producer": "Domaine Michel Lafarge",
+    "region": "Bourgogne",
+    "appellation": "Volnay",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "domaine-michel-lafarge-volnay-premier-cru-clos-des-chenes",
+    "name": "Domaine Michel Lafarge, Volnay Premier Cru, Clos des Chenes",
+    "producer": "Domaine Michel Lafarge",
+    "region": "Bourgogne",
+    "appellation": "Volnay",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-michel-lafarge-volnay-premier-cru-clos-du-chateau-des-ducs",
+    "name": "Domaine Michel Lafarge, Volnay Premier Cru, Clos du Chateau des Ducs",
+    "producer": "Domaine Michel Lafarge",
+    "region": "Bourgogne",
+    "appellation": "Volnay",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-michel-lafarge-volnay-premier-cru-les-caillerets",
+    "name": "Domaine Michel Lafarge, Volnay Premier Cru, Les Caillerets",
+    "producer": "Domaine Michel Lafarge",
+    "region": "Bourgogne",
+    "appellation": "Volnay",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-pattes-loup-chablis-premier-cru-butteaux",
+    "name": "Domaine Pattes Loup, Chablis Premier Cru, Butteaux",
+    "producer": "Domaine Pattes Loup (Thomas Pico)",
+    "region": "Bourgogne",
+    "appellation": "Chablis Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-pattes-loup-chablis-premier-cru-butteaux-mise-tardive",
+    "name": "Domaine Pattes Loup, Chablis Premier Cru, Butteaux Mise Tardive",
+    "producer": "Domaine Pattes Loup (Thomas Pico)",
+    "region": "Bourgogne",
+    "appellation": "Chablis Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-pattes-loup-chablis-premier-cru-les-beauregards",
+    "name": "Domaine Pattes Loup, Chablis Premier Cru, Les Beauregards",
+    "producer": "Domaine Pattes Loup (Thomas Pico)",
+    "region": "Bourgogne",
+    "appellation": "Chablis Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-paul-pillot-bourgogne-aligote",
+    "name": "Domaine Paul Pillot, Bourgogne Aligote",
+    "producer": "Domaine Paul Pillot",
+    "region": "Bourgogne",
+    "appellation": "Bourgogne",
+    "color": "Blanc",
+    "grape_variety": "Aligoté",
+    "classification": "Village"
+  },
+  {
+    "slug": "domaine-paul-pillot-chassagne-montrachet-premier-cru-clos-saint-jean-blanc",
+    "name": "Domaine Paul Pillot, Chassagne-Montrachet Premier Cru, Clos Saint-Jean Blanc",
+    "producer": "Domaine Paul Pillot",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-paul-pillot-chassagne-montrachet-premier-cru-clos-saint-jean-rouge",
+    "name": "Domaine Paul Pillot, Chassagne-Montrachet Premier Cru, Clos Saint-Jean Rouge",
+    "producer": "Domaine Paul Pillot",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-paul-pillot-chassagne-montrachet-premier-cru-les-champs-gain",
+    "name": "Domaine Paul Pillot, Chassagne-Montrachet Premier Cru, Les Champs Gain",
+    "producer": "Domaine Paul Pillot",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-paul-pillot-chassagne-montrachet-premier-cru-les-grandes-ruchottes",
+    "name": "Domaine Paul Pillot, Chassagne-Montrachet Premier Cru, Les Grandes Ruchottes",
+    "producer": "Domaine Paul Pillot",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-paul-pillot-chassagne-montrachet-vieilles-vignes-rouge",
+    "name": "Domaine Paul Pillot, Chassagne-Montrachet, Vieilles Vignes Rouge",
+    "producer": "Domaine Paul Pillot",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": "Village - Vieilles Vignes"
+  },
+  {
+    "slug": "domaine-pillot-mercurey-premier-cru-sazenay",
+    "name": "Domaine Pillot, Mercurey Premier Cru, Sazenay",
+    "producer": "Domaine Pillot",
+    "region": "Bourgogne",
+    "appellation": "Mercurey Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-rapet-pere-et-fils-cote-de-beaune-pernand-vergelesses-devant-cloux-blanc",
+    "name": "Domaine Rapet Pere et Fils, Cote de Beaune, Pernand Vergelesses Devant Cloux Blanc",
+    "producer": "Domaine Rapet Père & Fils",
+    "region": "Bourgogne",
+    "appellation": "Côte de Beaune",
+    "color": "Blanc",
+    "grape_variety": "Pinot Noir, Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-rapet-pere-et-fils-pernand-vergelesses-premier-cru-sous-fretille",
+    "name": "Domaine Rapet Pere et Fils, Pernand-Vergelesses Premier Cru, Sous Fretille",
+    "producer": "Domaine Rapet Père & Fils",
+    "region": "Bourgogne",
+    "appellation": "Pernand-Vergelesses Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-rapet-pere-et-fils-pernand-vergelesses-premier-cru-vergelesses",
+    "name": "Domaine Rapet Pere et Fils, Pernand-Vergelesses Premier Cru, Vergelesses",
+    "producer": "Domaine Rapet Père & Fils",
+    "region": "Bourgogne",
+    "appellation": "Pernand-Vergelesses Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-rapet-pere-et-fils-pernand-vergelesses-les-belles-filles",
+    "name": "Domaine Rapet Pere et Fils, Pernand-Vergelesses, Les Belles Filles",
+    "producer": "Domaine Rapet Père & Fils",
+    "region": "Bourgogne",
+    "appellation": "Pernand-Vergelesses",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-robert-chevillon-nuits-saint-georges-premier-cru-aux-chaignots",
+    "name": "Domaine Robert Chevillon, Nuits-Saint-Georges Premier Cru, Aux Chaignots",
+    "producer": "Domaine Robert Chevillon",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-robert-chevillon-nuits-saint-georges-premier-cru-les-perrieres",
+    "name": "Domaine Robert Chevillon, Nuits-Saint-Georges Premier Cru, Les Perrieres",
+    "producer": "Domaine Robert Chevillon",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-robert-chevillon-nuits-saint-georges-premier-cru-les-vaucrains",
+    "name": "Domaine Robert Chevillon, Nuits-Saint-Georges Premier Cru, Les Vaucrains",
+    "producer": "Domaine Robert Chevillon",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-robert-chevillon-nuits-saint-georges-vieilles-vignes",
+    "name": "Domaine Robert Chevillon, Nuits-Saint-Georges, Vieilles Vignes",
+    "producer": "Domaine Robert Chevillon",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Village"
+  },
+  {
+    "slug": "domaine-rossignol-trapet-chapelle-chambertin-grand-cru",
+    "name": "Domaine Rossignol-Trapet, Chapelle-Chambertin Grand Cru",
+    "producer": "Domaine Rossignol-Trapet",
+    "region": "Bourgogne",
+    "appellation": "Chapelle-Chambertin Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "domaine-rossignol-trapet-gevrey-chambertin-vieilles-vignes",
+    "name": "Domaine Rossignol-Trapet, Gevrey-Chambertin, Vieilles Vignes",
+    "producer": "Domaine Rossignol-Trapet",
+    "region": "Bourgogne",
+    "appellation": "Gevrey-Chambertin",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Village"
+  },
+  {
+    "slug": "domaine-rostaing-cote-rotie-cote-brune",
+    "name": "Domaine Rostaing, Cote Rotie, Cote Brune",
+    "producer": "Domaine Rostaing",
+    "region": "Rhône Nord",
+    "appellation": "Côte-Rôtie AOC",
+    "color": "Rouge",
+    "grape_variety": "100% Syrah",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-simon-colin-maranges-premier-cru-la-fussiere",
+    "name": "Domaine Simon Colin, Maranges Premier Cru, La Fussiere",
+    "producer": "Simon Colin",
+    "region": "Bourgogne",
+    "appellation": "Maranges",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "domaine-taupenot-merme-saint-romain-blanc",
+    "name": "Domaine Taupenot-Merme, Saint-Romain, Blanc",
+    "producer": "Domaine Taupenot-Merme",
+    "region": "Bourgogne",
+    "appellation": "Saint-Romain",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-trapet-pere-et-fils-latricieres-chambertin-grand-cru",
+    "name": "Domaine Trapet Pere et Fils, Latricieres-Chambertin Grand Cru",
+    "producer": "Domaine Trapet Père & Fils",
+    "region": "Bourgogne",
+    "appellation": "Latricières-Chambertin Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "domaine-vacheron-sancerre-les-romains",
+    "name": "Domaine Vacheron, Sancerre, Les Romains",
+    "producer": "Domaine Vacheron",
+    "region": "Vallée de la Loire",
+    "appellation": "Sancerre AOC",
+    "color": "Blanc",
+    "grape_variety": "100% Sauvignon Blanc",
+    "classification": ""
+  },
+  {
+    "slug": "edmond-vatan-sancerre-clos-neore",
+    "name": "Edmond Vatan, Sancerre, Clos Neore",
+    "producer": "Edmond Vatan",
+    "region": "Vallée de la Loire",
+    "appellation": "Sancerre AOC",
+    "color": "Blanc",
+    "grape_variety": "100% Sauvignon Blanc",
+    "classification": ""
+  },
+  {
+    "slug": "egly-ouriet-brut-millesime-grand-cru",
+    "name": "Egly-Ouriet, Brut Millesime Grand Cru",
+    "producer": "Egly-Ouriet",
+    "region": "Champagne",
+    "appellation": "Champagne Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "Pinot Noir 70%, Chardonnay 30%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "emmanuel-rouget-savigny-les-beaune-premier-cru-les-lavieres",
+    "name": "Emmanuel Rouget, Savigny-les-Beaune Premier Cru, Les Lavieres",
+    "producer": "Domaine Emmanuel Rouget",
+    "region": "Bourgogne",
+    "appellation": "Savigny-lès-Beaune Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir, Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "emmanuel-rouget-savigny-les-beaune-rouge",
+    "name": "Emmanuel Rouget, Savigny-les-Beaune, Rouge",
+    "producer": "Domaine Emmanuel Rouget",
+    "region": "Bourgogne",
+    "appellation": "Savigny-lès-Beaune",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir, Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "etienne-sauzet-batard-montrachet-grand-cru",
+    "name": "Etienne Sauzet, Batard-Montrachet Grand Cru",
+    "producer": "Domaine Etienne Sauzet",
+    "region": "Bourgogne",
+    "appellation": "Bâtard-Montrachet Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "etienne-sauzet-chassagne-montrachet-les-encegnieres",
+    "name": "Etienne Sauzet, Chassagne-Montrachet, Les Encegnieres",
+    "producer": "Domaine Etienne Sauzet",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Village"
+  },
+  {
+    "slug": "etienne-sauzet-puligny-montrachet",
+    "name": "Etienne Sauzet, Puligny-Montrachet",
+    "producer": "Domaine Etienne Sauzet",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Village"
+  },
+  {
+    "slug": "etienne-sauzet-puligny-montrachet-premier-cru-champ-canet",
+    "name": "Etienne Sauzet, Puligny-Montrachet Premier Cru, Champ Canet",
+    "producer": "Domaine Etienne Sauzet",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "etienne-sauzet-puligny-montrachet-premier-cru-hameau-de-blagny",
+    "name": "Etienne Sauzet, Puligny-Montrachet Premier Cru, Hameau de Blagny",
+    "producer": "Domaine Etienne Sauzet",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "etienne-sauzet-puligny-montrachet-premier-cru-la-garenne",
+    "name": "Etienne Sauzet, Puligny-Montrachet Premier Cru, La Garenne",
+    "producer": "Domaine Etienne Sauzet",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "etienne-sauzet-puligny-montrachet-premier-cru-les-combettes",
+    "name": "Etienne Sauzet, Puligny-Montrachet Premier Cru, Les Combettes",
+    "producer": "Domaine Etienne Sauzet",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "etienne-sauzet-puligny-montrachet-premier-cru-les-perrieres",
+    "name": "Etienne Sauzet, Puligny-Montrachet Premier Cru, Les Perrieres",
+    "producer": "Domaine Etienne Sauzet",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "etienne-sauzet-puligny-montrachet-premier-cru-sous-le-puits",
+    "name": "Etienne Sauzet, Puligny-Montrachet Premier Cru, Sous le Puits",
+    "producer": "Domaine Etienne Sauzet",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "famille-perrin-chateauneuf-du-pape-les-sinards-rouge",
+    "name": "Famille Perrin, Chateauneuf-du-Pape, Les Sinards Rouge",
+    "producer": "Famille Perrin",
+    "region": "Rhône Sud",
+    "appellation": "Châteauneuf-du-Pape AOC",
+    "color": "Rouge",
+    "grape_variety": "Mostly Grenache",
+    "classification": ""
+  },
+  {
+    "slug": "famille-perrin-gigondas-domaine-du-clos-des-tourelles",
+    "name": "Famille Perrin, Gigondas, Domaine du Clos des Tourelles",
+    "producer": "Famille Perrin",
+    "region": "Rhône Sud",
+    "appellation": "Gigondas AOC",
+    "color": "Rouge",
+    "grape_variety": "Grenache + Syrah + Mourvèdre",
+    "classification": ""
+  },
+  {
+    "slug": "fleur-de-miraval-exclusivement-rose-er2-champagne",
+    "name": "Fleur de Miraval, Exclusivement Rose ER2, Champagne",
+    "producer": "Fleur de Miraval",
+    "region": "Champagne",
+    "appellation": "Champagne",
+    "color": "Rosé",
+    "grape_variety": "75% Chardonnay (multi-millésimes), 25% Pinot Noir rosé",
+    "classification": "Maison (collaboration)"
+  },
+  {
+    "slug": "francis-boulard-petraea",
+    "name": "Francis Boulard, Petraea",
+    "producer": "Champagne Francis Boulard et Fille",
+    "region": "Champagne",
+    "appellation": "Champagne",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay, Pinot Noir, Pinot Meunier",
+    "classification": ""
+  },
+  {
+    "slug": "francois-carillon-chassagne-montrachet",
+    "name": "Francois Carillon, Chassagne-Montrachet",
+    "producer": "François Carillon",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "francois-carillon-chassagne-montrachet-premier-cru-les-macherelles-blanc",
+    "name": "Francois Carillon, Chassagne-Montrachet Premier Cru, Les Macherelles Blanc",
+    "producer": "François Carillon",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "francois-carillon-puligny-montrachet-premier-cru-champ-gain",
+    "name": "Francois Carillon, Puligny-Montrachet Premier Cru, Champ Gain",
+    "producer": "François Carillon",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "francois-carillon-puligny-montrachet-premier-cru-les-combettes",
+    "name": "Francois Carillon, Puligny-Montrachet Premier Cru, Les Combettes",
+    "producer": "François Carillon",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "francois-carillon-puligny-montrachet-premier-cru-les-perrieres",
+    "name": "Francois Carillon, Puligny-Montrachet Premier Cru, Les Perrieres",
+    "producer": "François Carillon",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "francois-carillon-puligny-montrachet-les-enseigneres",
+    "name": "Francois Carillon, Puligny-Montrachet, Les Enseigneres",
+    "producer": "François Carillon",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "francois-carillon-saint-aubin-premier-cru-les-murgers-des-dents-de-chien",
+    "name": "Francois Carillon, Saint-Aubin Premier Cru, Les Murgers des Dents de Chien",
+    "producer": "François Carillon",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "francois-carillon-saint-aubin-blanc",
+    "name": "Francois Carillon, Saint-Aubin, Blanc",
+    "producer": "François Carillon",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "francois-mikulski-meursault-premier-cru-charmes",
+    "name": "Francois Mikulski, Meursault Premier Cru, Charmes",
+    "producer": "Domaine François Mikulski",
+    "region": "Bourgogne",
+    "appellation": "Meursault",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "francois-mikulski-meursault-premier-cru-porusot",
+    "name": "Francois Mikulski, Meursault Premier Cru, Porusot",
+    "producer": "Domaine François Mikulski",
+    "region": "Bourgogne",
+    "appellation": "Meursault",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "francois-mikulski-meursault-les-meix-chavaux",
+    "name": "Francois Mikulski, Meursault, Les Meix Chavaux",
+    "producer": "Domaine François Mikulski",
+    "region": "Bourgogne",
+    "appellation": "Meursault",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "francoise-bedel-comme-autrefois",
+    "name": "Francoise Bedel, Comme Autrefois",
+    "producer": "Françoise Bedel",
+    "region": "Champagne",
+    "appellation": "Champagne",
+    "color": "Blanc",
+    "grape_variety": "85% Pinot Meunier, 10% Chardonnay, 5% Pinot Noir",
+    "classification": "Récoltant-Manipulant"
+  },
+  {
+    "slug": "francoise-bedel-entre-ciel-terre",
+    "name": "Francoise Bedel, Entre Ciel & Terre",
+    "producer": "Françoise Bedel",
+    "region": "Champagne",
+    "appellation": "Champagne",
+    "color": "Blanc",
+    "grape_variety": "80% Pinot Meunier, 15% Pinot Noir, 5% Chardonnay",
+    "classification": "Récoltant-Manipulant"
+  },
+  {
+    "slug": "francoise-bedel-jouvence-champagne",
+    "name": "Francoise Bedel, Jouvence, Champagne",
+    "producer": "Françoise Bedel",
+    "region": "Champagne",
+    "appellation": "Champagne",
+    "color": "Blanc",
+    "grape_variety": "Majoritairement Pinot Meunier",
+    "classification": "Récoltant-Manipulant"
+  },
+  {
+    "slug": "francoise-bedel-l-ame-de-la-terre-millesime",
+    "name": "Francoise Bedel, L'Ame de la Terre Millesime",
+    "producer": "Françoise Bedel",
+    "region": "Champagne",
+    "appellation": "Champagne",
+    "color": "Blanc",
+    "grape_variety": "100% Pinot Meunier",
+    "classification": "Récoltant-Manipulant"
+  },
+  {
+    "slug": "francoise-bedel-origin-elle",
+    "name": "Francoise Bedel, Origin'elle",
+    "producer": "Françoise Bedel",
+    "region": "Champagne",
+    "appellation": "Champagne",
+    "color": "Blanc",
+    "grape_variety": "90% Pinot Meunier, 5% Chardonnay, 5% Pinot Noir",
+    "classification": "Récoltant-Manipulant"
+  },
+  {
+    "slug": "gangloff-condrieu",
+    "name": "Gangloff, Condrieu",
+    "producer": "Mathilde et Yves Gangloff",
+    "region": "Rhône Nord",
+    "appellation": "Condrieu",
+    "color": "Blanc",
+    "grape_variety": "Viognier 100%",
+    "classification": "AOC Condrieu"
+  },
+  {
+    "slug": "gangloff-cote-rotie-barbarine",
+    "name": "Gangloff, Cote Rotie, Barbarine",
+    "producer": "Mathilde et Yves Gangloff",
+    "region": "Rhône Nord",
+    "appellation": "Côte-Rôtie",
+    "color": "Rouge",
+    "grape_variety": "Syrah, Viognier",
+    "classification": "AOC Côte-Rôtie"
+  },
+  {
+    "slug": "gangloff-cote-rotie-sereine-noire",
+    "name": "Gangloff, Cote Rotie, Sereine Noire",
+    "producer": "Mathilde et Yves Gangloff",
+    "region": "Rhône Nord",
+    "appellation": "Côte-Rôtie",
+    "color": "Rouge",
+    "grape_variety": "Syrah 95%+, Viognier",
+    "classification": "AOC Côte-Rôtie"
+  },
+  {
+    "slug": "geantet-pansiot-gevrey-chambertin-vieilles-vignes",
+    "name": "Geantet-Pansiot, Gevrey-Chambertin, Vieilles Vignes",
+    "producer": "Domaine Geantet-Pansiot",
+    "region": "Bourgogne",
+    "appellation": "Gevrey-Chambertin",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "georges-noellat-beaune-premier-cru-la-mignotte",
+    "name": "Georges Noellat, Beaune Premier Cru, La Mignotte",
+    "producer": "Domaine Georges Noëllat",
+    "region": "Bourgogne",
+    "appellation": "Beaune Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "georges-noellat-gevrey-chambertin-premier-cru-fonteny",
+    "name": "Georges Noellat, Gevrey-Chambertin Premier Cru, Fonteny",
+    "producer": "Domaine Georges Noëllat",
+    "region": "Bourgogne",
+    "appellation": "Gevrey-Chambertin Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "georges-noellat-gevrey-chambertin-aux-echezeaux",
+    "name": "Georges Noellat, Gevrey-Chambertin, Aux Echezeaux",
+    "producer": "Domaine Georges Noëllat",
+    "region": "Bourgogne",
+    "appellation": "Gevrey-Chambertin",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "georges-noellat-grands-echezeaux-grand-cru",
+    "name": "Georges Noellat, Grands Echezeaux Grand Cru",
+    "producer": "Domaine Georges Noëllat",
+    "region": "Bourgogne",
+    "appellation": "Grands Échézeaux Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "georges-noellat-nuits-saint-georges",
+    "name": "Georges Noellat, Nuits-Saint-Georges",
+    "producer": "Domaine Georges Noëllat",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "georges-noellat-vosne-romanee-premier-cru-les-chaumes",
+    "name": "Georges Noellat, Vosne-Romanee Premier Cru, Les Chaumes",
+    "producer": "Domaine Georges Noëllat",
+    "region": "Bourgogne",
+    "appellation": "Vosne-Romanée Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "gerard-mugneret-nuits-saint-georges-premier-cru-aux-cras",
+    "name": "Gerard Mugneret, Nuits-Saint-Georges Premier Cru, Aux Cras",
+    "producer": "Domaine Gérard Mugneret",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "harmand-geoffroy-gevrey-chambertin-premier-cru-bossiere",
+    "name": "Harmand-Geoffroy, Gevrey-Chambertin Premier Cru, Bossiere",
+    "producer": "Domaine Harmand-Geoffroy",
+    "region": "Bourgogne",
+    "appellation": "Gevrey-Chambertin Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "harmand-geoffroy-gevrey-chambertin-premier-cru-lavaut-saint-jacques",
+    "name": "Harmand-Geoffroy, Gevrey-Chambertin Premier Cru, Lavaut Saint-Jacques",
+    "producer": "Domaine Harmand-Geoffroy",
+    "region": "Bourgogne",
+    "appellation": "Gevrey-Chambertin Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "harmand-geoffroy-gevrey-chambertin-jouise",
+    "name": "Harmand-Geoffroy, Gevrey-Chambertin, Jouise",
+    "producer": "Domaine Harmand-Geoffroy",
+    "region": "Bourgogne",
+    "appellation": "Gevrey-Chambertin",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "henri-boillot-bourgogne-blanc",
+    "name": "Henri Boillot, Bourgogne, Blanc",
+    "producer": "Henri Boillot",
+    "region": "Bourgogne",
+    "appellation": "Bourgogne",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Regional"
+  },
+  {
+    "slug": "henri-boillot-clos-de-vougeot-grand-cru",
+    "name": "Henri Boillot, Clos de Vougeot Grand Cru",
+    "producer": "Henri Boillot",
+    "region": "Bourgogne",
+    "appellation": "Clos de Vougeot Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "henri-boillot-corton-charlemagne-grand-cru",
+    "name": "Henri Boillot, Corton-Charlemagne Grand Cru",
+    "producer": "Henri Boillot",
+    "region": "Bourgogne",
+    "appellation": "Corton-Charlemagne Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "henri-germain-beaune-premier-cru-les-bressandes-rouge",
+    "name": "Henri Germain, Beaune Premier Cru, Les Bressandes Rouge",
+    "producer": "Henri Germain et Fils",
+    "region": "Bourgogne",
+    "appellation": "Beaune",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "henri-germain-bourgogne-aligote",
+    "name": "Henri Germain, Bourgogne Aligote",
+    "producer": "Henri Germain et Fils",
+    "region": "Bourgogne",
+    "appellation": "Bourgogne",
+    "color": "Blanc",
+    "grape_variety": "Aligoté",
+    "classification": "Village"
+  },
+  {
+    "slug": "henri-germain-bourgogne-cote-d-or-blanc",
+    "name": "Henri Germain, Bourgogne, Cote d'Or Blanc",
+    "producer": "Henri Germain et Fils",
+    "region": "Bourgogne",
+    "appellation": "Bourgogne",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "henri-germain-meursault-premier-cru-charmes",
+    "name": "Henri Germain, Meursault Premier Cru, Charmes",
+    "producer": "Henri Germain et Fils",
+    "region": "Bourgogne",
+    "appellation": "Meursault",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "henri-germain-meursault-premier-cru-porusot",
+    "name": "Henri Germain, Meursault Premier Cru, Porusot",
+    "producer": "Henri Germain et Fils",
+    "region": "Bourgogne",
+    "appellation": "Meursault",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "henri-germain-meursault-blanc",
+    "name": "Henri Germain, Meursault, Blanc",
+    "producer": "Henri Germain et Fils",
+    "region": "Bourgogne",
+    "appellation": "Meursault",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "henri-germain-meursault-le-limozin",
+    "name": "Henri Germain, Meursault, Le Limozin",
+    "producer": "Henri Germain et Fils",
+    "region": "Bourgogne",
+    "appellation": "Meursault",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "henri-germain-meursault-les-chevalieres",
+    "name": "Henri Germain, Meursault, Les Chevalieres",
+    "producer": "Henri Germain et Fils",
+    "region": "Bourgogne",
+    "appellation": "Meursault",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "hubert-lamy-puligny-montrachet-les-tremblots-vieilles-vignes",
+    "name": "Hubert Lamy, Puligny-Montrachet, Les Tremblots Vieilles Vignes",
+    "producer": "Domaine Hubert Lamy",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village - Vieilles Vignes"
+  },
+  {
+    "slug": "hubert-lamy-saint-aubin-premier-cru-clos-de-la-chateniere-blanc",
+    "name": "Hubert Lamy, Saint-Aubin Premier Cru, Clos de la Chateniere Blanc",
+    "producer": "Domaine Hubert Lamy",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "hubert-lamy-saint-aubin-premier-cru-en-remilly-blanc",
+    "name": "Hubert Lamy, Saint-Aubin Premier Cru, En Remilly Blanc",
+    "producer": "Domaine Hubert Lamy",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "hubert-lamy-saint-aubin-premier-cru-les-frionnes-blanc",
+    "name": "Hubert Lamy, Saint-Aubin Premier Cru, Les Frionnes Blanc",
+    "producer": "Domaine Hubert Lamy",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "hubert-lignier-charmes-chambertin-grand-cru",
+    "name": "Hubert Lignier, Charmes-Chambertin Grand Cru",
+    "producer": "Domaine Hubert Lignier",
+    "region": "Bourgogne",
+    "appellation": "Charmes-Chambertin Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "hubert-lignier-morey-saint-denis-premier-cru-la-riotte",
+    "name": "Hubert Lignier, Morey-Saint-Denis Premier Cru, La Riotte",
+    "producer": "Domaine Hubert Lignier",
+    "region": "Bourgogne",
+    "appellation": "Morey-Saint-Denis",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "hubert-lignier-morey-saint-denis-premier-cru-vieilles-vignes",
+    "name": "Hubert Lignier, Morey-Saint-Denis Premier Cru, Vieilles Vignes",
+    "producer": "Domaine Hubert Lignier",
+    "region": "Bourgogne",
+    "appellation": "Morey-Saint-Denis",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "jacques-frederic-mugnier-chambolle-musigny-premier-cru-les-amoureuses",
+    "name": "Jacques-Frederic Mugnier, Chambolle-Musigny Premier Cru, Les Amoureuses",
+    "producer": "Domaine Jacques-Frédéric Mugnier",
+    "region": "Bourgogne",
+    "appellation": "Chambolle-Musigny Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "jacques-frederic-mugnier-chambolle-musigny-premier-cru-les-fuees",
+    "name": "Jacques-Frederic Mugnier, Chambolle-Musigny Premier Cru, Les Fuees",
+    "producer": "Domaine Jacques-Frédéric Mugnier",
+    "region": "Bourgogne",
+    "appellation": "Chambolle-Musigny Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "jacques-frederic-mugnier-musigny-grand-cru",
+    "name": "Jacques-Frederic Mugnier, Musigny Grand Cru",
+    "producer": "Domaine Jacques-Frédéric Mugnier",
+    "region": "Bourgogne",
+    "appellation": "Musigny Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "jacques-frederic-mugnier-nuits-saint-georges-premier-cru-clos-de-la-marechale-bl",
+    "name": "Jacques-Frederic Mugnier, Nuits-Saint-Georges Premier Cru, Clos de la Marechale Blanc",
+    "producer": "Domaine Jacques-Frédéric Mugnier",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Premier Cru Monopole"
+  },
+  {
+    "slug": "jacques-frederic-mugnier-nuits-saint-georges-premier-cru-clos-de-la-marechale-ro",
+    "name": "Jacques-Frederic Mugnier, Nuits-Saint-Georges Premier Cru, Clos de la Marechale Rouge",
+    "producer": "Domaine Jacques-Frédéric Mugnier",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru Monopole"
+  },
+  {
+    "slug": "jean-foillard-morgon-corcelette-cuvee-corcelette",
+    "name": "Jean Foillard, Morgon, Corcelette Cuvee Corcelette",
+    "producer": "Domaine Jean Foillard",
+    "region": "Beaujolais",
+    "appellation": "Morgon",
+    "color": "Rouge",
+    "grape_variety": "Gamay",
+    "classification": ""
+  },
+  {
+    "slug": "jean-claude-bachelet-bourgogne-chardonnay",
+    "name": "Jean-Claude Bachelet, Bourgogne, Chardonnay",
+    "producer": "Jean-Claude Bachelet et Fils",
+    "region": "Bourgogne",
+    "appellation": "Bourgogne",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "jean-claude-bachelet-chassagne-montrachet-premier-cru-la-boudriotte-rouge",
+    "name": "Jean-Claude Bachelet, Chassagne-Montrachet Premier Cru, La Boudriotte Rouge",
+    "producer": "Jean-Claude Bachelet et Fils",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "jean-claude-bachelet-chassagne-montrachet-premier-cru-les-macherelles-blanc",
+    "name": "Jean-Claude Bachelet, Chassagne-Montrachet Premier Cru, Les Macherelles Blanc",
+    "producer": "Jean-Claude Bachelet et Fils",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "jean-claude-bachelet-chassagne-montrachet-les-encegnieres",
+    "name": "Jean-Claude Bachelet, Chassagne-Montrachet, Les Encegnieres",
+    "producer": "Jean-Claude Bachelet et Fils",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "jean-claude-bachelet-puligny-montrachet-premier-cru-sous-le-puits",
+    "name": "Jean-Claude Bachelet, Puligny-Montrachet Premier Cru, Sous le Puits",
+    "producer": "Jean-Claude Bachelet et Fils",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "jean-claude-bachelet-puligny-montrachet-les-aubues",
+    "name": "Jean-Claude Bachelet, Puligny-Montrachet, Les Aubues",
+    "producer": "Jean-Claude Bachelet et Fils",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "jean-claude-bachelet-saint-aubin-premier-cru-en-remilly-blanc",
+    "name": "Jean-Claude Bachelet, Saint-Aubin Premier Cru, En Remilly Blanc",
+    "producer": "Jean-Claude Bachelet et Fils",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "jean-claude-bachelet-saint-aubin-premier-cru-le-charmois-blanc",
+    "name": "Jean-Claude Bachelet, Saint-Aubin Premier Cru, Le Charmois Blanc",
+    "producer": "Jean-Claude Bachelet et Fils",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "jean-claude-bachelet-saint-aubin-premier-cru-les-champlots",
+    "name": "Jean-Claude Bachelet, Saint-Aubin Premier Cru, Les Champlots",
+    "producer": "Jean-Claude Bachelet et Fils",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "jean-claude-bachelet-saint-aubin-premier-cru-les-combes-au-sud",
+    "name": "Jean-Claude Bachelet, Saint-Aubin Premier Cru, Les Combes au Sud",
+    "producer": "Jean-Claude Bachelet et Fils",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "jean-claude-bachelet-saint-aubin-premier-cru-les-frionnes",
+    "name": "Jean-Claude Bachelet, Saint-Aubin Premier Cru, Les Frionnes",
+    "producer": "Jean-Claude Bachelet et Fils",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "jean-claude-bachelet-saint-aubin-premier-cru-les-murgers-des-dents-de-chien",
+    "name": "Jean-Claude Bachelet, Saint-Aubin Premier Cru, Les Murgers des Dents de Chien",
+    "producer": "Jean-Claude Bachelet et Fils",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "jean-claude-ramonet-batard-montrachet-grand-cru",
+    "name": "Jean-Claude Ramonet, Batard-Montrachet Grand Cru",
+    "producer": "Domaine Jean-Claude Ramonet",
+    "region": "Bourgogne",
+    "appellation": "Bâtard-Montrachet Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "jean-claude-ramonet-bienvenues-batard-montrachet-grand-cru",
+    "name": "Jean-Claude Ramonet, Bienvenues-Batard-Montrachet Grand Cru",
+    "producer": "Domaine Jean-Claude Ramonet",
+    "region": "Bourgogne",
+    "appellation": "Bienvenues-Bâtard-Montrachet Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "jean-claude-ramonet-bourgogne-pinot-noir",
+    "name": "Jean-Claude Ramonet, Bourgogne, Pinot Noir",
+    "producer": "Domaine Jean-Claude Ramonet",
+    "region": "Bourgogne",
+    "appellation": "Bourgogne",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Regional"
+  },
+  {
+    "slug": "jean-claude-ramonet-chassagne-montrachet-premier-cru-clos-de-la-boudriotte-rouge",
+    "name": "Jean-Claude Ramonet, Chassagne-Montrachet Premier Cru, Clos de la Boudriotte Rouge",
+    "producer": "Domaine Ramonet",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "jean-claude-ramonet-chassagne-montrachet-premier-cru-clos-du-cailleret",
+    "name": "Jean-Claude Ramonet, Chassagne-Montrachet Premier Cru, Clos du Cailleret",
+    "producer": "Domaine Jean-Claude Ramonet",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "jean-claude-ramonet-chassagne-montrachet-premier-cru-la-boudriotte-blanc",
+    "name": "Jean-Claude Ramonet, Chassagne-Montrachet Premier Cru, La Boudriotte Blanc",
+    "producer": "Domaine Jean-Claude Ramonet",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "jean-claude-ramonet-chassagne-montrachet-premier-cru-la-boudriotte-rouge",
+    "name": "Jean-Claude Ramonet, Chassagne-Montrachet Premier Cru, La Boudriotte Rouge",
+    "producer": "Domaine Jean-Claude Ramonet",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "jean-claude-ramonet-chassagne-montrachet-premier-cru-les-caillerets",
+    "name": "Jean-Claude Ramonet, Chassagne-Montrachet Premier Cru, Les Caillerets",
+    "producer": "Domaine Jean-Claude Ramonet",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "jean-claude-ramonet-chassagne-montrachet-premier-cru-les-ruchottes",
+    "name": "Jean-Claude Ramonet, Chassagne-Montrachet Premier Cru, Les Ruchottes",
+    "producer": "Domaine Jean-Claude Ramonet",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "jean-claude-ramonet-chassagne-montrachet-blanc",
+    "name": "Jean-Claude Ramonet, Chassagne-Montrachet, Blanc",
+    "producer": "Domaine Jean-Claude Ramonet",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Village"
+  },
+  {
+    "slug": "jean-claude-ramonet-chassagne-montrachet-rouge",
+    "name": "Jean-Claude Ramonet, Chassagne-Montrachet, Rouge",
+    "producer": "Domaine Jean-Claude Ramonet",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Village"
+  },
+  {
+    "slug": "jean-claude-ramonet-pernand-vergelesses-les-belles-filles-blanc",
+    "name": "Jean-Claude Ramonet, Pernand-Vergelesses, Les Belles Filles Blanc",
+    "producer": "Domaine Ramonet",
+    "region": "Bourgogne",
+    "appellation": "Pernand-Vergelesses",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "jean-claude-ramonet-saint-aubin-premier-cru-en-remilly-blanc",
+    "name": "Jean-Claude Ramonet, Saint-Aubin Premier Cru, En Remilly Blanc",
+    "producer": "Domaine Ramonet",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "jean-claude-ramonet-saint-aubin-premier-cru-les-murgers-des-dents-de-chien",
+    "name": "Jean-Claude Ramonet, Saint-Aubin Premier Cru, Les Murgers des Dents de Chien",
+    "producer": "Domaine Ramonet",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "jean-francois-ganevat-la-combe-rotalier-nature-non-dose-cremant-du-jura",
+    "name": "Jean-Francois Ganevat, La Combe Rotalier Nature Non Dose, Cremant du Jura",
+    "producer": "Jean-François Ganevat",
+    "region": "Jura",
+    "appellation": "Crémant du Jura",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "AOC Crémant du Jura"
+  },
+  {
+    "slug": "jean-francois-ganevat-les-chalasses-vieilles-vignes-rouge-cotes-du-jura",
+    "name": "Jean-Francois Ganevat, Les Chalasses Vieilles Vignes Rouge, Cotes du Jura",
+    "producer": "Jean-François Ganevat",
+    "region": "Jura",
+    "appellation": "Côtes du Jura",
+    "color": "Rouge",
+    "grape_variety": "Poulsard, Trousseau, Pinot Noir",
+    "classification": "AOC Côtes du Jura"
+  },
+  {
+    "slug": "jean-francois-ganevat-vin-jaune-cotes-du-jura",
+    "name": "Jean-Francois Ganevat, Vin Jaune, Cotes du Jura",
+    "producer": "Jean-François Ganevat",
+    "region": "Jura",
+    "appellation": "Côtes du Jura",
+    "color": "Blanc",
+    "grape_variety": "Savagnin 100%",
+    "classification": "AOC Côtes du Jura"
+  },
+  {
+    "slug": "jean-marc-roulot-auxey-duresses-blanc",
+    "name": "Jean-Marc Roulot, Auxey-Duresses, Blanc",
+    "producer": "Domaine Roulot",
+    "region": "Bourgogne",
+    "appellation": "Auxey-Duresses",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "jean-marc-roulot-bourgogne-blanc",
+    "name": "Jean-Marc Roulot, Bourgogne, Blanc",
+    "producer": "Domaine Roulot",
+    "region": "Bourgogne",
+    "appellation": "Bourgogne",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "jean-marc-roulot-bourgogne-blanc",
+    "name": "Jean-Marc Roulot, Bourgogne, Blanc",
+    "producer": "Domaine Roulot",
+    "region": "Bourgogne",
+    "appellation": "Bourgogne",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "jean-marc-roulot-meursault-blanc",
+    "name": "Jean-Marc Roulot, Meursault, Blanc",
+    "producer": "Domaine Roulot",
+    "region": "Bourgogne",
+    "appellation": "Meursault",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "jean-michel-gerin-cote-rotie-la-landonne",
+    "name": "Jean-Michel Gerin, Cote Rotie, La Landonne",
+    "producer": "Domaine Jean-Michel Gérin",
+    "region": "Rhône Nord",
+    "appellation": "Côte-Rôtie",
+    "color": "Rouge",
+    "grape_variety": "Syrah, Viognier",
+    "classification": ""
+  },
+  {
+    "slug": "jean-michel-gerin-cote-rotie-la-vialliere",
+    "name": "Jean-Michel Gerin, Cote Rotie, La Vialliere",
+    "producer": "Domaine Jean-Michel Gérin",
+    "region": "Rhône Nord",
+    "appellation": "Côte-Rôtie",
+    "color": "Rouge",
+    "grape_variety": "Syrah, Viognier",
+    "classification": ""
+  },
+  {
+    "slug": "jean-paul-benoit-droin-chablis-grand-cru-grenouilles",
+    "name": "Jean-Paul & Benoit Droin, Chablis Grand Cru, Grenouilles",
+    "producer": "Domaine Jean-Paul & Benoît Droin",
+    "region": "Bourgogne",
+    "appellation": "Chablis Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "jean-paul-benoit-droin-chablis-grand-cru-hommage-a-louis",
+    "name": "Jean-Paul & Benoit Droin, Chablis Grand Cru, Hommage a Louis",
+    "producer": "Domaine Jean-Paul & Benoît Droin",
+    "region": "Bourgogne",
+    "appellation": "Chablis Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "jean-paul-benoit-droin-chablis-grand-cru-valmur",
+    "name": "Jean-Paul & Benoit Droin, Chablis Grand Cru, Valmur",
+    "producer": "Domaine Jean-Paul & Benoît Droin",
+    "region": "Bourgogne",
+    "appellation": "Chablis Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "jean-paul-benoit-droin-chablis-grand-cru-vaudesir",
+    "name": "Jean-Paul & Benoit Droin, Chablis Grand Cru, Vaudesir",
+    "producer": "Domaine Jean-Paul & Benoît Droin",
+    "region": "Bourgogne",
+    "appellation": "Chablis Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "jean-paul-benoit-droin-chablis-premier-cru-montee-de-tonnerre",
+    "name": "Jean-Paul & Benoit Droin, Chablis Premier Cru, Montee de Tonnerre",
+    "producer": "Domaine Jean-Paul & Benoît Droin",
+    "region": "Bourgogne",
+    "appellation": "Chablis Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "jean-paul-benoit-droin-chablis-premier-cru-montmains",
+    "name": "Jean-Paul & Benoit Droin, Chablis Premier Cru, Montmains",
+    "producer": "Domaine Jean-Paul & Benoît Droin",
+    "region": "Bourgogne",
+    "appellation": "Chablis Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "jean-paul-benoit-droin-chablis-premier-cru-vaillons",
+    "name": "Jean-Paul & Benoit Droin, Chablis Premier Cru, Vaillons",
+    "producer": "Domaine Jean-Paul & Benoît Droin",
+    "region": "Bourgogne",
+    "appellation": "Chablis Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "jean-paul-benoit-droin-chablis-premier-cru-vosgros",
+    "name": "Jean-Paul & Benoit Droin, Chablis Premier Cru, Vosgros",
+    "producer": "Domaine Jean-Paul & Benoît Droin",
+    "region": "Bourgogne",
+    "appellation": "Chablis Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "joseph-colin-chassagne-montrachet-premier-cru-cailleret",
+    "name": "Joseph Colin, Chassagne-Montrachet Premier Cru, Cailleret",
+    "producer": "Joseph Colin",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "joseph-colin-chassagne-montrachet-premier-cru-les-chenevottes",
+    "name": "Joseph Colin, Chassagne-Montrachet Premier Cru, Les Chenevottes",
+    "producer": "Joseph Colin",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "joseph-colin-chassagne-montrachet-premier-cru-vide-bourse",
+    "name": "Joseph Colin, Chassagne-Montrachet Premier Cru, Vide Bourse",
+    "producer": "Joseph Colin",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "joseph-colin-puligny-montrachet-le-trezin",
+    "name": "Joseph Colin, Puligny-Montrachet, Le Trezin",
+    "producer": "Joseph Colin",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "joseph-colin-saint-aubin-premier-cru-clos-du-meix",
+    "name": "Joseph Colin, Saint-Aubin Premier Cru, Clos du Meix",
+    "producer": "Joseph Colin",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "joseph-colin-saint-aubin-premier-cru-la-chateniere",
+    "name": "Joseph Colin, Saint-Aubin Premier Cru, La Chateniere",
+    "producer": "Joseph Colin",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "joseph-colin-saint-aubin-premier-cru-les-champlots-blanc",
+    "name": "Joseph Colin, Saint-Aubin Premier Cru, Les Champlots Blanc",
+    "producer": "Joseph Colin",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "joseph-colin-saint-aubin-premier-cru-les-combes",
+    "name": "Joseph Colin, Saint-Aubin Premier Cru, Les Combes",
+    "producer": "Joseph Colin",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "joseph-colin-saint-aubin-premier-cru-sur-le-sentier-du-clou",
+    "name": "Joseph Colin, Saint-Aubin Premier Cru, Sur le Sentier du Clou",
+    "producer": "Joseph Colin",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "joseph-drouhin-clos-de-vougeot-grand-cru",
+    "name": "Joseph Drouhin, Clos de Vougeot Grand Cru",
+    "producer": "Maison Joseph Drouhin",
+    "region": "Bourgogne",
+    "appellation": "Clos de Vougeot Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "jules-desjourneys-beaujolais-villages-blanc",
+    "name": "Jules Desjourneys, Beaujolais-Villages, Blanc",
+    "producer": "Jules Desjourneys (Fabien Duperray)",
+    "region": "Beaujolais",
+    "appellation": "Beaujolais-Villages",
+    "color": "Blanc",
+    "grape_variety": "Gamay, Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "jules-desjourneys-chenas-jugement-dernier",
+    "name": "Jules Desjourneys, Chenas, Jugement Dernier",
+    "producer": "Jules Desjourneys (Fabien Duperray)",
+    "region": "Beaujolais",
+    "appellation": "Chénas",
+    "color": "Blanc",
+    "grape_variety": "Gamay, Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "jules-desjourneys-macon-prisse-en-chailloux",
+    "name": "Jules Desjourneys, Macon, Prisse En Chailloux",
+    "producer": "Jules Desjourneys (Fabien Duperray)",
+    "region": "Mâconnais",
+    "appellation": "Mâcon-Prissé",
+    "color": "Blanc",
+    "grape_variety": "Gamay, Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "jules-desjourneys-macon-verze",
+    "name": "Jules Desjourneys, Macon, Verze",
+    "producer": "Jules Desjourneys (Fabien Duperray)",
+    "region": "Mâconnais",
+    "appellation": "Mâcon-Verzé",
+    "color": "Blanc",
+    "grape_variety": "Gamay, Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "jules-desjourneys-morgon",
+    "name": "Jules Desjourneys, Morgon",
+    "producer": "Jules Desjourneys (Fabien Duperray)",
+    "region": "Beaujolais",
+    "appellation": "Morgon",
+    "color": "Blanc",
+    "grape_variety": "Gamay, Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "jules-desjourneys-moulin-a-vent",
+    "name": "Jules Desjourneys, Moulin-a-Vent",
+    "producer": "Jules Desjourneys (Fabien Duperray)",
+    "region": "Beaujolais",
+    "appellation": "Moulin-à-Vent",
+    "color": "Blanc",
+    "grape_variety": "Gamay, Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "jules-desjourneys-pouilly-fuisse",
+    "name": "Jules Desjourneys, Pouilly-Fuisse",
+    "producer": "Jules Desjourneys (Fabien Duperray)",
+    "region": "Mâconnais",
+    "appellation": "Pouilly-Fuissé",
+    "color": "Blanc",
+    "grape_variety": "Gamay, Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "jules-desjourneys-pouilly-fuisse-les-vignes-blanches",
+    "name": "Jules Desjourneys, Pouilly-Fuisse, Les Vignes Blanches",
+    "producer": "Jules Desjourneys (Fabien Duperray)",
+    "region": "Mâconnais",
+    "appellation": "Pouilly-Fuissé",
+    "color": "Blanc",
+    "grape_variety": "Gamay, Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "jules-desjourneys-pouilly-loche",
+    "name": "Jules Desjourneys, Pouilly-Loche",
+    "producer": "Jules Desjourneys (Fabien Duperray)",
+    "region": "Mâconnais",
+    "appellation": "Pouilly-Loché",
+    "color": "Blanc",
+    "grape_variety": "Gamay, Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "jules-desjourneys-pouilly-vinzelles-les-longeays",
+    "name": "Jules Desjourneys, Pouilly-Vinzelles, Les Longeays",
+    "producer": "Jules Desjourneys (Fabien Duperray)",
+    "region": "Mâconnais",
+    "appellation": "Pouilly-Vinzelles",
+    "color": "Blanc",
+    "grape_variety": "Gamay, Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "la-rogerie-lieux-de-vie-blanc-de-blancs-grand-cru-avize",
+    "name": "La Rogerie, Lieux de Vie Blanc de Blancs Grand Cru, Avize",
+    "producer": "La Rogerie",
+    "region": "Champagne",
+    "appellation": "Champagne Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "100% Chardonnay",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "leflaive-associes-bourgogne-blanc",
+    "name": "Leflaive & Associes, Bourgogne, Blanc",
+    "producer": "Leflaive et Associés",
+    "region": "Bourgogne",
+    "appellation": "Bourgogne",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "les-horees-bourgogne-aligote-en-coulezain",
+    "name": "Les Horees, Bourgogne Aligote, En Coulezain",
+    "producer": "Les Horées",
+    "region": "Bourgogne",
+    "appellation": "Bourgogne Aligoté",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "les-horees-cote-de-beaune-les-monsnieres",
+    "name": "Les Horees, Cote de Beaune, Les Monsnieres",
+    "producer": "Les Horées",
+    "region": "Bourgogne",
+    "appellation": "Côte de Beaune",
+    "color": "Blanc",
+    "grape_variety": "Pinot Noir, Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "les-horees-coteaux-bourguignons-mon-poulain",
+    "name": "Les Horees, Coteaux Bourguignons, Mon Poulain",
+    "producer": "Les Horées",
+    "region": "Bourgogne",
+    "appellation": "Coteaux Bourguignons",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "les-horees-pernand-vergelesses-premier-cru-les-fichots",
+    "name": "Les Horees, Pernand-Vergelesses Premier Cru, Les Fichots",
+    "producer": "Les Horées",
+    "region": "Bourgogne",
+    "appellation": "Pernand-Vergelesses Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "lignier-michelot-chambolle-musigny-premier-cru-jules",
+    "name": "Lignier-Michelot, Chambolle-Musigny Premier Cru, Jules",
+    "producer": "Domaine Lignier-Michelot",
+    "region": "Bourgogne",
+    "appellation": "Chambolle-Musigny Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "lignier-michelot-chambolle-musigny-vieilles-vignes",
+    "name": "Lignier-Michelot, Chambolle-Musigny, Vieilles Vignes",
+    "producer": "Domaine Lignier-Michelot",
+    "region": "Bourgogne",
+    "appellation": "Chambolle-Musigny",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Village"
+  },
+  {
+    "slug": "lignier-michelot-clos-de-la-roche-grand-cru",
+    "name": "Lignier-Michelot, Clos de la Roche Grand Cru",
+    "producer": "Domaine Lignier-Michelot",
+    "region": "Bourgogne",
+    "appellation": "Clos de la Roche Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "lignier-michelot-fixin-premier-cru-arvelets",
+    "name": "Lignier-Michelot, Fixin Premier Cru, Arvelets",
+    "producer": "Domaine Lignier-Michelot",
+    "region": "Bourgogne",
+    "appellation": "Fixin Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "lignier-michelot-morey-saint-denis-premier-cru-aux-charmes",
+    "name": "Lignier-Michelot, Morey-Saint-Denis Premier Cru, Aux Charmes",
+    "producer": "Domaine Lignier-Michelot",
+    "region": "Bourgogne",
+    "appellation": "Morey-Saint-Denis Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "lignier-michelot-morey-saint-denis-premier-cru-les-faconnieres",
+    "name": "Lignier-Michelot, Morey-Saint-Denis Premier Cru, Les Faconnieres",
+    "producer": "Domaine Lignier-Michelot",
+    "region": "Bourgogne",
+    "appellation": "Morey-Saint-Denis Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "louis-michel-chablis-grand-cru-grenouilles",
+    "name": "Louis Michel, Chablis Grand Cru, Grenouilles",
+    "producer": "Domaine Louis Michel & Fils",
+    "region": "Bourgogne",
+    "appellation": "Chablis Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "louis-michel-chablis-grand-cru-vaudesir",
+    "name": "Louis Michel, Chablis Grand Cru, Vaudesir",
+    "producer": "Domaine Louis Michel & Fils",
+    "region": "Bourgogne",
+    "appellation": "Chablis Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "louis-michel-chablis-premier-cru-butteaux-vieilles-vignes",
+    "name": "Louis Michel, Chablis Premier Cru, Butteaux Vieilles Vignes",
+    "producer": "Domaine Louis Michel & Fils",
+    "region": "Bourgogne",
+    "appellation": "Chablis Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "lucien-aviet-fils-arbois-caveau-de-bacchus-cuvee-de-la-confrerie-vin-jaune",
+    "name": "Lucien Aviet & Fils, Arbois, Caveau de Bacchus Cuvee de la Confrerie Vin Jaune",
+    "producer": "Domaine Lucien Aviet & Fils",
+    "region": "Jura",
+    "appellation": "Arbois",
+    "color": "Blanc",
+    "grape_variety": "Savagnin, Chardonnay, Trousseau, Poulsard",
+    "classification": ""
+  },
+  {
+    "slug": "maison-glandien-l-ouverture-rose-vdf",
+    "name": "Maison Glandien, L'Ouverture Rose, VdF",
+    "producer": "Maison Glandien",
+    "region": "France",
+    "appellation": "Vin de France",
+    "color": "Rosé",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "maison-glandien-l-ouverture-rouge-vdf",
+    "name": "Maison Glandien, L'Ouverture Rouge, VdF",
+    "producer": "Maison Glandien",
+    "region": "France",
+    "appellation": "Vin de France",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "maison-glandien-la-cruci-blanc-vdf",
+    "name": "Maison Glandien, La Cruci, Blanc VdF",
+    "producer": "Maison Glandien",
+    "region": "France",
+    "appellation": "Vin de France",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "maison-glandien-la-cruci-vdf",
+    "name": "Maison Glandien, La Cruci, VdF",
+    "producer": "Maison Glandien",
+    "region": "France",
+    "appellation": "Vin de France",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "maison-glandien-les-ecully-vdf",
+    "name": "Maison Glandien, Les Ecully, VdF",
+    "producer": "Maison Glandien",
+    "region": "France",
+    "appellation": "Vin de France",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "marc-colin-et-fils-chassagne-montrachet",
+    "name": "Marc Colin et Fils, Chassagne-Montrachet",
+    "producer": "Domaine Marc Colin et Fils",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "marc-colin-et-fils-chassagne-montrachet-premier-cru-cailleret",
+    "name": "Marc Colin et Fils, Chassagne-Montrachet Premier Cru, Cailleret",
+    "producer": "Domaine Marc Colin et Fils",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "marc-colin-et-fils-puligny-montrachet-le-trezin",
+    "name": "Marc Colin et Fils, Puligny-Montrachet, Le Trezin",
+    "producer": "Domaine Marc Colin et Fils",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "marc-colin-et-fils-saint-aubin-premier-cru-en-montceau",
+    "name": "Marc Colin et Fils, Saint-Aubin Premier Cru, En Montceau",
+    "producer": "Domaine Marc Colin et Fils",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "marc-colin-et-fils-saint-aubin-premier-cru-en-remilly",
+    "name": "Marc Colin et Fils, Saint-Aubin Premier Cru, En Remilly",
+    "producer": "Domaine Marc Colin et Fils",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "maxime-cheurlin-noellat-bonnes-mares-grand-cru",
+    "name": "Maxime Cheurlin Noellat, Bonnes Mares Grand Cru",
+    "producer": "Georges Noëllat (Maxime Cheurlin)",
+    "region": "Bourgogne",
+    "appellation": "Bonnes-Mares Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "maxime-cheurlin-noellat-chambolle-musigny",
+    "name": "Maxime Cheurlin Noellat, Chambolle-Musigny",
+    "producer": "Georges Noëllat (Maxime Cheurlin)",
+    "region": "Bourgogne",
+    "appellation": "Chambolle-Musigny",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "maxime-cheurlin-noellat-clos-de-vougeot-grand-cru",
+    "name": "Maxime Cheurlin Noellat, Clos de Vougeot Grand Cru",
+    "producer": "Georges Noëllat (Maxime Cheurlin)",
+    "region": "Bourgogne",
+    "appellation": "Clos de Vougeot Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "maxime-cheurlin-noellat-gevrey-chambertin-en-champs",
+    "name": "Maxime Cheurlin Noellat, Gevrey-Chambertin, En Champs",
+    "producer": "Georges Noëllat (Maxime Cheurlin)",
+    "region": "Bourgogne",
+    "appellation": "Gevrey-Chambertin",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "maxime-cheurlin-noellat-morey-saint-denis",
+    "name": "Maxime Cheurlin Noellat, Morey-Saint-Denis",
+    "producer": "Georges Noëllat (Maxime Cheurlin)",
+    "region": "Bourgogne",
+    "appellation": "Morey-Saint-Denis",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "maxime-cheurlin-noellat-morey-saint-denis-premier-cru-monts-luisants",
+    "name": "Maxime Cheurlin Noellat, Morey-Saint-Denis Premier Cru, Monts Luisants",
+    "producer": "Georges Noëllat (Maxime Cheurlin)",
+    "region": "Bourgogne",
+    "appellation": "Morey-Saint-Denis",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "maxime-cheurlin-noellat-nuits-saint-georges-premier-cru-les-damodes",
+    "name": "Maxime Cheurlin Noellat, Nuits-Saint-Georges Premier Cru, Les Damodes",
+    "producer": "Georges Noëllat (Maxime Cheurlin)",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "maxime-cheurlin-noellat-nuits-saint-georges-premier-cru-les-vaucrains",
+    "name": "Maxime Cheurlin Noellat, Nuits-Saint-Georges Premier Cru, Les Vaucrains",
+    "producer": "Georges Noëllat (Maxime Cheurlin)",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "meo-camuzet-frere-et-soeurs-fixin",
+    "name": "Meo Camuzet Frere et Soeurs, Fixin",
+    "producer": "Méo-Camuzet Frère & Soeurs (négociant)",
+    "region": "Bourgogne",
+    "appellation": "Fixin",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "meo-camuzet-frere-et-soeurs-nuits-saint-georges-premier-cru",
+    "name": "Meo Camuzet Frere et Soeurs, Nuits-Saint-Georges Premier Cru",
+    "producer": "Méo-Camuzet Frère & Soeurs (négociant)",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "meo-camuzet-frere-et-soeurs-nuits-saint-georges-premier-cru-aux-argillas",
+    "name": "Meo Camuzet Frere et Soeurs, Nuits-Saint-Georges Premier Cru, Aux Argillas",
+    "producer": "Méo-Camuzet Frère & Soeurs (négociant)",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "meo-camuzet-nuits-saint-georges-premier-cru-les-perrieres",
+    "name": "Meo Camuzet, Nuits-Saint-Georges Premier Cru, Les Perrieres",
+    "producer": "Domaine Méo-Camuzet",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "michel-bouzereau-meursault-premier-cru-charmes",
+    "name": "Michel Bouzereau, Meursault Premier Cru, Charmes",
+    "producer": "Domaine Michel Bouzereau et Fils",
+    "region": "Bourgogne",
+    "appellation": "Meursault",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "michel-bouzereau-puligny-montrachet-premier-cru-champ-gain",
+    "name": "Michel Bouzereau, Puligny-Montrachet Premier Cru, Champ Gain",
+    "producer": "Domaine Michel Bouzereau et Fils",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "michele-et-patrice-rion-chambolle-musigny-premier-cru-les-charmes",
+    "name": "Michele et Patrice Rion, Chambolle-Musigny Premier Cru, Les Charmes",
+    "producer": "Domaine Michèle & Patrice Rion",
+    "region": "Bourgogne",
+    "appellation": "Chambolle-Musigny Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "michele-et-patrice-rion-nuits-saint-georges-premier-cru-clos-des-argillieres",
+    "name": "Michele et Patrice Rion, Nuits-Saint-Georges Premier Cru, Clos des Argillieres",
+    "producer": "Domaine Michèle & Patrice Rion",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "michele-et-patrice-rion-nuits-saint-georges-premier-cru-clos-saint-marc",
+    "name": "Michele et Patrice Rion, Nuits-Saint-Georges Premier Cru, Clos Saint-Marc",
+    "producer": "Domaine Michèle & Patrice Rion",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "michele-et-patrice-rion-nuits-saint-georges-premier-cru-les-terres-blanches",
+    "name": "Michele et Patrice Rion, Nuits-Saint-Georges Premier Cru, Les Terres Blanches",
+    "producer": "Domaine Michèle & Patrice Rion",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "morey-coffinet-puligny-montrachet-premier-cru-les-pucelles",
+    "name": "Morey Coffinet, Puligny-Montrachet Premier Cru, Les Pucelles",
+    "producer": "Domaine Morey-Coffinet",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "patrick-piuze-chablis-grande-vallee",
+    "name": "Patrick Piuze, Chablis, Grande Vallee",
+    "producer": "Maison Patrick Piuze",
+    "region": "Bourgogne",
+    "appellation": "Chablis",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "perrot-minot-chambertin-grand-cru-vieilles-vignes",
+    "name": "Perrot-Minot, Chambertin Grand Cru, Vieilles Vignes",
+    "producer": "Domaine Perrot-Minot",
+    "region": "Bourgogne",
+    "appellation": "Chambertin Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "perrot-minot-chambertin-clos-de-beze-grand-cru-vieilles-vignes",
+    "name": "Perrot-Minot, Chambertin-Clos de Beze Grand Cru, Vieilles Vignes",
+    "producer": "Domaine Perrot-Minot",
+    "region": "Bourgogne",
+    "appellation": "Chambertin-Clos de Bèze Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "perrot-minot-chambolle-musigny-la-combe-d-orveau-vieilles-vignes",
+    "name": "Perrot-Minot, Chambolle-Musigny, La Combe d'Orveau Vieilles Vignes",
+    "producer": "Domaine Perrot-Minot",
+    "region": "Bourgogne",
+    "appellation": "Chambolle-Musigny",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "pertois-moriset-pm-06-grand-cru-champagne",
+    "name": "Pertois-Moriset, PM.06 Grand Cru, Champagne",
+    "producer": "Pertois-Moriset",
+    "region": "Champagne",
+    "appellation": "Champagne Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "100% Chardonnay",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "pertois-moriset-rose-blanc-grand-cru-champagne",
+    "name": "Pertois-Moriset, Rose Blanc Grand Cru, Champagne",
+    "producer": "Pertois-Moriset",
+    "region": "Champagne",
+    "appellation": "Champagne Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay avec addition Pinot Noir",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "pierre-boisson-bourgogne-blanc",
+    "name": "Pierre Boisson, Bourgogne, Blanc",
+    "producer": "Pierre Boisson",
+    "region": "Bourgogne",
+    "appellation": "Bourgogne",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "pierre-damoy-bourgogne-les-ravry-blanc",
+    "name": "Pierre Damoy, Bourgogne, Les Ravry Blanc",
+    "producer": "Domaine Pierre Damoy",
+    "region": "Bourgogne",
+    "appellation": "Bourgogne",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "pierre-gerbais-experimentale-n17-champagne",
+    "name": "Pierre Gerbais, Experimentale N17, Champagne",
+    "producer": "Pierre Gerbais",
+    "region": "Champagne",
+    "appellation": "Champagne",
+    "color": "Blanc",
+    "grape_variety": "Variable (expérimental)",
+    "classification": "Récoltant-Manipulant"
+  },
+  {
+    "slug": "pierre-girardin-clos-de-vougeot-grand-cru",
+    "name": "Pierre Girardin, Clos de Vougeot Grand Cru",
+    "producer": "Domaine Pierre Girardin",
+    "region": "Bourgogne",
+    "appellation": "Clos de Vougeot Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "pierre-girardin-gevrey-chambertin-premier-cru-lavaut-saint-jacques",
+    "name": "Pierre Girardin, Gevrey-Chambertin Premier Cru, Lavaut Saint-Jacques",
+    "producer": "Domaine Pierre Girardin",
+    "region": "Bourgogne",
+    "appellation": "Gevrey-Chambertin Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "pierre-girardin-pommard-eclat-de-calcaire",
+    "name": "Pierre Girardin, Pommard, Eclat de Calcaire",
+    "producer": "Domaine Pierre Girardin",
+    "region": "Bourgogne",
+    "appellation": "Pommard",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "pierre-girardin-pommard-les-vignots",
+    "name": "Pierre Girardin, Pommard, Les Vignots",
+    "producer": "Domaine Pierre Girardin",
+    "region": "Bourgogne",
+    "appellation": "Pommard",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "pierre-gonon-iles-feray-ardeche-igp",
+    "name": "Pierre Gonon, Iles Feray, Ardeche IGP",
+    "producer": "Pierre Gonon",
+    "region": "Ardèche",
+    "appellation": "IGP Ardèche",
+    "color": "Rouge",
+    "grape_variety": "Syrah",
+    "classification": ""
+  },
+  {
+    "slug": "pierre-gonon-saint-joseph-oliviers-blanc",
+    "name": "Pierre Gonon, Saint-Joseph, Oliviers Blanc",
+    "producer": "Pierre Gonon",
+    "region": "Rhône Nord",
+    "appellation": "Saint-Joseph AOC",
+    "color": "Blanc",
+    "grape_variety": "Marsanne",
+    "classification": ""
+  },
+  {
+    "slug": "pierre-morey-meursault-premier-cru-perrieres-blanc",
+    "name": "Pierre Morey, Meursault Premier Cru, Perrieres Blanc",
+    "producer": "Domaine Pierre Morey",
+    "region": "Bourgogne",
+    "appellation": "Meursault",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "pierre-morey-meursault-le-tesson",
+    "name": "Pierre Morey, Meursault, Le Tesson",
+    "producer": "Domaine Pierre Morey",
+    "region": "Bourgogne",
+    "appellation": "Meursault",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "pierre-peters-extra-brut-blanc-de-blancs-grand-cru",
+    "name": "Pierre Peters, Extra Brut Blanc de Blancs Grand Cru",
+    "producer": "Pierre Péters",
+    "region": "Champagne",
+    "appellation": "Champagne Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "100% Chardonnay",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "pierre-peters-grand-reserve-grand-cru",
+    "name": "Pierre Peters, Grand Reserve Grand Cru",
+    "producer": "Pierre Péters",
+    "region": "Champagne",
+    "appellation": "Champagne Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "100% Chardonnay",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "pierre-yves-colin-morey-chassagne-montrachet-premier-cru-abbaye-de-morgeot",
+    "name": "Pierre-Yves Colin-Morey, Chassagne-Montrachet Premier Cru, Abbaye de Morgeot",
+    "producer": "Pierre-Yves Colin-Morey",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "pierre-yves-colin-morey-chassagne-montrachet-premier-cru-la-maltroie",
+    "name": "Pierre-Yves Colin-Morey, Chassagne-Montrachet Premier Cru, La Maltroie",
+    "producer": "Pierre-Yves Colin-Morey",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "pierre-yves-colin-morey-chassagne-montrachet-premier-cru-les-baudines",
+    "name": "Pierre-Yves Colin-Morey, Chassagne-Montrachet Premier Cru, Les Baudines",
+    "producer": "Pierre-Yves Colin-Morey",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "pierre-yves-colin-morey-chassagne-montrachet-premier-cru-les-chenevottes",
+    "name": "Pierre-Yves Colin-Morey, Chassagne-Montrachet Premier Cru, Les Chenevottes",
+    "producer": "Pierre-Yves Colin-Morey",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "pierre-yves-colin-morey-chassagne-montrachet-premier-cru-morgeot-blanc",
+    "name": "Pierre-Yves Colin-Morey, Chassagne-Montrachet Premier Cru, Morgeot Blanc",
+    "producer": "Pierre-Yves Colin-Morey",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "pierre-yves-colin-morey-chassagne-montrachet-vieilles-vignes",
+    "name": "Pierre-Yves Colin-Morey, Chassagne-Montrachet, Vieilles Vignes",
+    "producer": "Pierre-Yves Colin-Morey",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village - Vieilles Vignes"
+  },
+  {
+    "slug": "pierre-yves-colin-morey-meursault-premier-cru-porusot",
+    "name": "Pierre-Yves Colin-Morey, Meursault Premier Cru, Porusot",
+    "producer": "Pierre-Yves Colin-Morey",
+    "region": "Bourgogne",
+    "appellation": "Meursault",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "pierre-yves-colin-morey-meursault-les-narvaux",
+    "name": "Pierre-Yves Colin-Morey, Meursault, Les Narvaux",
+    "producer": "Pierre-Yves Colin-Morey",
+    "region": "Bourgogne",
+    "appellation": "Meursault",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "pierre-yves-colin-morey-nuits-saint-georges-premier-cru-aux-boudots",
+    "name": "Pierre-Yves Colin-Morey, Nuits-Saint-Georges Premier Cru, Aux Boudots",
+    "producer": "Pierre-Yves Colin-Morey",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges",
+    "color": "Rouge",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "pierre-yves-colin-morey-puligny-montrachet-premier-cru-la-garenne",
+    "name": "Pierre-Yves Colin-Morey, Puligny-Montrachet Premier Cru, La Garenne",
+    "producer": "Pierre-Yves Colin-Morey",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "pierre-yves-colin-morey-saint-aubin",
+    "name": "Pierre-Yves Colin-Morey, Saint-Aubin",
+    "producer": "Pierre-Yves Colin-Morey",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "pierre-yves-colin-morey-saint-aubin-premier-cru-en-remilly",
+    "name": "Pierre-Yves Colin-Morey, Saint-Aubin Premier Cru, En Remilly",
+    "producer": "Pierre-Yves Colin-Morey",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "pierre-yves-colin-morey-saint-aubin-premier-cru-hommage-a-marguerite",
+    "name": "Pierre-Yves Colin-Morey, Saint-Aubin Premier Cru, Hommage a Marguerite",
+    "producer": "Pierre-Yves Colin-Morey",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "pierre-yves-colin-morey-saint-aubin-premier-cru-la-chateniere",
+    "name": "Pierre-Yves Colin-Morey, Saint-Aubin Premier Cru, La Chateniere",
+    "producer": "Pierre-Yves Colin-Morey",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "pierre-yves-colin-morey-saint-aubin-premier-cru-les-champlots",
+    "name": "Pierre-Yves Colin-Morey, Saint-Aubin Premier Cru, Les Champlots",
+    "producer": "Pierre-Yves Colin-Morey",
+    "region": "Bourgogne",
+    "appellation": "Saint-Aubin",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "prieure-roch-coteaux-bourguignons-rouge",
+    "name": "Prieure Roch, Coteaux Bourguignons, Rouge",
+    "producer": "Domaine Prieuré Roch",
+    "region": "Bourgogne",
+    "appellation": "Coteaux Bourguignons",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir, Gamay",
+    "classification": "Regional"
+  },
+  {
+    "slug": "prieure-roch-gamay-coteaux-bourguignons-aop",
+    "name": "Prieure Roch, Gamay, Coteaux Bourguignons AOP",
+    "producer": "Domaine Prieuré Roch",
+    "region": "Bourgogne",
+    "appellation": "Coteaux Bourguignons",
+    "color": "Rouge",
+    "grape_variety": "Gamay 100%",
+    "classification": "Regional"
+  },
+  {
+    "slug": "prieure-roch-gevrey-chambertin-premier-cru-clos-des-varoilles-monopole",
+    "name": "Prieure Roch, Gevrey-Chambertin Premier Cru, Clos des Varoilles Monopole",
+    "producer": "Domaine Prieuré Roch",
+    "region": "Bourgogne",
+    "appellation": "Gevrey-Chambertin Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru Monopole"
+  },
+  {
+    "slug": "prieure-roch-ladoix-le-clou-blanc",
+    "name": "Prieure Roch, Ladoix, Le Clou Blanc",
+    "producer": "Domaine Prieuré Roch",
+    "region": "Bourgogne",
+    "appellation": "Ladoix",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Village"
+  },
+  {
+    "slug": "prieure-roch-nuits-saint-georges-premier-cru-clos-des-argillieres",
+    "name": "Prieure Roch, Nuits-Saint-Georges Premier Cru, Clos des Argillieres",
+    "producer": "Domaine Prieuré Roch",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "prieure-roch-nuits-saint-georges-premier-cru-vieilles-vignes",
+    "name": "Prieure Roch, Nuits-Saint-Georges Premier Cru, Vieilles Vignes",
+    "producer": "Domaine Prieuré Roch",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "prieure-roch-pinot-noir-vdf",
+    "name": "Prieure Roch, Pinot Noir, VdF",
+    "producer": "Domaine Prieuré Roch",
+    "region": "Bourgogne",
+    "appellation": "Vin de France",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "VdF"
+  },
+  {
+    "slug": "prieure-roch-rouge-ladoix-aop",
+    "name": "Prieure Roch, Rouge, Ladoix AOP",
+    "producer": "Domaine Prieuré Roch",
+    "region": "Bourgogne",
+    "appellation": "Ladoix",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Village"
+  },
+  {
+    "slug": "prieure-roch-savigny-les-beaune-dessus-les-gollardes-blanc",
+    "name": "Prieure Roch, Savigny-les-Beaune, Dessus les Gollardes Blanc",
+    "producer": "Domaine Prieuré Roch",
+    "region": "Bourgogne",
+    "appellation": "Savigny-lès-Beaune",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Village"
+  },
+  {
+    "slug": "prieure-roch-savigny-les-beaune-dessus-les-gollardes-rouge",
+    "name": "Prieure Roch, Savigny-les-Beaune, Dessus les Gollardes Rouge",
+    "producer": "Domaine Prieuré Roch",
+    "region": "Bourgogne",
+    "appellation": "Savigny-lès-Beaune",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir 100%",
+    "classification": "Village"
+  },
+  {
+    "slug": "r-pouillon-fils-ay-grand-cru-les-valnons-extra-brut",
+    "name": "R. Pouillon & Fils, Ay Grand Cru, Les Valnons Extra Brut",
+    "producer": "R. Pouillon & Fils",
+    "region": "Champagne",
+    "appellation": "Champagne Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "100% Pinot Noir",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "r-pouillon-fils-chemin-du-bois-methode-fabrice-pouillon",
+    "name": "R. Pouillon & Fils, Chemin du Bois Methode Fabrice Pouillon",
+    "producer": "R. Pouillon & Fils",
+    "region": "Champagne",
+    "appellation": "Champagne Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "100% Pinot Noir",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "r-pouillon-fils-grande-vallee-brut-champagne",
+    "name": "R. Pouillon & Fils, Grande Vallee Brut, Champagne",
+    "producer": "R. Pouillon & Fils",
+    "region": "Champagne",
+    "appellation": "Champagne",
+    "color": "Blanc",
+    "grape_variety": "Pinot Noir majoritaire, Chardonnay, Pinot Meunier",
+    "classification": "Assemblage multi-parcellaire"
+  },
+  {
+    "slug": "r-pouillon-fils-le-montgruguet-pinot-noir-premier-cru-champagne",
+    "name": "R. Pouillon & Fils, Le Montgruguet Pinot Noir Premier Cru, Champagne",
+    "producer": "R. Pouillon & Fils",
+    "region": "Champagne",
+    "appellation": "Champagne Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "100% Pinot Noir",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "r-pouillon-fils-les-blanchiens-premier-cru-mareuil-sur-ay",
+    "name": "R. Pouillon & Fils, Les Blanchiens Premier Cru, Mareuil-sur-Ay",
+    "producer": "R. Pouillon & Fils",
+    "region": "Champagne",
+    "appellation": "Champagne Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "100% Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "roc-de-cambes-cotes-de-bourg",
+    "name": "Roc de Cambes, Cotes de Bourg",
+    "producer": "Roc de Cambes",
+    "region": "Bordeaux",
+    "appellation": "Côtes de Bourg",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "simon-colin-chassagne-montrachet-premier-cru-les-chaumees",
+    "name": "Simon Colin, Chassagne-Montrachet Premier Cru, Les Chaumees",
+    "producer": "Simon Colin",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "simon-colin-chassagne-montrachet-premier-cru-les-chaumees",
+    "name": "Simon Colin, Chassagne-Montrachet Premier Cru, Les Chaumees",
+    "producer": "Simon Colin",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "simon-colin-chassagne-montrachet-premier-cru-les-vergers",
+    "name": "Simon Colin, Chassagne-Montrachet Premier Cru, Les Vergers",
+    "producer": "Simon Colin",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "simon-colin-chassagne-montrachet-rouge",
+    "name": "Simon Colin, Chassagne-Montrachet, Rouge",
+    "producer": "Simon Colin",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": "Village"
+  },
+  {
+    "slug": "sylvie-esmonin-cote-de-nuits-villages-rouge",
+    "name": "Sylvie Esmonin, Cote de Nuits-Villages, Rouge",
+    "producer": "Domaine Sylvie Esmonin",
+    "region": "Bourgogne",
+    "appellation": "Côte de Nuits-Villages",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "sylvie-esmonin-gevrey-chambertin",
+    "name": "Sylvie Esmonin, Gevrey-Chambertin",
+    "producer": "Domaine Sylvie Esmonin",
+    "region": "Bourgogne",
+    "appellation": "Gevrey-Chambertin",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "tardieu-laurent-chateauneuf-du-pape-cuvee-speciale",
+    "name": "Tardieu-Laurent, Chateauneuf-du-Pape, Cuvee Speciale",
+    "producer": "Tardieu-Laurent",
+    "region": "Rhône Sud",
+    "appellation": "Châteauneuf-du-Pape AOC",
+    "color": "Rouge",
+    "grape_variety": "Grenache dominant + traditional varieties",
+    "classification": ""
+  },
+  {
+    "slug": "thibaud-boudignon-savennieres-clos-de-fremine",
+    "name": "Thibaud Boudignon, Savennieres, Clos de Fremine",
+    "producer": "Thibaud Boudignon",
+    "region": "Vallée de la Loire",
+    "appellation": "Savennières AOC",
+    "color": "Blanc",
+    "grape_variety": "100% Chenin Blanc",
+    "classification": ""
+  },
+  {
+    "slug": "thibaud-boudignon-savennieres-clos-hutte",
+    "name": "Thibaud Boudignon, Savennieres, Clos Hutte",
+    "producer": "Thibaud Boudignon",
+    "region": "Vallée de la Loire",
+    "appellation": "Savennières AOC",
+    "color": "Blanc",
+    "grape_variety": "100% Chenin Blanc",
+    "classification": ""
+  },
+  {
+    "slug": "thibault-liger-belair-bourgogne-aligote-perrieres-combe",
+    "name": "Thibault Liger-Belair, Bourgogne Aligote, Perrieres Combe",
+    "producer": "Domaine Thibault Liger-Belair",
+    "region": "Bourgogne",
+    "appellation": "Bourgogne Aligoté",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "thibault-liger-belair-corton-grand-cru-le-clos-du-roi-rouge",
+    "name": "Thibault Liger-Belair, Corton Grand Cru, Le Clos du Roi Rouge",
+    "producer": "Domaine Thibault Liger-Belair",
+    "region": "Bourgogne",
+    "appellation": "Corton Grand Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "thibault-liger-belair-nuits-saint-georges-premier-cru-les-saint-georges",
+    "name": "Thibault Liger-Belair, Nuits-Saint-Georges Premier Cru, Les Saint-Georges",
+    "producer": "Domaine Thibault Liger-Belair",
+    "region": "Bourgogne",
+    "appellation": "Nuits-Saint-Georges Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "thierry-allemand-cornas-chaillot",
+    "name": "Thierry Allemand, Cornas, Chaillot",
+    "producer": "Domaine Thierry Allemand",
+    "region": "Rhône Nord",
+    "appellation": "Cornas",
+    "color": "Rouge",
+    "grape_variety": "Syrah 100%",
+    "classification": "AOC Cornas"
+  },
+  {
+    "slug": "thierry-allemand-cornas-reynard",
+    "name": "Thierry Allemand, Cornas, Reynard",
+    "producer": "Domaine Thierry Allemand",
+    "region": "Rhône Nord",
+    "appellation": "Cornas",
+    "color": "Rouge",
+    "grape_variety": "Syrah 100%",
+    "classification": "AOC Cornas"
+  },
+  {
+    "slug": "thierry-pillot-corton-charlemagne-grand-cru",
+    "name": "Thierry Pillot, Corton-Charlemagne Grand Cru",
+    "producer": "Thierry Pillot",
+    "region": "Bourgogne",
+    "appellation": "Corton-Charlemagne Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "thierry-pillot-meursault-premier-cru-porusot",
+    "name": "Thierry Pillot, Meursault Premier Cru, Porusot",
+    "producer": "Thierry Pillot",
+    "region": "Bourgogne",
+    "appellation": "Meursault",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "thierry-pillot-puligny-montrachet-les-enseigneres",
+    "name": "Thierry Pillot, Puligny-Montrachet, Les Enseigneres",
+    "producer": "Thierry Pillot",
+    "region": "Bourgogne",
+    "appellation": "Puligny-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "thomas-morey-beaune-premier-cru-les-greves-rouge",
+    "name": "Thomas Morey, Beaune Premier Cru, Les Greves Rouge",
+    "producer": "Domaine Thomas Morey",
+    "region": "Bourgogne",
+    "appellation": "Beaune Premier Cru",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir, Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "vincent-dancer-chassagne-montrachet-premier-cru-morgeot-blanc",
+    "name": "Vincent Dancer, Chassagne-Montrachet Premier Cru, Morgeot Blanc",
+    "producer": "Domaine Vincent Dancer",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "vincent-dancer-chassagne-montrachet-premier-cru-tete-du-clos-blanc",
+    "name": "Vincent Dancer, Chassagne-Montrachet Premier Cru, Tete du Clos Blanc",
+    "producer": "Domaine Vincent Dancer",
+    "region": "Bourgogne",
+    "appellation": "Chassagne-Montrachet",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "vincent-dancer-meursault-les-corbins",
+    "name": "Vincent Dancer, Meursault, Les Corbins",
+    "producer": "Domaine Vincent Dancer",
+    "region": "Bourgogne",
+    "appellation": "Meursault",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "vincent-dancer-meursault-les-grands-charrons",
+    "name": "Vincent Dancer, Meursault, Les Grands Charrons",
+    "producer": "Domaine Vincent Dancer",
+    "region": "Bourgogne",
+    "appellation": "Meursault",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": "Village"
+  },
+  {
+    "slug": "vincent-dauvissat-chablis",
+    "name": "Vincent Dauvissat, Chablis",
+    "producer": "Domaine Vincent Dauvissat",
+    "region": "Bourgogne",
+    "appellation": "Chablis",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Village"
+  },
+  {
+    "slug": "vincent-dauvissat-chablis-grand-cru-les-clos",
+    "name": "Vincent Dauvissat, Chablis Grand Cru, Les Clos",
+    "producer": "Domaine Vincent Dauvissat",
+    "region": "Bourgogne",
+    "appellation": "Chablis Grand Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Grand Cru"
+  },
+  {
+    "slug": "vincent-dauvissat-chablis-premier-cru-montee-de-tonnerre",
+    "name": "Vincent Dauvissat, Chablis Premier Cru, Montee de Tonnerre",
+    "producer": "Domaine Vincent Dauvissat",
+    "region": "Bourgogne",
+    "appellation": "Chablis Premier Cru",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay 100%",
+    "classification": "Premier Cru"
+  },
+  {
+    "slug": "vincent-dureuil-janthial-rully-blanc",
+    "name": "Vincent Dureuil Janthial, Rully, Blanc",
+    "producer": "Domaine Vincent Dureuil-Janthial",
+    "region": "Bourgogne",
+    "appellation": "Rully",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "vincent-paindavoine-bourgogne-aligote-les-paquiers",
+    "name": "Vincent Paindavoine, Bourgogne Aligote, Les Paquiers",
+    "producer": "Domaine Vincent Paindavoine",
+    "region": "Bourgogne",
+    "appellation": "Bourgogne Aligoté",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "vincent-paindavoine-bourgogne-cote-d-or-les-chassagnes",
+    "name": "Vincent Paindavoine, Bourgogne, Cote d'Or Les Chassagnes",
+    "producer": "Domaine Vincent Paindavoine",
+    "region": "Bourgogne",
+    "appellation": "Bourgogne Côte d'Or",
+    "color": "Blanc",
+    "grape_variety": "Chardonnay",
+    "classification": ""
+  },
+  {
+    "slug": "vincent-paindavoine-coteaux-bourguignons-les-paquiers",
+    "name": "Vincent Paindavoine, Coteaux Bourguignons, Les Paquiers",
+    "producer": "Domaine Vincent Paindavoine",
+    "region": "Bourgogne",
+    "appellation": "Coteaux Bourguignons",
+    "color": "Rouge",
+    "grape_variety": "Pinot Noir",
+    "classification": ""
+  },
+  {
+    "slug": "vincent-pinard-sancerre-petit-chemarin",
+    "name": "Vincent Pinard Sancerre, Petit Chemarin",
+    "producer": "Vincent Pinard",
+    "region": "Vallée de la Loire",
+    "appellation": "Sancerre AOC",
+    "color": "Blanc",
+    "grape_variety": "100% Sauvignon Blanc",
+    "classification": ""
+  },
+  {
+    "slug": "vincent-pinard-sancerre-grand-chemarin",
+    "name": "Vincent Pinard, Sancerre, Grand Chemarin",
+    "producer": "Vincent Pinard",
+    "region": "Vallée de la Loire",
+    "appellation": "Sancerre AOC",
+    "color": "Blanc",
+    "grape_variety": "100% Sauvignon Blanc",
+    "classification": ""
+  },
+  {
+    "slug": "vincent-pinard-sancerre-petit-chemarin",
+    "name": "Vincent Pinard, Sancerre, Petit Chemarin",
+    "producer": "Vincent Pinard",
+    "region": "Vallée de la Loire",
+    "appellation": "Sancerre AOC",
+    "color": "Blanc",
+    "grape_variety": "100% Sauvignon Blanc",
+    "classification": ""
+  },
+  {
+    "slug": "yvon-metras-fleurie",
+    "name": "Yvon Metras, Fleurie",
+    "producer": "Domaine Yvon Métras",
+    "region": "Beaujolais",
+    "appellation": "Fleurie",
+    "color": "Rouge",
+    "grape_variety": "Gamay",
+    "classification": ""
+  }
+]

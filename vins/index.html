@@ -1,0 +1,4081 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tous les vins de France | Le Roi du Pinard</title>
+  <meta name="description" content="Découvrez les 440 vins référencés par le Roi du Pinard. Fiches détaillées, notes de dégustation et avis royaux.">
+  <link rel="canonical" href="https://leroidupinard.fr/vins/">
+
+  <meta property="og:title" content="Tous les vins de France | Le Roi du Pinard">
+  <meta property="og:description" content="Découvrez les 440 vins référencés par le Roi du Pinard. Fiches détaillées, notes de dégustation et avis royaux.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://leroidupinard.fr/vins/">
+  <meta property="og:site_name" content="Le Roi du Pinard">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+
+  <link rel="icon" type="image/jpeg" href="/assets/images/logo-roi-du-pinard.jpg">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HYPPWGGV19"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-HYPPWGGV19');
+  </script>
+</head>
+<body class="index-page">
+
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="logo">
+      <img src="/assets/images/logo-roi-du-pinard.jpg" alt="Le Roi du Pinard">
+      <span>Le Roi du Pinard</span>
+    </a>
+    <nav class="main-nav">
+      <a href="/regions/">Régions</a>
+      <a href="/producteurs/">Producteurs</a>
+      <a href="/vins/">Tous les Vins</a>
+      <a href="/search.html" class="nav-icon" title="Rechercher">🔍</a>
+      <a href="#" onclick="randomWine(); return false;" class="btn-random">🎲 Surprenez-moi !</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Menu">☰</button>
+  </div>
+</header>
+<main class="container">
+  <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="/">Accueil</a> › <span>Tous les vins</span></nav>
+
+  <h1>Tous les Vins du Royaume</h1>
+  <p class="intro">440 vins à explorer. De quoi occuper vos soirées pour les années à venir !</p>
+
+  <div class="filters">
+    <label>Filtrer par couleur :</label>
+    <button class="filter-btn active" data-color="all">Tous</button>
+    <button class="filter-btn" data-color="red">Rouge</button>
+    <button class="filter-btn" data-color="white">Blanc</button>
+    <button class="filter-btn" data-color="rosé">Rosé</button>
+  </div>
+
+  <div class="wine-grid" id="wine-grid">
+    
+    <a href="/vins/agrapart-fils-avizoise-blanc-de-blancs-extra-brut-grand-cru-avize.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Agrapart &amp; Fils, Avizoise Blanc de Blancs Extra Brut Grand Cru, Avize</h3>
+        <p>Agrapart &amp; Fils</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/alain-hudelot-noellat-clos-de-vougeot-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Alain Hudelot-Noellat, Clos de Vougeot Grand Cru</h3>
+        <p>Domaine Alain Hudelot-Noëllat</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/alain-hudelot-noellat-nuits-saint-georges-premier-cru-aux-murgers.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Alain Hudelot-Noellat, Nuits-Saint-Georges Premier Cru, Aux Murgers</h3>
+        <p>Domaine Alain Hudelot-Noëllat</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/alain-voge-cornas-les-viellies-vignes.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Alain Voge, Cornas, Les Viellies Vignes</h3>
+        <p>Alain Voge</p>
+        <span class="badge">Rhône Nord</span>
+      </div>
+    </a>
+    
+    <a href="/vins/alex-moreau-chassagne-montrachet-premier-cru-la-cardeuse-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Alex Moreau, Chassagne-Montrachet Premier Cru, La Cardeuse Rouge</h3>
+        <p>Alex Moreau</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/alex-moreau-chassagne-montrachet-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Alex Moreau, Chassagne-Montrachet, Blanc</h3>
+        <p>Alex Moreau</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/alex-moreau-chassagne-montrachet-vieilles-vignes-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Alex Moreau, Chassagne-Montrachet, Vieilles Vignes Rouge</h3>
+        <p>Alex Moreau</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/anne-boisson-meursault-les-chevalieres.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Anne Boisson, Meursault, Les Chevalieres</h3>
+        <p>Anne Boisson</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/antoine-sanzay-saumur-champigny-poyeux.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Antoine Sanzay, Saumur-Champigny, Poyeux</h3>
+        <p>Domaine Antoine Sanzay</p>
+        <span class="badge">Loire</span>
+      </div>
+    </a>
+    
+    <a href="/vins/arnaud-mortet-gevrey-chambertin-ma-cuvee.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Arnaud Mortet, Gevrey-Chambertin, Ma Cuvee</h3>
+        <p>Arnaud Mortet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/auguste-clape-cornas.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Auguste Clape, Cornas</h3>
+        <p>Domaine Auguste Clape</p>
+        <span class="badge">Rhône</span>
+      </div>
+    </a>
+    
+    <a href="/vins/benedicte-stephane-tissot-bruyeres-vin-jaune-arbois.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Benedicte &amp; Stephane Tissot, Bruyeres Vin Jaune, Arbois</h3>
+        <p>Domaine Bénédicte &amp; Stéphane Tissot</p>
+        <span class="badge">Jura</span>
+      </div>
+    </a>
+    
+    <a href="/vins/benedicte-stephane-tissot-la-mailloche-arbois.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Benedicte &amp; Stephane Tissot, La Mailloche, Arbois</h3>
+        <p>Domaine Bénédicte &amp; Stéphane Tissot</p>
+        <span class="badge">Jura</span>
+      </div>
+    </a>
+    
+    <a href="/vins/benedicte-stephane-tissot-vin-jaune-vasee-arbois.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Benedicte &amp; Stephane Tissot, Vin Jaune Vasee, Arbois</h3>
+        <p>Domaine Bénédicte &amp; Stéphane Tissot</p>
+        <span class="badge">Jura</span>
+      </div>
+    </a>
+    
+    <a href="/vins/benedicte-stephane-tissot-vin-jaune-chateau-chalon.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Benedicte &amp; Stephane Tissot, Vin Jaune, Chateau-Chalon</h3>
+        <p>Domaine Bénédicte &amp; Stéphane Tissot</p>
+        <span class="badge">Jura</span>
+      </div>
+    </a>
+    
+    <a href="/vins/benoit-moreau-saint-aubin-premier-cru-en-remilly.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Benoit Moreau, Saint-Aubin Premier Cru, En Remilly</h3>
+        <p>Benoit Moreau</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/bibi-graetz-testamatta-rosso-toscana.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Bibi Graetz, Testamatta Rosso, Toscana</h3>
+        <p>Azienda Agricola Testamatta (Bibi Graetz)</p>
+        <span class="badge">Toscane</span>
+      </div>
+    </a>
+    
+    <a href="/vins/bret-brothers-pouilly-fuisse-climat-la-roche.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Bret Brothers, Pouilly-Fuisse, Climat La Roche</h3>
+        <p>Bret Brothers</p>
+        <span class="badge">Mâconnais</span>
+      </div>
+    </a>
+    
+    <a href="/vins/caroline-morey-beaune-premier-cru-les-greves-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Caroline Morey, Beaune Premier Cru, Les Greves Blanc</h3>
+        <p>Domaine Caroline Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/caroline-morey-beaune-premier-cru-les-greves-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Caroline Morey, Beaune Premier Cru, Les Greves Rouge</h3>
+        <p>Domaine Caroline Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/caroline-morey-chassagne-montrachet-premier-cru-cailleret.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Caroline Morey, Chassagne-Montrachet Premier Cru, Cailleret</h3>
+        <p>Caroline Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/caroline-morey-chassagne-montrachet-premier-cru-les-champs-gain.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Caroline Morey, Chassagne-Montrachet Premier Cru, Les Champs Gain</h3>
+        <p>Caroline Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/caroline-morey-chassagne-montrachet-premier-cru-les-champs-gain-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Caroline Morey, Chassagne-Montrachet Premier Cru, Les Champs Gain Rouge</h3>
+        <p>Caroline Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/caroline-morey-chassagne-montrachet-premier-cru-les-chaumees-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Caroline Morey, Chassagne-Montrachet Premier Cru, Les Chaumees Blanc</h3>
+        <p>Caroline Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/caroline-morey-chassagne-montrachet-chambrees.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Caroline Morey, Chassagne-Montrachet, Chambrees</h3>
+        <p>Caroline Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/caroline-morey-chassagne-montrachet-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Caroline Morey, Chassagne-Montrachet, Rouge</h3>
+        <p>Caroline Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/cedric-bouchard-roses-de-jeanne-presle.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Cedric Bouchard, Roses de Jeanne Presle</h3>
+        <p>Cédric Bouchard (Roses de Jeanne)</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/charles-lachaux-nuits-saint-georges-la-petite-charmotte.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Charles Lachaux, Nuits-Saint-Georges, La Petite Charmotte</h3>
+        <p>Domaine Charles Lachaux</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/chartogne-taillet-couarres-chateau-extra-brut.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Chartogne-Taillet, Couarres Chateau Extra Brut</h3>
+        <p>Chartogne-Taillet</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/chartogne-taillet-les-barres-extra-brut.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Chartogne-Taillet, Les Barres Extra Brut</h3>
+        <p>Chartogne-Taillet</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/chartogne-taillet-sainte-anne-brut.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Chartogne-Taillet, Sainte Anne Brut</h3>
+        <p>Chartogne-Taillet</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/chateau-les-carmes-haut-brion-pessac-leognan.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Chateau Les Carmes Haut-Brion, Pessac-Leognan</h3>
+        <p>Château Les Carmes Haut-Brion</p>
+        <span class="badge">Bordeaux</span>
+      </div>
+    </a>
+    
+    <a href="/vins/chateau-pontet-canet-5eme-cru-classe-pauillac.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Chateau Pontet-Canet 5eme Cru Classe, Pauillac</h3>
+        <p>Château Pontet-Canet</p>
+        <span class="badge">Bordeaux</span>
+      </div>
+    </a>
+    
+    <a href="/vins/chateau-simone-rouge-palette.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Chateau Simone, Rouge, Palette</h3>
+        <p>Château Simone</p>
+        <span class="badge">Provence</span>
+      </div>
+    </a>
+    
+    <a href="/vins/christophe-mignon-adn-de-foudre-chardonnay-champagne.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Christophe Mignon ADN de Foudre Chardonnay, Champagne</h3>
+        <p>Christophe Mignon</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/christophe-mignon-adn-de-foudre-pinot-noir-brut-nature-champagne.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Christophe Mignon, ADN de Foudre Pinot Noir Brut Nature, Champagne</h3>
+        <p>Christophe Mignon</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/christophe-mignon-adn-de-foudre-pinot-noir-extra-brut-champagne.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Christophe Mignon, ADN de Foudre Pinot Noir Extra Brut, Champagne</h3>
+        <p>Champagne Christophe Mignon</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/clandestin-les-semblables-austral-brut-nature-champagne.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Clandestin, Les Semblables Austral Brut Nature, Champagne</h3>
+        <p>Clandestin</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/clos-rougeard-saumur-champigny.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Clos Rougeard, Saumur-Champigny</h3>
+        <p>Clos Rougeard</p>
+        <span class="badge">Vallée de la Loire</span>
+      </div>
+    </a>
+    
+    <a href="/vins/clos-rougeard-saumur-champigny-bourg.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Clos Rougeard, Saumur-Champigny, Bourg</h3>
+        <p>Clos Rougeard</p>
+        <span class="badge">Vallée de la Loire</span>
+      </div>
+    </a>
+    
+    <a href="/vins/clos-rougeard-saumur-champigny-les-poyeux.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Clos Rougeard, Saumur-Champigny, Les Poyeux</h3>
+        <p>Clos Rougeard</p>
+        <span class="badge">Vallée de la Loire</span>
+      </div>
+    </a>
+    
+    <a href="/vins/clos-rougeard-saumur-breze.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Clos Rougeard, Saumur, Breze</h3>
+        <p>Clos Rougeard</p>
+        <span class="badge">Vallée de la Loire</span>
+      </div>
+    </a>
+    
+    <a href="/vins/clos-saint-jean-chateauneuf-du-pape-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Clos Saint Jean, Chateauneuf-du-Pape, Rouge</h3>
+        <p>Clos Saint Jean</p>
+        <span class="badge">Rhône Sud</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-arlaud-clos-de-la-roche-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Arlaud, Clos de la Roche Grand Cru</h3>
+        <p>Domaine Arlaud</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-arlaud-gevrey-chambertin-premier-cru-aux-combottes.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Arlaud, Gevrey-Chambertin Premier Cru, Aux Combottes</h3>
+        <p>Domaine Arlaud</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-arnoux-lachaux-chambolle-musigny.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Arnoux-Lachaux, Chambolle-Musigny</h3>
+        <p>Domaine Arnoux-Lachaux</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-arnoux-lachaux-echezeaux-grand-cru-les-rouges.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Arnoux-Lachaux, Echezeaux Grand Cru, Les Rouges</h3>
+        <p>Domaine Arnoux-Lachaux</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-arnoux-lachaux-nuits-saint-georges-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Arnoux-Lachaux, Nuits-Saint-Georges, Rouge</h3>
+        <p>Domaine Arnoux-Lachaux</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-arnoux-lachaux-vosne-romanee.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Arnoux-Lachaux, Vosne-Romanee</h3>
+        <p>Domaine Arnoux-Lachaux</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-arnoux-lachaux-vosne-romanee-premier-cru-les-chaumes.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Arnoux-Lachaux, Vosne-Romanee Premier Cru, Les Chaumes</h3>
+        <p>Domaine Arnoux-Lachaux</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-bachey-legros-santenay-premier-cru-la-comme-vieilles-vignes.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Bachey-Legros, Santenay Premier Cru, La Comme Vieilles Vignes</h3>
+        <p>Domaine Bachey-Legros</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-bernard-bonin-bourgogne-initiales-bb-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Bernard Bonin, Bourgogne, Initiales BB Blanc</h3>
+        <p>Domaine Bernard Bonin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-bernard-bonin-meursault-premier-cru-charmes-dessus.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Bernard Bonin, Meursault Premier Cru, Charmes Dessus</h3>
+        <p>Domaine Bernard-Bonin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-bernard-bonin-meursault-premier-cru-les-charmes-du-milieu.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Bernard Bonin, Meursault Premier Cru, Les Charmes du Milieu</h3>
+        <p>Domaine Bernard-Bonin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-bernard-bonin-meursault-le-cromin-le-pre-de-manche.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Bernard Bonin, Meursault, Le Cromin Le Pre de Manche</h3>
+        <p>Domaine Bernard-Bonin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-bernard-bonin-meursault-le-limozin.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Bernard Bonin, Meursault, Le Limozin</h3>
+        <p>Domaine Bernard-Bonin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-bernard-bonin-meursault-les-tillets.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Bernard Bonin, Meursault, Les Tillets</h3>
+        <p>Domaine Bernard-Bonin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-bernard-bonin-puligny-montrachet-premier-cru-la-romance.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Bernard Bonin, Puligny-Montrachet Premier Cru, La Romance</h3>
+        <p>Domaine Bernard-Bonin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-bernard-moreau-chassagne-montrachet-premier-cru-clos-saint-jean.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Bernard Moreau, Chassagne-Montrachet Premier Cru, Clos Saint-Jean</h3>
+        <p>Domaine Bernard Moreau et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-bernard-moreau-chassagne-montrachet-premier-cru-la-cardeuse-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Bernard Moreau, Chassagne-Montrachet Premier Cru, La Cardeuse Rouge</h3>
+        <p>Domaine Bernard Moreau et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-bernard-moreau-chassagne-montrachet-premier-cru-morgeot.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Bernard Moreau, Chassagne-Montrachet Premier Cru, Morgeot</h3>
+        <p>Domaine Bernard Moreau et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-bernard-moreau-chassagne-montrachet-vieilles-vignes-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Bernard Moreau, Chassagne-Montrachet, Vieilles Vignes Rouge</h3>
+        <p>Domaine Bernard Moreau et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-bertagna-vosne-romanee-premier-cru-les-beaux-monts.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Bertagna, Vosne-Romanee Premier Cru, Les Beaux Monts</h3>
+        <p>Domaine Bertagna</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-berthaut-gerbet-clos-de-vougeot-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Berthaut-Gerbet, Clos de Vougeot Grand Cru</h3>
+        <p>Domaine Berthaut-Gerbet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-de-bellevue-jerome-bretaudeau-la-justice-vdf.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine de Bellevue (Jerome Bretaudeau), La Justice, VdF</h3>
+        <p>Domaine de Bellevue (Jérôme Bretaudeau)</p>
+        <span class="badge">Loire</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-de-bellevue-jerome-bretaudeau-maceration-vdf.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine de Bellevue (Jerome Bretaudeau), Maceration, VdF</h3>
+        <p>Domaine de Bellevue (Jérôme Bretaudeau)</p>
+        <span class="badge">Loire</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-de-bellevue-jerome-bretaudeau-muscadet-gaia-cuvee-ovoide.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine de Bellevue (Jerome Bretaudeau), Muscadet, Gaia Cuvee Ovoide</h3>
+        <p>Domaine de Bellevue (Jérôme Bretaudeau)</p>
+        <span class="badge">Loire</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-de-bellevue-jerome-bretaudeau-statera-vdf.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine de Bellevue (Jerome Bretaudeau), Statera, VdF</h3>
+        <p>Domaine de Bellevue (Jérôme Bretaudeau)</p>
+        <span class="badge">Loire</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-de-cambes-bordeaux.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine de Cambes, Bordeaux</h3>
+        <p>Domaine de Cambes</p>
+        <span class="badge">Bordeaux</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-de-la-grange-des-peres-pays-d-herault-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine de la Grange des Peres, Pays d&#039;Herault, Blanc</h3>
+        <p>Domaine de la Grange des Pères</p>
+        <span class="badge">Languedoc</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-de-la-grange-des-peres-pays-d-herault-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine de la Grange des Peres, Pays d&#039;Herault, Rouge</h3>
+        <p>Domaine de la Grange des Pères</p>
+        <span class="badge">Languedoc</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-de-la-vieille-julienne-chateauneuf-du-pape-les-trois-sources.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine de la Vieille Julienne, Chateauneuf-du-Pape, Les Trois Sources</h3>
+        <p>Domaine de la Vieille Julienne</p>
+        <span class="badge">Rhône Sud</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-de-la-vougeraie-batard-montrachet-grand-cru.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine de la Vougeraie, Batard-Montrachet Grand Cru</h3>
+        <p>Domaine de la Vougeraie</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-de-la-vougeraie-bonnes-mares-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine de la Vougeraie, Bonnes Mares Grand Cru</h3>
+        <p>Domaine de la Vougeraie</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-de-la-vougeraie-charmes-chambertin-grand-cru-les-mazoyeres.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine de la Vougeraie, Charmes-Chambertin Grand Cru, Les Mazoyeres</h3>
+        <p>Domaine de la Vougeraie</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-de-la-vougeraie-chevalier-montrachet-grand-cru.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine de la Vougeraie, Chevalier-Montrachet Grand Cru</h3>
+        <p>Domaine de la Vougeraie</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-de-la-vougeraie-corton-grand-cru-le-clos-du-roi.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine de la Vougeraie, Corton Grand Cru, Le Clos du Roi</h3>
+        <p>Domaine de la Vougeraie</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-de-la-vougeraie-corton-charlemagne-le-charlemagne-grand-cru.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine de la Vougeraie, Corton-Charlemagne, Le Charlemagne Grand Cru</h3>
+        <p>Domaine de la Vougeraie</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-de-la-vougeraie-savigny-les-beaune-premier-cru-les-marconnets.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine de la Vougeraie, Savigny-les-Beaune Premier Cru, Les Marconnets</h3>
+        <p>Domaine de la Vougeraie</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-de-trevallon-blanc-alpilles-igp.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine de Trevallon, Blanc, Alpilles IGP</h3>
+        <p>Domaine de Trévallon</p>
+        <span class="badge">Provence</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-de-trevallon-rouge-alpilles-igp.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine de Trevallon, Rouge, Alpilles IGP</h3>
+        <p>Domaine de Trévallon</p>
+        <span class="badge">Provence</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-denis-mortet-clos-de-vougeot-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Denis Mortet, Clos de Vougeot Grand Cru</h3>
+        <p>Domaine Denis Mortet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-denis-mortet-gevrey-chambertin-premier-cru-champeaux.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Denis Mortet, Gevrey-Chambertin Premier Cru, Champeaux</h3>
+        <p>Domaine Denis Mortet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-denis-mortet-gevrey-chambertin-premier-cru-lavaut-saint-jacques.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Denis Mortet, Gevrey-Chambertin Premier Cru, Lavaut Saint-Jacques</h3>
+        <p>Domaine Denis Mortet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-des-comtes-lafon-meursault-premier-cru-les-gouttes-d-or.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine des Comtes Lafon, Meursault Premier Cru, Les Gouttes d&#039;Or</h3>
+        <p>Domaine des Comtes Lafon</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-des-heritiers-louis-jadot-beaune-premier-cru-clos-des-couchereaux.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine des Heritiers Louis Jadot, Beaune Premier Cru, Clos des Couchereaux</h3>
+        <p>Domaine des Héritiers Louis Jadot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-des-lambrays-morey-saint-denis-premier-cru-loups.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine des Lambrays, Morey-Saint-Denis Premier Cru, Loups</h3>
+        <p>Domaine des Lambrays</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-dominique-belluard-ayze-eponyme-mise-tardive-vin-de-savoie.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Dominique Belluard, Ayze Eponyme Mise Tardive, Vin de Savoie</h3>
+        <p>Domaine Dominique Belluard</p>
+        <span class="badge">Savoie</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-dominique-belluard-mondeuse-vin-de-savoie.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Dominique Belluard, Mondeuse, Vin de Savoie</h3>
+        <p>Domaine Dominique Belluard</p>
+        <span class="badge">Savoie</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-dujac-charmes-chambertin-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Dujac, Charmes-Chambertin Grand Cru</h3>
+        <p>Domaine Dujac</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-dujac-clos-de-la-roche-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Dujac, Clos de la Roche Grand Cru</h3>
+        <p>Domaine Dujac</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-dujac-echezeaux-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Dujac, Echezeaux Grand Cru</h3>
+        <p>Domaine Dujac</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-dujac-morey-saint-denis.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Dujac, Morey-Saint-Denis</h3>
+        <p>Domaine Dujac</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-dujac-morey-saint-denis-premier-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Dujac, Morey-Saint-Denis Premier Cru</h3>
+        <p>Domaine Dujac</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-dujac-puligny-montrachet-premier-cru-les-folatieres.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Dujac, Puligny-Montrachet Premier Cru, Les Folatieres</h3>
+        <p>Domaine Dujac</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-dujac-vosne-romanee-premier-cru-aux-malconsorts.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Dujac, Vosne-Romanee Premier Cru, Aux Malconsorts</h3>
+        <p>Domaine Dujac</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-dujac-vosne-romanee-premier-cru-les-beaux-monts.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Dujac, Vosne-Romanee Premier Cru, Les Beaux Monts</h3>
+        <p>Domaine Dujac</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-fontaine-gagnard-chassagne-montrachet-premier-cru-cailleret.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Fontaine-Gagnard, Chassagne-Montrachet Premier Cru, Cailleret</h3>
+        <p>Domaine Fontaine-Gagnard</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-fontaine-gagnard-chassagne-montrachet-premier-cru-la-boudriotte.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Fontaine-Gagnard, Chassagne-Montrachet Premier Cru, La Boudriotte</h3>
+        <p>Domaine Fontaine-Gagnard</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-fontaine-gagnard-chassagne-montrachet-premier-cru-la-grande-montagne.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Fontaine-Gagnard, Chassagne-Montrachet Premier Cru, La Grande Montagne</h3>
+        <p>Domaine Fontaine-Gagnard</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-fontaine-gagnard-chassagne-montrachet-premier-cru-la-romanee.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Fontaine-Gagnard, Chassagne-Montrachet Premier Cru, La Romanee</h3>
+        <p>Domaine Fontaine-Gagnard</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-fontaine-gagnard-chassagne-montrachet-premier-cru-les-chenevottes.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Fontaine-Gagnard, Chassagne-Montrachet Premier Cru, Les Chenevottes</h3>
+        <p>Domaine Fontaine-Gagnard</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-fontaine-gagnard-chassagne-montrachet-premier-cru-les-murees.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Fontaine-Gagnard, Chassagne-Montrachet Premier Cru, Les Murees</h3>
+        <p>Domaine Fontaine-Gagnard</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-fourrier-gevrey-chambertin-premier-cru-combe-au-moine-vieille-vigne.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Fourrier, Gevrey-Chambertin Premier Cru, Combe au Moine Vieille Vigne</h3>
+        <p>Domaine Fourrier</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-fourrier-gevrey-chambertin-vieille-vigne.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Fourrier, Gevrey-Chambertin, Vieille Vigne</h3>
+        <p>Domaine Fourrier</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-francois-raveneau-chablis-grand-cru-blanchot.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Francois Raveneau, Chablis Grand Cru, Blanchot</h3>
+        <p>Domaine François Raveneau</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-francois-raveneau-chablis-grand-cru-valmur.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Francois Raveneau, Chablis Grand Cru, Valmur</h3>
+        <p>Domaine François Raveneau</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-francois-raveneau-chablis-premier-cru-foret.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Francois Raveneau, Chablis Premier Cru, Foret</h3>
+        <p>Domaine François Raveneau</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-francois-raveneau-chablis-premier-cru-montee-de-tonnerre.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Francois Raveneau, Chablis Premier Cru, Montee de Tonnerre</h3>
+        <p>Domaine François Raveneau</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-georges-mugneret-gibourg-chambolle-musigny-premier-cru-les-feusselottes.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Georges Mugneret Gibourg, Chambolle-Musigny Premier Cru, Les Feusselottes</h3>
+        <p>Domaine Georges Mugneret-Gibourg</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-georges-mugneret-gibourg-clos-de-vougeot-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Georges Mugneret Gibourg, Clos de Vougeot Grand Cru</h3>
+        <p>Domaine Georges Mugneret-Gibourg</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-georges-mugneret-gibourg-echezeaux-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Georges Mugneret Gibourg, Echezeaux Grand Cru</h3>
+        <p>Domaine Georges Mugneret-Gibourg</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-georges-mugneret-gibourg-nuits-saint-georges-premier-cru-aux-chaignots.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Georges Mugneret Gibourg, Nuits-Saint-Georges Premier Cru, Aux Chaignots</h3>
+        <p>Domaine Georges Mugneret-Gibourg</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-georges-mugneret-gibourg-nuits-saint-georges-au-bas-de-combe.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Georges Mugneret Gibourg, Nuits-Saint-Georges, Au Bas de Combe</h3>
+        <p>Domaine Georges Mugneret-Gibourg</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-georges-mugneret-gibourg-ruchottes-chambertin-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Georges Mugneret Gibourg, Ruchottes-Chambertin Grand Cru</h3>
+        <p>Domaine Georges Mugneret-Gibourg</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-georges-mugneret-gibourg-vosne-romanee.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Georges Mugneret Gibourg, Vosne-Romanee</h3>
+        <p>Domaine Georges Mugneret-Gibourg</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-georges-mugneret-gibourg-vosne-romanee-la-colombiere.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Georges Mugneret Gibourg, Vosne-Romanee, La Colombiere</h3>
+        <p>Domaine Georges Mugneret-Gibourg</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-gerard-julien-fils-nuits-saint-georges.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Gerard Julien &amp; Fils, Nuits-Saint-Georges</h3>
+        <p>Domaine Gérard Julien &amp; Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-gerard-julien-fils-nuits-saint-georges-aux-saints-juliens.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Gerard Julien &amp; Fils, Nuits-Saint-Georges, Aux Saints-Juliens</h3>
+        <p>Domaine Gérard Julien &amp; Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-gerard-thomas-saint-aubin-premier-cru-les-murgers-des-dents-de-chien.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Gerard Thomas, Saint-Aubin Premier Cru, Les Murgers des Dents de Chien</h3>
+        <p>Domaine Gérard Thomas et Filles</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-henri-boillot-batard-montrachet-grand-cru.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Henri Boillot, Batard-Montrachet Grand Cru</h3>
+        <p>Domaine Henri Boillot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-henri-boillot-meursault-premier-cru-genevrieres.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Henri Boillot, Meursault Premier Cru, Genevrieres</h3>
+        <p>Domaine Henri Boillot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-henri-boillot-puligny-montrachet.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Henri Boillot, Puligny-Montrachet</h3>
+        <p>Domaine Henri Boillot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-henri-boillot-puligny-montrachet-premier-cru-les-pucelles.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Henri Boillot, Puligny-Montrachet Premier Cru, Les Pucelles</h3>
+        <p>Domaine Henri Boillot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-henri-boillot-volnay-premier-cru-les-caillerets.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Henri Boillot, Volnay Premier Cru, Les Caillerets</h3>
+        <p>Domaine Henri Boillot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-jamet-cote-rotie.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Jamet, Cote Rotie</h3>
+        <p>Domaine Jamet</p>
+        <span class="badge">Rhône Nord</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-jamet-cote-rotie-cote-brune.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Jamet, Cote Rotie, Cote Brune</h3>
+        <p>Domaine Jamet</p>
+        <span class="badge">Rhône Nord</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-jean-grivot-clos-de-vougeot-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Jean Grivot, Clos de Vougeot Grand Cru</h3>
+        <p>Domaine Jean Grivot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-jean-grivot-nuits-saint-georges-premier-cru-ronciere.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Jean Grivot, Nuits-Saint-Georges Premier Cru, Ronciere</h3>
+        <p>Domaine Jean Grivot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-jean-louis-chave-hermitage-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Jean Louis Chave, Hermitage, Blanc</h3>
+        <p>Domaine Jean-Louis Chave</p>
+        <span class="badge">Rhône Nord</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-jean-louis-chave-saint-joseph.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Jean Louis Chave, Saint-Joseph</h3>
+        <p>Domaine Jean-Louis Chave</p>
+        <span class="badge">Rhône Nord</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-jean-louis-chave-saint-joseph-clos-florentin.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Jean Louis Chave, Saint-Joseph, Clos Florentin</h3>
+        <p>Domaine Jean-Louis Chave</p>
+        <span class="badge">Rhône Nord</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-jean-jacques-confuron-cote-de-nuits-villages-les-vignottes.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Jean-Jacques Confuron, Cote de Nuits-Villages, Les Vignottes</h3>
+        <p>Domaine Jean-Jacques Confuron</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-jean-jacques-confuron-nuits-saint-georges-premier-cru-les-chaboeufs.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Jean-Jacques Confuron, Nuits-Saint-Georges Premier Cru, Les Chaboeufs</h3>
+        <p>Domaine Jean-Jacques Confuron</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-jobard-morey-meursault-premier-cru-charmes.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Jobard-Morey, Meursault Premier Cru, Charmes</h3>
+        <p>Domaine Jobard-Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-jobard-morey-meursault-premier-cru-porusot.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Jobard-Morey, Meursault Premier Cru, Porusot</h3>
+        <p>Domaine Jobard-Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-la-bergerie-de-l-arcade-rouge-languedoc.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine La Bergerie de l&#039;Arcade, Rouge, Languedoc</h3>
+        <p>Domaine La Bergerie de l&#039;Arcade</p>
+        <span class="badge">Languedoc</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-labet-cotes-du-jura-trousseau.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Labet, Cotes du Jura, Trousseau</h3>
+        <p>Domaine Labet</p>
+        <span class="badge">Jura</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-labet-vin-jaune-les-singuliers-cotes-du-jura.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Labet,Vin Jaune Les Singuliers, Cotes du Jura</h3>
+        <p>Domaine Labet</p>
+        <span class="badge">Jura</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-leflaive-bourgogne-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Leflaive, Bourgogne, Blanc</h3>
+        <p>Domaine Leflaive</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-leflaive-puligny-montrachet.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Leflaive, Puligny-Montrachet</h3>
+        <p>Domaine Leflaive</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-meo-camuzet-clos-de-vougeot-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Meo Camuzet, Clos de Vougeot Grand Cru</h3>
+        <p>Domaine Méo-Camuzet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-meo-camuzet-clos-de-vougeot-grand-cru-pres-le-cellier.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Meo Camuzet, Clos de Vougeot Grand Cru, Pres le Cellier</h3>
+        <p>Domaine Méo-Camuzet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-michel-lafarge-beaune-premier-cru-les-aigrots-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Michel Lafarge, Beaune Premier Cru, Les Aigrots Blanc</h3>
+        <p>Domaine Michel Lafarge</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-michel-lafarge-beaune-premier-cru-les-aigrots-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Michel Lafarge, Beaune Premier Cru, Les Aigrots Rouge</h3>
+        <p>Domaine Michel Lafarge</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-michel-lafarge-bourgogne-aligote-raisins-dores.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Michel Lafarge, Bourgogne Aligote, Raisins Dores</h3>
+        <p>Domaine Michel Lafarge</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-michel-lafarge-bourgogne-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Michel Lafarge, Bourgogne, Rouge</h3>
+        <p>Domaine Michel Lafarge</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-michel-lafarge-meursault.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Michel Lafarge, Meursault</h3>
+        <p>Domaine Michel Lafarge</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-michel-lafarge-pommard-premier-cru-les-pezerolles.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Michel Lafarge, Pommard Premier Cru, Les Pezerolles</h3>
+        <p>Domaine Michel Lafarge</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-michel-lafarge-volnay.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Michel Lafarge, Volnay</h3>
+        <p>Domaine Michel Lafarge</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-michel-lafarge-volnay-premier-cru-clos-des-chenes.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Michel Lafarge, Volnay Premier Cru, Clos des Chenes</h3>
+        <p>Domaine Michel Lafarge</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-michel-lafarge-volnay-premier-cru-clos-du-chateau-des-ducs.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Michel Lafarge, Volnay Premier Cru, Clos du Chateau des Ducs</h3>
+        <p>Domaine Michel Lafarge</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-michel-lafarge-volnay-premier-cru-les-caillerets.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Michel Lafarge, Volnay Premier Cru, Les Caillerets</h3>
+        <p>Domaine Michel Lafarge</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-pattes-loup-chablis-premier-cru-butteaux.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Pattes Loup, Chablis Premier Cru, Butteaux</h3>
+        <p>Domaine Pattes Loup (Thomas Pico)</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-pattes-loup-chablis-premier-cru-butteaux-mise-tardive.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Pattes Loup, Chablis Premier Cru, Butteaux Mise Tardive</h3>
+        <p>Domaine Pattes Loup (Thomas Pico)</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-pattes-loup-chablis-premier-cru-les-beauregards.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Pattes Loup, Chablis Premier Cru, Les Beauregards</h3>
+        <p>Domaine Pattes Loup (Thomas Pico)</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-paul-pillot-bourgogne-aligote.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Paul Pillot, Bourgogne Aligote</h3>
+        <p>Domaine Paul Pillot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-paul-pillot-chassagne-montrachet-premier-cru-clos-saint-jean-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Paul Pillot, Chassagne-Montrachet Premier Cru, Clos Saint-Jean Blanc</h3>
+        <p>Domaine Paul Pillot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-paul-pillot-chassagne-montrachet-premier-cru-clos-saint-jean-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Paul Pillot, Chassagne-Montrachet Premier Cru, Clos Saint-Jean Rouge</h3>
+        <p>Domaine Paul Pillot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-paul-pillot-chassagne-montrachet-premier-cru-les-champs-gain.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Paul Pillot, Chassagne-Montrachet Premier Cru, Les Champs Gain</h3>
+        <p>Domaine Paul Pillot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-paul-pillot-chassagne-montrachet-premier-cru-les-grandes-ruchottes.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Paul Pillot, Chassagne-Montrachet Premier Cru, Les Grandes Ruchottes</h3>
+        <p>Domaine Paul Pillot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-paul-pillot-chassagne-montrachet-vieilles-vignes-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Paul Pillot, Chassagne-Montrachet, Vieilles Vignes Rouge</h3>
+        <p>Domaine Paul Pillot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-pillot-mercurey-premier-cru-sazenay.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Pillot, Mercurey Premier Cru, Sazenay</h3>
+        <p>Domaine Pillot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-rapet-pere-et-fils-cote-de-beaune-pernand-vergelesses-devant-cloux-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Rapet Pere et Fils, Cote de Beaune, Pernand Vergelesses Devant Cloux Blanc</h3>
+        <p>Domaine Rapet Père &amp; Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-rapet-pere-et-fils-pernand-vergelesses-premier-cru-sous-fretille.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Rapet Pere et Fils, Pernand-Vergelesses Premier Cru, Sous Fretille</h3>
+        <p>Domaine Rapet Père &amp; Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-rapet-pere-et-fils-pernand-vergelesses-premier-cru-vergelesses.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Rapet Pere et Fils, Pernand-Vergelesses Premier Cru, Vergelesses</h3>
+        <p>Domaine Rapet Père &amp; Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-rapet-pere-et-fils-pernand-vergelesses-les-belles-filles.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Rapet Pere et Fils, Pernand-Vergelesses, Les Belles Filles</h3>
+        <p>Domaine Rapet Père &amp; Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-robert-chevillon-nuits-saint-georges-premier-cru-aux-chaignots.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Robert Chevillon, Nuits-Saint-Georges Premier Cru, Aux Chaignots</h3>
+        <p>Domaine Robert Chevillon</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-robert-chevillon-nuits-saint-georges-premier-cru-les-perrieres.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Robert Chevillon, Nuits-Saint-Georges Premier Cru, Les Perrieres</h3>
+        <p>Domaine Robert Chevillon</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-robert-chevillon-nuits-saint-georges-premier-cru-les-vaucrains.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Robert Chevillon, Nuits-Saint-Georges Premier Cru, Les Vaucrains</h3>
+        <p>Domaine Robert Chevillon</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-robert-chevillon-nuits-saint-georges-vieilles-vignes.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Robert Chevillon, Nuits-Saint-Georges, Vieilles Vignes</h3>
+        <p>Domaine Robert Chevillon</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-rossignol-trapet-chapelle-chambertin-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Rossignol-Trapet, Chapelle-Chambertin Grand Cru</h3>
+        <p>Domaine Rossignol-Trapet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-rossignol-trapet-gevrey-chambertin-vieilles-vignes.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Rossignol-Trapet, Gevrey-Chambertin, Vieilles Vignes</h3>
+        <p>Domaine Rossignol-Trapet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-rostaing-cote-rotie-cote-brune.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Rostaing, Cote Rotie, Cote Brune</h3>
+        <p>Domaine Rostaing</p>
+        <span class="badge">Rhône Nord</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-simon-colin-maranges-premier-cru-la-fussiere.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Simon Colin, Maranges Premier Cru, La Fussiere</h3>
+        <p>Simon Colin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-taupenot-merme-saint-romain-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Taupenot-Merme, Saint-Romain, Blanc</h3>
+        <p>Domaine Taupenot-Merme</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-trapet-pere-et-fils-latricieres-chambertin-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Domaine Trapet Pere et Fils, Latricieres-Chambertin Grand Cru</h3>
+        <p>Domaine Trapet Père &amp; Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/domaine-vacheron-sancerre-les-romains.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Domaine Vacheron, Sancerre, Les Romains</h3>
+        <p>Domaine Vacheron</p>
+        <span class="badge">Vallée de la Loire</span>
+      </div>
+    </a>
+    
+    <a href="/vins/edmond-vatan-sancerre-clos-neore.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Edmond Vatan, Sancerre, Clos Neore</h3>
+        <p>Edmond Vatan</p>
+        <span class="badge">Vallée de la Loire</span>
+      </div>
+    </a>
+    
+    <a href="/vins/egly-ouriet-brut-millesime-grand-cru.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Egly-Ouriet, Brut Millesime Grand Cru</h3>
+        <p>Egly-Ouriet</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/emmanuel-rouget-savigny-les-beaune-premier-cru-les-lavieres.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Emmanuel Rouget, Savigny-les-Beaune Premier Cru, Les Lavieres</h3>
+        <p>Domaine Emmanuel Rouget</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/emmanuel-rouget-savigny-les-beaune-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Emmanuel Rouget, Savigny-les-Beaune, Rouge</h3>
+        <p>Domaine Emmanuel Rouget</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/etienne-sauzet-batard-montrachet-grand-cru.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Etienne Sauzet, Batard-Montrachet Grand Cru</h3>
+        <p>Domaine Etienne Sauzet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/etienne-sauzet-chassagne-montrachet-les-encegnieres.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Etienne Sauzet, Chassagne-Montrachet, Les Encegnieres</h3>
+        <p>Domaine Etienne Sauzet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/etienne-sauzet-puligny-montrachet.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Etienne Sauzet, Puligny-Montrachet</h3>
+        <p>Domaine Etienne Sauzet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/etienne-sauzet-puligny-montrachet-premier-cru-champ-canet.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Etienne Sauzet, Puligny-Montrachet Premier Cru, Champ Canet</h3>
+        <p>Domaine Etienne Sauzet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/etienne-sauzet-puligny-montrachet-premier-cru-hameau-de-blagny.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Etienne Sauzet, Puligny-Montrachet Premier Cru, Hameau de Blagny</h3>
+        <p>Domaine Etienne Sauzet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/etienne-sauzet-puligny-montrachet-premier-cru-la-garenne.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Etienne Sauzet, Puligny-Montrachet Premier Cru, La Garenne</h3>
+        <p>Domaine Etienne Sauzet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/etienne-sauzet-puligny-montrachet-premier-cru-les-combettes.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Etienne Sauzet, Puligny-Montrachet Premier Cru, Les Combettes</h3>
+        <p>Domaine Etienne Sauzet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/etienne-sauzet-puligny-montrachet-premier-cru-les-perrieres.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Etienne Sauzet, Puligny-Montrachet Premier Cru, Les Perrieres</h3>
+        <p>Domaine Etienne Sauzet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/etienne-sauzet-puligny-montrachet-premier-cru-sous-le-puits.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Etienne Sauzet, Puligny-Montrachet Premier Cru, Sous le Puits</h3>
+        <p>Domaine Etienne Sauzet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/famille-perrin-chateauneuf-du-pape-les-sinards-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Famille Perrin, Chateauneuf-du-Pape, Les Sinards Rouge</h3>
+        <p>Famille Perrin</p>
+        <span class="badge">Rhône Sud</span>
+      </div>
+    </a>
+    
+    <a href="/vins/famille-perrin-gigondas-domaine-du-clos-des-tourelles.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Famille Perrin, Gigondas, Domaine du Clos des Tourelles</h3>
+        <p>Famille Perrin</p>
+        <span class="badge">Rhône Sud</span>
+      </div>
+    </a>
+    
+    <a href="/vins/fleur-de-miraval-exclusivement-rose-er2-champagne.html" class="wine-card" data-color="rosé">
+      <div class="color-indicator rosé"></div>
+      <div class="card-content">
+        <h3>Fleur de Miraval, Exclusivement Rose ER2, Champagne</h3>
+        <p>Fleur de Miraval</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/francis-boulard-petraea.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Francis Boulard, Petraea</h3>
+        <p>Champagne Francis Boulard et Fille</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/francois-carillon-chassagne-montrachet.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Francois Carillon, Chassagne-Montrachet</h3>
+        <p>François Carillon</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/francois-carillon-chassagne-montrachet-premier-cru-les-macherelles-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Francois Carillon, Chassagne-Montrachet Premier Cru, Les Macherelles Blanc</h3>
+        <p>François Carillon</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/francois-carillon-puligny-montrachet-premier-cru-champ-gain.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Francois Carillon, Puligny-Montrachet Premier Cru, Champ Gain</h3>
+        <p>François Carillon</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/francois-carillon-puligny-montrachet-premier-cru-les-combettes.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Francois Carillon, Puligny-Montrachet Premier Cru, Les Combettes</h3>
+        <p>François Carillon</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/francois-carillon-puligny-montrachet-premier-cru-les-perrieres.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Francois Carillon, Puligny-Montrachet Premier Cru, Les Perrieres</h3>
+        <p>François Carillon</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/francois-carillon-puligny-montrachet-les-enseigneres.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Francois Carillon, Puligny-Montrachet, Les Enseigneres</h3>
+        <p>François Carillon</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/francois-carillon-saint-aubin-premier-cru-les-murgers-des-dents-de-chien.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Francois Carillon, Saint-Aubin Premier Cru, Les Murgers des Dents de Chien</h3>
+        <p>François Carillon</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/francois-carillon-saint-aubin-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Francois Carillon, Saint-Aubin, Blanc</h3>
+        <p>François Carillon</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/francois-mikulski-meursault-premier-cru-charmes.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Francois Mikulski, Meursault Premier Cru, Charmes</h3>
+        <p>Domaine François Mikulski</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/francois-mikulski-meursault-premier-cru-porusot.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Francois Mikulski, Meursault Premier Cru, Porusot</h3>
+        <p>Domaine François Mikulski</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/francois-mikulski-meursault-les-meix-chavaux.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Francois Mikulski, Meursault, Les Meix Chavaux</h3>
+        <p>Domaine François Mikulski</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/francoise-bedel-comme-autrefois.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Francoise Bedel, Comme Autrefois</h3>
+        <p>Françoise Bedel</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/francoise-bedel-entre-ciel-terre.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Francoise Bedel, Entre Ciel &amp; Terre</h3>
+        <p>Françoise Bedel</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/francoise-bedel-jouvence-champagne.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Francoise Bedel, Jouvence, Champagne</h3>
+        <p>Françoise Bedel</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/francoise-bedel-l-ame-de-la-terre-millesime.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Francoise Bedel, L&#039;Ame de la Terre Millesime</h3>
+        <p>Françoise Bedel</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/francoise-bedel-origin-elle.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Francoise Bedel, Origin&#039;elle</h3>
+        <p>Françoise Bedel</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/gangloff-condrieu.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Gangloff, Condrieu</h3>
+        <p>Mathilde et Yves Gangloff</p>
+        <span class="badge">Rhône Nord</span>
+      </div>
+    </a>
+    
+    <a href="/vins/gangloff-cote-rotie-barbarine.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Gangloff, Cote Rotie, Barbarine</h3>
+        <p>Mathilde et Yves Gangloff</p>
+        <span class="badge">Rhône Nord</span>
+      </div>
+    </a>
+    
+    <a href="/vins/gangloff-cote-rotie-sereine-noire.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Gangloff, Cote Rotie, Sereine Noire</h3>
+        <p>Mathilde et Yves Gangloff</p>
+        <span class="badge">Rhône Nord</span>
+      </div>
+    </a>
+    
+    <a href="/vins/geantet-pansiot-gevrey-chambertin-vieilles-vignes.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Geantet-Pansiot, Gevrey-Chambertin, Vieilles Vignes</h3>
+        <p>Domaine Geantet-Pansiot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/georges-noellat-beaune-premier-cru-la-mignotte.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Georges Noellat, Beaune Premier Cru, La Mignotte</h3>
+        <p>Domaine Georges Noëllat</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/georges-noellat-gevrey-chambertin-premier-cru-fonteny.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Georges Noellat, Gevrey-Chambertin Premier Cru, Fonteny</h3>
+        <p>Domaine Georges Noëllat</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/georges-noellat-gevrey-chambertin-aux-echezeaux.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Georges Noellat, Gevrey-Chambertin, Aux Echezeaux</h3>
+        <p>Domaine Georges Noëllat</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/georges-noellat-grands-echezeaux-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Georges Noellat, Grands Echezeaux Grand Cru</h3>
+        <p>Domaine Georges Noëllat</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/georges-noellat-nuits-saint-georges.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Georges Noellat, Nuits-Saint-Georges</h3>
+        <p>Domaine Georges Noëllat</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/georges-noellat-vosne-romanee-premier-cru-les-chaumes.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Georges Noellat, Vosne-Romanee Premier Cru, Les Chaumes</h3>
+        <p>Domaine Georges Noëllat</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/gerard-mugneret-nuits-saint-georges-premier-cru-aux-cras.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Gerard Mugneret, Nuits-Saint-Georges Premier Cru, Aux Cras</h3>
+        <p>Domaine Gérard Mugneret</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/harmand-geoffroy-gevrey-chambertin-premier-cru-bossiere.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Harmand-Geoffroy, Gevrey-Chambertin Premier Cru, Bossiere</h3>
+        <p>Domaine Harmand-Geoffroy</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/harmand-geoffroy-gevrey-chambertin-premier-cru-lavaut-saint-jacques.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Harmand-Geoffroy, Gevrey-Chambertin Premier Cru, Lavaut Saint-Jacques</h3>
+        <p>Domaine Harmand-Geoffroy</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/harmand-geoffroy-gevrey-chambertin-jouise.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Harmand-Geoffroy, Gevrey-Chambertin, Jouise</h3>
+        <p>Domaine Harmand-Geoffroy</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/henri-boillot-bourgogne-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Henri Boillot, Bourgogne, Blanc</h3>
+        <p>Henri Boillot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/henri-boillot-clos-de-vougeot-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Henri Boillot, Clos de Vougeot Grand Cru</h3>
+        <p>Henri Boillot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/henri-boillot-corton-charlemagne-grand-cru.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Henri Boillot, Corton-Charlemagne Grand Cru</h3>
+        <p>Henri Boillot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/henri-germain-beaune-premier-cru-les-bressandes-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Henri Germain, Beaune Premier Cru, Les Bressandes Rouge</h3>
+        <p>Henri Germain et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/henri-germain-bourgogne-aligote.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Henri Germain, Bourgogne Aligote</h3>
+        <p>Henri Germain et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/henri-germain-bourgogne-cote-d-or-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Henri Germain, Bourgogne, Cote d&#039;Or Blanc</h3>
+        <p>Henri Germain et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/henri-germain-meursault-premier-cru-charmes.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Henri Germain, Meursault Premier Cru, Charmes</h3>
+        <p>Henri Germain et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/henri-germain-meursault-premier-cru-porusot.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Henri Germain, Meursault Premier Cru, Porusot</h3>
+        <p>Henri Germain et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/henri-germain-meursault-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Henri Germain, Meursault, Blanc</h3>
+        <p>Henri Germain et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/henri-germain-meursault-le-limozin.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Henri Germain, Meursault, Le Limozin</h3>
+        <p>Henri Germain et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/henri-germain-meursault-les-chevalieres.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Henri Germain, Meursault, Les Chevalieres</h3>
+        <p>Henri Germain et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/hubert-lamy-puligny-montrachet-les-tremblots-vieilles-vignes.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Hubert Lamy, Puligny-Montrachet, Les Tremblots Vieilles Vignes</h3>
+        <p>Domaine Hubert Lamy</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/hubert-lamy-saint-aubin-premier-cru-clos-de-la-chateniere-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Hubert Lamy, Saint-Aubin Premier Cru, Clos de la Chateniere Blanc</h3>
+        <p>Domaine Hubert Lamy</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/hubert-lamy-saint-aubin-premier-cru-en-remilly-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Hubert Lamy, Saint-Aubin Premier Cru, En Remilly Blanc</h3>
+        <p>Domaine Hubert Lamy</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/hubert-lamy-saint-aubin-premier-cru-les-frionnes-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Hubert Lamy, Saint-Aubin Premier Cru, Les Frionnes Blanc</h3>
+        <p>Domaine Hubert Lamy</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/hubert-lignier-charmes-chambertin-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Hubert Lignier, Charmes-Chambertin Grand Cru</h3>
+        <p>Domaine Hubert Lignier</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/hubert-lignier-morey-saint-denis-premier-cru-la-riotte.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Hubert Lignier, Morey-Saint-Denis Premier Cru, La Riotte</h3>
+        <p>Domaine Hubert Lignier</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/hubert-lignier-morey-saint-denis-premier-cru-vieilles-vignes.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Hubert Lignier, Morey-Saint-Denis Premier Cru, Vieilles Vignes</h3>
+        <p>Domaine Hubert Lignier</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jacques-frederic-mugnier-chambolle-musigny-premier-cru-les-amoureuses.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Jacques-Frederic Mugnier, Chambolle-Musigny Premier Cru, Les Amoureuses</h3>
+        <p>Domaine Jacques-Frédéric Mugnier</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jacques-frederic-mugnier-chambolle-musigny-premier-cru-les-fuees.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Jacques-Frederic Mugnier, Chambolle-Musigny Premier Cru, Les Fuees</h3>
+        <p>Domaine Jacques-Frédéric Mugnier</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jacques-frederic-mugnier-musigny-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Jacques-Frederic Mugnier, Musigny Grand Cru</h3>
+        <p>Domaine Jacques-Frédéric Mugnier</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jacques-frederic-mugnier-nuits-saint-georges-premier-cru-clos-de-la-marechale-bl.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jacques-Frederic Mugnier, Nuits-Saint-Georges Premier Cru, Clos de la Marechale Blanc</h3>
+        <p>Domaine Jacques-Frédéric Mugnier</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jacques-frederic-mugnier-nuits-saint-georges-premier-cru-clos-de-la-marechale-ro.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Jacques-Frederic Mugnier, Nuits-Saint-Georges Premier Cru, Clos de la Marechale Rouge</h3>
+        <p>Domaine Jacques-Frédéric Mugnier</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-foillard-morgon-corcelette-cuvee-corcelette.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Jean Foillard, Morgon, Corcelette Cuvee Corcelette</h3>
+        <p>Domaine Jean Foillard</p>
+        <span class="badge">Beaujolais</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-bachelet-bourgogne-chardonnay.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Bachelet, Bourgogne, Chardonnay</h3>
+        <p>Jean-Claude Bachelet et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-bachelet-chassagne-montrachet-premier-cru-la-boudriotte-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Bachelet, Chassagne-Montrachet Premier Cru, La Boudriotte Rouge</h3>
+        <p>Jean-Claude Bachelet et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-bachelet-chassagne-montrachet-premier-cru-les-macherelles-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Bachelet, Chassagne-Montrachet Premier Cru, Les Macherelles Blanc</h3>
+        <p>Jean-Claude Bachelet et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-bachelet-chassagne-montrachet-les-encegnieres.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Bachelet, Chassagne-Montrachet, Les Encegnieres</h3>
+        <p>Jean-Claude Bachelet et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-bachelet-puligny-montrachet-premier-cru-sous-le-puits.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Bachelet, Puligny-Montrachet Premier Cru, Sous le Puits</h3>
+        <p>Jean-Claude Bachelet et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-bachelet-puligny-montrachet-les-aubues.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Bachelet, Puligny-Montrachet, Les Aubues</h3>
+        <p>Jean-Claude Bachelet et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-bachelet-saint-aubin-premier-cru-en-remilly-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Bachelet, Saint-Aubin Premier Cru, En Remilly Blanc</h3>
+        <p>Jean-Claude Bachelet et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-bachelet-saint-aubin-premier-cru-le-charmois-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Bachelet, Saint-Aubin Premier Cru, Le Charmois Blanc</h3>
+        <p>Jean-Claude Bachelet et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-bachelet-saint-aubin-premier-cru-les-champlots.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Bachelet, Saint-Aubin Premier Cru, Les Champlots</h3>
+        <p>Jean-Claude Bachelet et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-bachelet-saint-aubin-premier-cru-les-combes-au-sud.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Bachelet, Saint-Aubin Premier Cru, Les Combes au Sud</h3>
+        <p>Jean-Claude Bachelet et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-bachelet-saint-aubin-premier-cru-les-frionnes.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Bachelet, Saint-Aubin Premier Cru, Les Frionnes</h3>
+        <p>Jean-Claude Bachelet et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-bachelet-saint-aubin-premier-cru-les-murgers-des-dents-de-chien.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Bachelet, Saint-Aubin Premier Cru, Les Murgers des Dents de Chien</h3>
+        <p>Jean-Claude Bachelet et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-ramonet-batard-montrachet-grand-cru.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Ramonet, Batard-Montrachet Grand Cru</h3>
+        <p>Domaine Jean-Claude Ramonet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-ramonet-bienvenues-batard-montrachet-grand-cru.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Ramonet, Bienvenues-Batard-Montrachet Grand Cru</h3>
+        <p>Domaine Jean-Claude Ramonet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-ramonet-bourgogne-pinot-noir.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Ramonet, Bourgogne, Pinot Noir</h3>
+        <p>Domaine Jean-Claude Ramonet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-ramonet-chassagne-montrachet-premier-cru-clos-de-la-boudriotte-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Ramonet, Chassagne-Montrachet Premier Cru, Clos de la Boudriotte Rouge</h3>
+        <p>Domaine Ramonet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-ramonet-chassagne-montrachet-premier-cru-clos-du-cailleret.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Ramonet, Chassagne-Montrachet Premier Cru, Clos du Cailleret</h3>
+        <p>Domaine Jean-Claude Ramonet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-ramonet-chassagne-montrachet-premier-cru-la-boudriotte-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Ramonet, Chassagne-Montrachet Premier Cru, La Boudriotte Blanc</h3>
+        <p>Domaine Jean-Claude Ramonet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-ramonet-chassagne-montrachet-premier-cru-la-boudriotte-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Ramonet, Chassagne-Montrachet Premier Cru, La Boudriotte Rouge</h3>
+        <p>Domaine Jean-Claude Ramonet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-ramonet-chassagne-montrachet-premier-cru-les-caillerets.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Ramonet, Chassagne-Montrachet Premier Cru, Les Caillerets</h3>
+        <p>Domaine Jean-Claude Ramonet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-ramonet-chassagne-montrachet-premier-cru-les-ruchottes.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Ramonet, Chassagne-Montrachet Premier Cru, Les Ruchottes</h3>
+        <p>Domaine Jean-Claude Ramonet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-ramonet-chassagne-montrachet-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Ramonet, Chassagne-Montrachet, Blanc</h3>
+        <p>Domaine Jean-Claude Ramonet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-ramonet-chassagne-montrachet-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Ramonet, Chassagne-Montrachet, Rouge</h3>
+        <p>Domaine Jean-Claude Ramonet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-ramonet-pernand-vergelesses-les-belles-filles-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Ramonet, Pernand-Vergelesses, Les Belles Filles Blanc</h3>
+        <p>Domaine Ramonet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-ramonet-saint-aubin-premier-cru-en-remilly-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Ramonet, Saint-Aubin Premier Cru, En Remilly Blanc</h3>
+        <p>Domaine Ramonet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-claude-ramonet-saint-aubin-premier-cru-les-murgers-des-dents-de-chien.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Claude Ramonet, Saint-Aubin Premier Cru, Les Murgers des Dents de Chien</h3>
+        <p>Domaine Ramonet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-francois-ganevat-la-combe-rotalier-nature-non-dose-cremant-du-jura.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Francois Ganevat, La Combe Rotalier Nature Non Dose, Cremant du Jura</h3>
+        <p>Jean-François Ganevat</p>
+        <span class="badge">Jura</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-francois-ganevat-les-chalasses-vieilles-vignes-rouge-cotes-du-jura.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Jean-Francois Ganevat, Les Chalasses Vieilles Vignes Rouge, Cotes du Jura</h3>
+        <p>Jean-François Ganevat</p>
+        <span class="badge">Jura</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-francois-ganevat-vin-jaune-cotes-du-jura.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Francois Ganevat, Vin Jaune, Cotes du Jura</h3>
+        <p>Jean-François Ganevat</p>
+        <span class="badge">Jura</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-marc-roulot-auxey-duresses-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Marc Roulot, Auxey-Duresses, Blanc</h3>
+        <p>Domaine Roulot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-marc-roulot-bourgogne-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Marc Roulot, Bourgogne, Blanc</h3>
+        <p>Domaine Roulot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-marc-roulot-bourgogne-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Marc Roulot, Bourgogne, Blanc</h3>
+        <p>Domaine Roulot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-marc-roulot-meursault-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Marc Roulot, Meursault, Blanc</h3>
+        <p>Domaine Roulot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-michel-gerin-cote-rotie-la-landonne.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Jean-Michel Gerin, Cote Rotie, La Landonne</h3>
+        <p>Domaine Jean-Michel Gérin</p>
+        <span class="badge">Rhône Nord</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-michel-gerin-cote-rotie-la-vialliere.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Jean-Michel Gerin, Cote Rotie, La Vialliere</h3>
+        <p>Domaine Jean-Michel Gérin</p>
+        <span class="badge">Rhône Nord</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-paul-benoit-droin-chablis-grand-cru-grenouilles.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Paul &amp; Benoit Droin, Chablis Grand Cru, Grenouilles</h3>
+        <p>Domaine Jean-Paul &amp; Benoît Droin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-paul-benoit-droin-chablis-grand-cru-hommage-a-louis.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Paul &amp; Benoit Droin, Chablis Grand Cru, Hommage a Louis</h3>
+        <p>Domaine Jean-Paul &amp; Benoît Droin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-paul-benoit-droin-chablis-grand-cru-valmur.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Paul &amp; Benoit Droin, Chablis Grand Cru, Valmur</h3>
+        <p>Domaine Jean-Paul &amp; Benoît Droin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-paul-benoit-droin-chablis-grand-cru-vaudesir.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Paul &amp; Benoit Droin, Chablis Grand Cru, Vaudesir</h3>
+        <p>Domaine Jean-Paul &amp; Benoît Droin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-paul-benoit-droin-chablis-premier-cru-montee-de-tonnerre.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Paul &amp; Benoit Droin, Chablis Premier Cru, Montee de Tonnerre</h3>
+        <p>Domaine Jean-Paul &amp; Benoît Droin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-paul-benoit-droin-chablis-premier-cru-montmains.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Paul &amp; Benoit Droin, Chablis Premier Cru, Montmains</h3>
+        <p>Domaine Jean-Paul &amp; Benoît Droin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-paul-benoit-droin-chablis-premier-cru-vaillons.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Paul &amp; Benoit Droin, Chablis Premier Cru, Vaillons</h3>
+        <p>Domaine Jean-Paul &amp; Benoît Droin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jean-paul-benoit-droin-chablis-premier-cru-vosgros.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jean-Paul &amp; Benoit Droin, Chablis Premier Cru, Vosgros</h3>
+        <p>Domaine Jean-Paul &amp; Benoît Droin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/joseph-colin-chassagne-montrachet-premier-cru-cailleret.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Joseph Colin, Chassagne-Montrachet Premier Cru, Cailleret</h3>
+        <p>Joseph Colin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/joseph-colin-chassagne-montrachet-premier-cru-les-chenevottes.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Joseph Colin, Chassagne-Montrachet Premier Cru, Les Chenevottes</h3>
+        <p>Joseph Colin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/joseph-colin-chassagne-montrachet-premier-cru-vide-bourse.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Joseph Colin, Chassagne-Montrachet Premier Cru, Vide Bourse</h3>
+        <p>Joseph Colin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/joseph-colin-puligny-montrachet-le-trezin.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Joseph Colin, Puligny-Montrachet, Le Trezin</h3>
+        <p>Joseph Colin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/joseph-colin-saint-aubin-premier-cru-clos-du-meix.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Joseph Colin, Saint-Aubin Premier Cru, Clos du Meix</h3>
+        <p>Joseph Colin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/joseph-colin-saint-aubin-premier-cru-la-chateniere.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Joseph Colin, Saint-Aubin Premier Cru, La Chateniere</h3>
+        <p>Joseph Colin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/joseph-colin-saint-aubin-premier-cru-les-champlots-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Joseph Colin, Saint-Aubin Premier Cru, Les Champlots Blanc</h3>
+        <p>Joseph Colin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/joseph-colin-saint-aubin-premier-cru-les-combes.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Joseph Colin, Saint-Aubin Premier Cru, Les Combes</h3>
+        <p>Joseph Colin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/joseph-colin-saint-aubin-premier-cru-sur-le-sentier-du-clou.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Joseph Colin, Saint-Aubin Premier Cru, Sur le Sentier du Clou</h3>
+        <p>Joseph Colin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/joseph-drouhin-clos-de-vougeot-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Joseph Drouhin, Clos de Vougeot Grand Cru</h3>
+        <p>Maison Joseph Drouhin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jules-desjourneys-beaujolais-villages-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jules Desjourneys, Beaujolais-Villages, Blanc</h3>
+        <p>Jules Desjourneys (Fabien Duperray)</p>
+        <span class="badge">Beaujolais</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jules-desjourneys-chenas-jugement-dernier.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jules Desjourneys, Chenas, Jugement Dernier</h3>
+        <p>Jules Desjourneys (Fabien Duperray)</p>
+        <span class="badge">Beaujolais</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jules-desjourneys-macon-prisse-en-chailloux.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jules Desjourneys, Macon, Prisse En Chailloux</h3>
+        <p>Jules Desjourneys (Fabien Duperray)</p>
+        <span class="badge">Mâconnais</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jules-desjourneys-macon-verze.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jules Desjourneys, Macon, Verze</h3>
+        <p>Jules Desjourneys (Fabien Duperray)</p>
+        <span class="badge">Mâconnais</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jules-desjourneys-morgon.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jules Desjourneys, Morgon</h3>
+        <p>Jules Desjourneys (Fabien Duperray)</p>
+        <span class="badge">Beaujolais</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jules-desjourneys-moulin-a-vent.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jules Desjourneys, Moulin-a-Vent</h3>
+        <p>Jules Desjourneys (Fabien Duperray)</p>
+        <span class="badge">Beaujolais</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jules-desjourneys-pouilly-fuisse.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jules Desjourneys, Pouilly-Fuisse</h3>
+        <p>Jules Desjourneys (Fabien Duperray)</p>
+        <span class="badge">Mâconnais</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jules-desjourneys-pouilly-fuisse-les-vignes-blanches.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jules Desjourneys, Pouilly-Fuisse, Les Vignes Blanches</h3>
+        <p>Jules Desjourneys (Fabien Duperray)</p>
+        <span class="badge">Mâconnais</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jules-desjourneys-pouilly-loche.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jules Desjourneys, Pouilly-Loche</h3>
+        <p>Jules Desjourneys (Fabien Duperray)</p>
+        <span class="badge">Mâconnais</span>
+      </div>
+    </a>
+    
+    <a href="/vins/jules-desjourneys-pouilly-vinzelles-les-longeays.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Jules Desjourneys, Pouilly-Vinzelles, Les Longeays</h3>
+        <p>Jules Desjourneys (Fabien Duperray)</p>
+        <span class="badge">Mâconnais</span>
+      </div>
+    </a>
+    
+    <a href="/vins/la-rogerie-lieux-de-vie-blanc-de-blancs-grand-cru-avize.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>La Rogerie, Lieux de Vie Blanc de Blancs Grand Cru, Avize</h3>
+        <p>La Rogerie</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/leflaive-associes-bourgogne-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Leflaive &amp; Associes, Bourgogne, Blanc</h3>
+        <p>Leflaive et Associés</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/les-horees-bourgogne-aligote-en-coulezain.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Les Horees, Bourgogne Aligote, En Coulezain</h3>
+        <p>Les Horées</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/les-horees-cote-de-beaune-les-monsnieres.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Les Horees, Cote de Beaune, Les Monsnieres</h3>
+        <p>Les Horées</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/les-horees-coteaux-bourguignons-mon-poulain.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Les Horees, Coteaux Bourguignons, Mon Poulain</h3>
+        <p>Les Horées</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/les-horees-pernand-vergelesses-premier-cru-les-fichots.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Les Horees, Pernand-Vergelesses Premier Cru, Les Fichots</h3>
+        <p>Les Horées</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/lignier-michelot-chambolle-musigny-premier-cru-jules.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Lignier-Michelot, Chambolle-Musigny Premier Cru, Jules</h3>
+        <p>Domaine Lignier-Michelot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/lignier-michelot-chambolle-musigny-vieilles-vignes.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Lignier-Michelot, Chambolle-Musigny, Vieilles Vignes</h3>
+        <p>Domaine Lignier-Michelot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/lignier-michelot-clos-de-la-roche-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Lignier-Michelot, Clos de la Roche Grand Cru</h3>
+        <p>Domaine Lignier-Michelot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/lignier-michelot-fixin-premier-cru-arvelets.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Lignier-Michelot, Fixin Premier Cru, Arvelets</h3>
+        <p>Domaine Lignier-Michelot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/lignier-michelot-morey-saint-denis-premier-cru-aux-charmes.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Lignier-Michelot, Morey-Saint-Denis Premier Cru, Aux Charmes</h3>
+        <p>Domaine Lignier-Michelot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/lignier-michelot-morey-saint-denis-premier-cru-les-faconnieres.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Lignier-Michelot, Morey-Saint-Denis Premier Cru, Les Faconnieres</h3>
+        <p>Domaine Lignier-Michelot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/louis-michel-chablis-grand-cru-grenouilles.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Louis Michel, Chablis Grand Cru, Grenouilles</h3>
+        <p>Domaine Louis Michel &amp; Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/louis-michel-chablis-grand-cru-vaudesir.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Louis Michel, Chablis Grand Cru, Vaudesir</h3>
+        <p>Domaine Louis Michel &amp; Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/louis-michel-chablis-premier-cru-butteaux-vieilles-vignes.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Louis Michel, Chablis Premier Cru, Butteaux Vieilles Vignes</h3>
+        <p>Domaine Louis Michel &amp; Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/lucien-aviet-fils-arbois-caveau-de-bacchus-cuvee-de-la-confrerie-vin-jaune.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Lucien Aviet &amp; Fils, Arbois, Caveau de Bacchus Cuvee de la Confrerie Vin Jaune</h3>
+        <p>Domaine Lucien Aviet &amp; Fils</p>
+        <span class="badge">Jura</span>
+      </div>
+    </a>
+    
+    <a href="/vins/maison-glandien-l-ouverture-rose-vdf.html" class="wine-card" data-color="rosé">
+      <div class="color-indicator rosé"></div>
+      <div class="card-content">
+        <h3>Maison Glandien, L&#039;Ouverture Rose, VdF</h3>
+        <p>Maison Glandien</p>
+        <span class="badge">France</span>
+      </div>
+    </a>
+    
+    <a href="/vins/maison-glandien-l-ouverture-rouge-vdf.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Maison Glandien, L&#039;Ouverture Rouge, VdF</h3>
+        <p>Maison Glandien</p>
+        <span class="badge">France</span>
+      </div>
+    </a>
+    
+    <a href="/vins/maison-glandien-la-cruci-blanc-vdf.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Maison Glandien, La Cruci, Blanc VdF</h3>
+        <p>Maison Glandien</p>
+        <span class="badge">France</span>
+      </div>
+    </a>
+    
+    <a href="/vins/maison-glandien-la-cruci-vdf.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Maison Glandien, La Cruci, VdF</h3>
+        <p>Maison Glandien</p>
+        <span class="badge">France</span>
+      </div>
+    </a>
+    
+    <a href="/vins/maison-glandien-les-ecully-vdf.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Maison Glandien, Les Ecully, VdF</h3>
+        <p>Maison Glandien</p>
+        <span class="badge">France</span>
+      </div>
+    </a>
+    
+    <a href="/vins/marc-colin-et-fils-chassagne-montrachet.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Marc Colin et Fils, Chassagne-Montrachet</h3>
+        <p>Domaine Marc Colin et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/marc-colin-et-fils-chassagne-montrachet-premier-cru-cailleret.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Marc Colin et Fils, Chassagne-Montrachet Premier Cru, Cailleret</h3>
+        <p>Domaine Marc Colin et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/marc-colin-et-fils-puligny-montrachet-le-trezin.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Marc Colin et Fils, Puligny-Montrachet, Le Trezin</h3>
+        <p>Domaine Marc Colin et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/marc-colin-et-fils-saint-aubin-premier-cru-en-montceau.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Marc Colin et Fils, Saint-Aubin Premier Cru, En Montceau</h3>
+        <p>Domaine Marc Colin et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/marc-colin-et-fils-saint-aubin-premier-cru-en-remilly.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Marc Colin et Fils, Saint-Aubin Premier Cru, En Remilly</h3>
+        <p>Domaine Marc Colin et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/maxime-cheurlin-noellat-bonnes-mares-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Maxime Cheurlin Noellat, Bonnes Mares Grand Cru</h3>
+        <p>Georges Noëllat (Maxime Cheurlin)</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/maxime-cheurlin-noellat-chambolle-musigny.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Maxime Cheurlin Noellat, Chambolle-Musigny</h3>
+        <p>Georges Noëllat (Maxime Cheurlin)</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/maxime-cheurlin-noellat-clos-de-vougeot-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Maxime Cheurlin Noellat, Clos de Vougeot Grand Cru</h3>
+        <p>Georges Noëllat (Maxime Cheurlin)</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/maxime-cheurlin-noellat-gevrey-chambertin-en-champs.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Maxime Cheurlin Noellat, Gevrey-Chambertin, En Champs</h3>
+        <p>Georges Noëllat (Maxime Cheurlin)</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/maxime-cheurlin-noellat-morey-saint-denis.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Maxime Cheurlin Noellat, Morey-Saint-Denis</h3>
+        <p>Georges Noëllat (Maxime Cheurlin)</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/maxime-cheurlin-noellat-morey-saint-denis-premier-cru-monts-luisants.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Maxime Cheurlin Noellat, Morey-Saint-Denis Premier Cru, Monts Luisants</h3>
+        <p>Georges Noëllat (Maxime Cheurlin)</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/maxime-cheurlin-noellat-nuits-saint-georges-premier-cru-les-damodes.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Maxime Cheurlin Noellat, Nuits-Saint-Georges Premier Cru, Les Damodes</h3>
+        <p>Georges Noëllat (Maxime Cheurlin)</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/maxime-cheurlin-noellat-nuits-saint-georges-premier-cru-les-vaucrains.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Maxime Cheurlin Noellat, Nuits-Saint-Georges Premier Cru, Les Vaucrains</h3>
+        <p>Georges Noëllat (Maxime Cheurlin)</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/meo-camuzet-frere-et-soeurs-fixin.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Meo Camuzet Frere et Soeurs, Fixin</h3>
+        <p>Méo-Camuzet Frère &amp; Soeurs (négociant)</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/meo-camuzet-frere-et-soeurs-nuits-saint-georges-premier-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Meo Camuzet Frere et Soeurs, Nuits-Saint-Georges Premier Cru</h3>
+        <p>Méo-Camuzet Frère &amp; Soeurs (négociant)</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/meo-camuzet-frere-et-soeurs-nuits-saint-georges-premier-cru-aux-argillas.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Meo Camuzet Frere et Soeurs, Nuits-Saint-Georges Premier Cru, Aux Argillas</h3>
+        <p>Méo-Camuzet Frère &amp; Soeurs (négociant)</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/meo-camuzet-nuits-saint-georges-premier-cru-les-perrieres.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Meo Camuzet, Nuits-Saint-Georges Premier Cru, Les Perrieres</h3>
+        <p>Domaine Méo-Camuzet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/michel-bouzereau-meursault-premier-cru-charmes.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Michel Bouzereau, Meursault Premier Cru, Charmes</h3>
+        <p>Domaine Michel Bouzereau et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/michel-bouzereau-puligny-montrachet-premier-cru-champ-gain.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Michel Bouzereau, Puligny-Montrachet Premier Cru, Champ Gain</h3>
+        <p>Domaine Michel Bouzereau et Fils</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/michele-et-patrice-rion-chambolle-musigny-premier-cru-les-charmes.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Michele et Patrice Rion, Chambolle-Musigny Premier Cru, Les Charmes</h3>
+        <p>Domaine Michèle &amp; Patrice Rion</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/michele-et-patrice-rion-nuits-saint-georges-premier-cru-clos-des-argillieres.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Michele et Patrice Rion, Nuits-Saint-Georges Premier Cru, Clos des Argillieres</h3>
+        <p>Domaine Michèle &amp; Patrice Rion</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/michele-et-patrice-rion-nuits-saint-georges-premier-cru-clos-saint-marc.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Michele et Patrice Rion, Nuits-Saint-Georges Premier Cru, Clos Saint-Marc</h3>
+        <p>Domaine Michèle &amp; Patrice Rion</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/michele-et-patrice-rion-nuits-saint-georges-premier-cru-les-terres-blanches.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Michele et Patrice Rion, Nuits-Saint-Georges Premier Cru, Les Terres Blanches</h3>
+        <p>Domaine Michèle &amp; Patrice Rion</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/morey-coffinet-puligny-montrachet-premier-cru-les-pucelles.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Morey Coffinet, Puligny-Montrachet Premier Cru, Les Pucelles</h3>
+        <p>Domaine Morey-Coffinet</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/patrick-piuze-chablis-grande-vallee.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Patrick Piuze, Chablis, Grande Vallee</h3>
+        <p>Maison Patrick Piuze</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/perrot-minot-chambertin-grand-cru-vieilles-vignes.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Perrot-Minot, Chambertin Grand Cru, Vieilles Vignes</h3>
+        <p>Domaine Perrot-Minot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/perrot-minot-chambertin-clos-de-beze-grand-cru-vieilles-vignes.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Perrot-Minot, Chambertin-Clos de Beze Grand Cru, Vieilles Vignes</h3>
+        <p>Domaine Perrot-Minot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/perrot-minot-chambolle-musigny-la-combe-d-orveau-vieilles-vignes.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Perrot-Minot, Chambolle-Musigny, La Combe d&#039;Orveau Vieilles Vignes</h3>
+        <p>Domaine Perrot-Minot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pertois-moriset-pm-06-grand-cru-champagne.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pertois-Moriset, PM.06 Grand Cru, Champagne</h3>
+        <p>Pertois-Moriset</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pertois-moriset-rose-blanc-grand-cru-champagne.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pertois-Moriset, Rose Blanc Grand Cru, Champagne</h3>
+        <p>Pertois-Moriset</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-boisson-bourgogne-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre Boisson, Bourgogne, Blanc</h3>
+        <p>Pierre Boisson</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-damoy-bourgogne-les-ravry-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre Damoy, Bourgogne, Les Ravry Blanc</h3>
+        <p>Domaine Pierre Damoy</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-gerbais-experimentale-n17-champagne.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre Gerbais, Experimentale N17, Champagne</h3>
+        <p>Pierre Gerbais</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-girardin-clos-de-vougeot-grand-cru.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Pierre Girardin, Clos de Vougeot Grand Cru</h3>
+        <p>Domaine Pierre Girardin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-girardin-gevrey-chambertin-premier-cru-lavaut-saint-jacques.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Pierre Girardin, Gevrey-Chambertin Premier Cru, Lavaut Saint-Jacques</h3>
+        <p>Domaine Pierre Girardin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-girardin-pommard-eclat-de-calcaire.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Pierre Girardin, Pommard, Eclat de Calcaire</h3>
+        <p>Domaine Pierre Girardin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-girardin-pommard-les-vignots.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Pierre Girardin, Pommard, Les Vignots</h3>
+        <p>Domaine Pierre Girardin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-gonon-iles-feray-ardeche-igp.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Pierre Gonon, Iles Feray, Ardeche IGP</h3>
+        <p>Pierre Gonon</p>
+        <span class="badge">Ardèche</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-gonon-saint-joseph-oliviers-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre Gonon, Saint-Joseph, Oliviers Blanc</h3>
+        <p>Pierre Gonon</p>
+        <span class="badge">Rhône Nord</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-morey-meursault-premier-cru-perrieres-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre Morey, Meursault Premier Cru, Perrieres Blanc</h3>
+        <p>Domaine Pierre Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-morey-meursault-le-tesson.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre Morey, Meursault, Le Tesson</h3>
+        <p>Domaine Pierre Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-peters-extra-brut-blanc-de-blancs-grand-cru.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre Peters, Extra Brut Blanc de Blancs Grand Cru</h3>
+        <p>Pierre Péters</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-peters-grand-reserve-grand-cru.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre Peters, Grand Reserve Grand Cru</h3>
+        <p>Pierre Péters</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-yves-colin-morey-chassagne-montrachet-premier-cru-abbaye-de-morgeot.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre-Yves Colin-Morey, Chassagne-Montrachet Premier Cru, Abbaye de Morgeot</h3>
+        <p>Pierre-Yves Colin-Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-yves-colin-morey-chassagne-montrachet-premier-cru-la-maltroie.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre-Yves Colin-Morey, Chassagne-Montrachet Premier Cru, La Maltroie</h3>
+        <p>Pierre-Yves Colin-Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-yves-colin-morey-chassagne-montrachet-premier-cru-les-baudines.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre-Yves Colin-Morey, Chassagne-Montrachet Premier Cru, Les Baudines</h3>
+        <p>Pierre-Yves Colin-Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-yves-colin-morey-chassagne-montrachet-premier-cru-les-chenevottes.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre-Yves Colin-Morey, Chassagne-Montrachet Premier Cru, Les Chenevottes</h3>
+        <p>Pierre-Yves Colin-Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-yves-colin-morey-chassagne-montrachet-premier-cru-morgeot-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre-Yves Colin-Morey, Chassagne-Montrachet Premier Cru, Morgeot Blanc</h3>
+        <p>Pierre-Yves Colin-Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-yves-colin-morey-chassagne-montrachet-vieilles-vignes.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre-Yves Colin-Morey, Chassagne-Montrachet, Vieilles Vignes</h3>
+        <p>Pierre-Yves Colin-Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-yves-colin-morey-meursault-premier-cru-porusot.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre-Yves Colin-Morey, Meursault Premier Cru, Porusot</h3>
+        <p>Pierre-Yves Colin-Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-yves-colin-morey-meursault-les-narvaux.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre-Yves Colin-Morey, Meursault, Les Narvaux</h3>
+        <p>Pierre-Yves Colin-Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-yves-colin-morey-nuits-saint-georges-premier-cru-aux-boudots.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Pierre-Yves Colin-Morey, Nuits-Saint-Georges Premier Cru, Aux Boudots</h3>
+        <p>Pierre-Yves Colin-Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-yves-colin-morey-puligny-montrachet-premier-cru-la-garenne.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre-Yves Colin-Morey, Puligny-Montrachet Premier Cru, La Garenne</h3>
+        <p>Pierre-Yves Colin-Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-yves-colin-morey-saint-aubin.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre-Yves Colin-Morey, Saint-Aubin</h3>
+        <p>Pierre-Yves Colin-Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-yves-colin-morey-saint-aubin-premier-cru-en-remilly.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre-Yves Colin-Morey, Saint-Aubin Premier Cru, En Remilly</h3>
+        <p>Pierre-Yves Colin-Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-yves-colin-morey-saint-aubin-premier-cru-hommage-a-marguerite.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre-Yves Colin-Morey, Saint-Aubin Premier Cru, Hommage a Marguerite</h3>
+        <p>Pierre-Yves Colin-Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-yves-colin-morey-saint-aubin-premier-cru-la-chateniere.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre-Yves Colin-Morey, Saint-Aubin Premier Cru, La Chateniere</h3>
+        <p>Pierre-Yves Colin-Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/pierre-yves-colin-morey-saint-aubin-premier-cru-les-champlots.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Pierre-Yves Colin-Morey, Saint-Aubin Premier Cru, Les Champlots</h3>
+        <p>Pierre-Yves Colin-Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/prieure-roch-coteaux-bourguignons-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Prieure Roch, Coteaux Bourguignons, Rouge</h3>
+        <p>Domaine Prieuré Roch</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/prieure-roch-gamay-coteaux-bourguignons-aop.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Prieure Roch, Gamay, Coteaux Bourguignons AOP</h3>
+        <p>Domaine Prieuré Roch</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/prieure-roch-gevrey-chambertin-premier-cru-clos-des-varoilles-monopole.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Prieure Roch, Gevrey-Chambertin Premier Cru, Clos des Varoilles Monopole</h3>
+        <p>Domaine Prieuré Roch</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/prieure-roch-ladoix-le-clou-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Prieure Roch, Ladoix, Le Clou Blanc</h3>
+        <p>Domaine Prieuré Roch</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/prieure-roch-nuits-saint-georges-premier-cru-clos-des-argillieres.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Prieure Roch, Nuits-Saint-Georges Premier Cru, Clos des Argillieres</h3>
+        <p>Domaine Prieuré Roch</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/prieure-roch-nuits-saint-georges-premier-cru-vieilles-vignes.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Prieure Roch, Nuits-Saint-Georges Premier Cru, Vieilles Vignes</h3>
+        <p>Domaine Prieuré Roch</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/prieure-roch-pinot-noir-vdf.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Prieure Roch, Pinot Noir, VdF</h3>
+        <p>Domaine Prieuré Roch</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/prieure-roch-rouge-ladoix-aop.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Prieure Roch, Rouge, Ladoix AOP</h3>
+        <p>Domaine Prieuré Roch</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/prieure-roch-savigny-les-beaune-dessus-les-gollardes-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Prieure Roch, Savigny-les-Beaune, Dessus les Gollardes Blanc</h3>
+        <p>Domaine Prieuré Roch</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/prieure-roch-savigny-les-beaune-dessus-les-gollardes-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Prieure Roch, Savigny-les-Beaune, Dessus les Gollardes Rouge</h3>
+        <p>Domaine Prieuré Roch</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/r-pouillon-fils-ay-grand-cru-les-valnons-extra-brut.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>R. Pouillon &amp; Fils, Ay Grand Cru, Les Valnons Extra Brut</h3>
+        <p>R. Pouillon &amp; Fils</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/r-pouillon-fils-chemin-du-bois-methode-fabrice-pouillon.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>R. Pouillon &amp; Fils, Chemin du Bois Methode Fabrice Pouillon</h3>
+        <p>R. Pouillon &amp; Fils</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/r-pouillon-fils-grande-vallee-brut-champagne.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>R. Pouillon &amp; Fils, Grande Vallee Brut, Champagne</h3>
+        <p>R. Pouillon &amp; Fils</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/r-pouillon-fils-le-montgruguet-pinot-noir-premier-cru-champagne.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>R. Pouillon &amp; Fils, Le Montgruguet Pinot Noir Premier Cru, Champagne</h3>
+        <p>R. Pouillon &amp; Fils</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/r-pouillon-fils-les-blanchiens-premier-cru-mareuil-sur-ay.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>R. Pouillon &amp; Fils, Les Blanchiens Premier Cru, Mareuil-sur-Ay</h3>
+        <p>R. Pouillon &amp; Fils</p>
+        <span class="badge">Champagne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/roc-de-cambes-cotes-de-bourg.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Roc de Cambes, Cotes de Bourg</h3>
+        <p>Roc de Cambes</p>
+        <span class="badge">Bordeaux</span>
+      </div>
+    </a>
+    
+    <a href="/vins/simon-colin-chassagne-montrachet-premier-cru-les-chaumees.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Simon Colin, Chassagne-Montrachet Premier Cru, Les Chaumees</h3>
+        <p>Simon Colin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/simon-colin-chassagne-montrachet-premier-cru-les-chaumees.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Simon Colin, Chassagne-Montrachet Premier Cru, Les Chaumees</h3>
+        <p>Simon Colin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/simon-colin-chassagne-montrachet-premier-cru-les-vergers.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Simon Colin, Chassagne-Montrachet Premier Cru, Les Vergers</h3>
+        <p>Simon Colin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/simon-colin-chassagne-montrachet-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Simon Colin, Chassagne-Montrachet, Rouge</h3>
+        <p>Simon Colin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/sylvie-esmonin-cote-de-nuits-villages-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Sylvie Esmonin, Cote de Nuits-Villages, Rouge</h3>
+        <p>Domaine Sylvie Esmonin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/sylvie-esmonin-gevrey-chambertin.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Sylvie Esmonin, Gevrey-Chambertin</h3>
+        <p>Domaine Sylvie Esmonin</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/tardieu-laurent-chateauneuf-du-pape-cuvee-speciale.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Tardieu-Laurent, Chateauneuf-du-Pape, Cuvee Speciale</h3>
+        <p>Tardieu-Laurent</p>
+        <span class="badge">Rhône Sud</span>
+      </div>
+    </a>
+    
+    <a href="/vins/thibaud-boudignon-savennieres-clos-de-fremine.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Thibaud Boudignon, Savennieres, Clos de Fremine</h3>
+        <p>Thibaud Boudignon</p>
+        <span class="badge">Vallée de la Loire</span>
+      </div>
+    </a>
+    
+    <a href="/vins/thibaud-boudignon-savennieres-clos-hutte.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Thibaud Boudignon, Savennieres, Clos Hutte</h3>
+        <p>Thibaud Boudignon</p>
+        <span class="badge">Vallée de la Loire</span>
+      </div>
+    </a>
+    
+    <a href="/vins/thibault-liger-belair-bourgogne-aligote-perrieres-combe.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Thibault Liger-Belair, Bourgogne Aligote, Perrieres Combe</h3>
+        <p>Domaine Thibault Liger-Belair</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/thibault-liger-belair-corton-grand-cru-le-clos-du-roi-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Thibault Liger-Belair, Corton Grand Cru, Le Clos du Roi Rouge</h3>
+        <p>Domaine Thibault Liger-Belair</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/thibault-liger-belair-nuits-saint-georges-premier-cru-les-saint-georges.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Thibault Liger-Belair, Nuits-Saint-Georges Premier Cru, Les Saint-Georges</h3>
+        <p>Domaine Thibault Liger-Belair</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/thierry-allemand-cornas-chaillot.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Thierry Allemand, Cornas, Chaillot</h3>
+        <p>Domaine Thierry Allemand</p>
+        <span class="badge">Rhône Nord</span>
+      </div>
+    </a>
+    
+    <a href="/vins/thierry-allemand-cornas-reynard.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Thierry Allemand, Cornas, Reynard</h3>
+        <p>Domaine Thierry Allemand</p>
+        <span class="badge">Rhône Nord</span>
+      </div>
+    </a>
+    
+    <a href="/vins/thierry-pillot-corton-charlemagne-grand-cru.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Thierry Pillot, Corton-Charlemagne Grand Cru</h3>
+        <p>Thierry Pillot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/thierry-pillot-meursault-premier-cru-porusot.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Thierry Pillot, Meursault Premier Cru, Porusot</h3>
+        <p>Thierry Pillot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/thierry-pillot-puligny-montrachet-les-enseigneres.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Thierry Pillot, Puligny-Montrachet, Les Enseigneres</h3>
+        <p>Thierry Pillot</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/thomas-morey-beaune-premier-cru-les-greves-rouge.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Thomas Morey, Beaune Premier Cru, Les Greves Rouge</h3>
+        <p>Domaine Thomas Morey</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/vincent-dancer-chassagne-montrachet-premier-cru-morgeot-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Vincent Dancer, Chassagne-Montrachet Premier Cru, Morgeot Blanc</h3>
+        <p>Domaine Vincent Dancer</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/vincent-dancer-chassagne-montrachet-premier-cru-tete-du-clos-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Vincent Dancer, Chassagne-Montrachet Premier Cru, Tete du Clos Blanc</h3>
+        <p>Domaine Vincent Dancer</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/vincent-dancer-meursault-les-corbins.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Vincent Dancer, Meursault, Les Corbins</h3>
+        <p>Domaine Vincent Dancer</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/vincent-dancer-meursault-les-grands-charrons.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Vincent Dancer, Meursault, Les Grands Charrons</h3>
+        <p>Domaine Vincent Dancer</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/vincent-dauvissat-chablis.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Vincent Dauvissat, Chablis</h3>
+        <p>Domaine Vincent Dauvissat</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/vincent-dauvissat-chablis-grand-cru-les-clos.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Vincent Dauvissat, Chablis Grand Cru, Les Clos</h3>
+        <p>Domaine Vincent Dauvissat</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/vincent-dauvissat-chablis-premier-cru-montee-de-tonnerre.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Vincent Dauvissat, Chablis Premier Cru, Montee de Tonnerre</h3>
+        <p>Domaine Vincent Dauvissat</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/vincent-dureuil-janthial-rully-blanc.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Vincent Dureuil Janthial, Rully, Blanc</h3>
+        <p>Domaine Vincent Dureuil-Janthial</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/vincent-paindavoine-bourgogne-aligote-les-paquiers.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Vincent Paindavoine, Bourgogne Aligote, Les Paquiers</h3>
+        <p>Domaine Vincent Paindavoine</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/vincent-paindavoine-bourgogne-cote-d-or-les-chassagnes.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Vincent Paindavoine, Bourgogne, Cote d&#039;Or Les Chassagnes</h3>
+        <p>Domaine Vincent Paindavoine</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/vincent-paindavoine-coteaux-bourguignons-les-paquiers.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Vincent Paindavoine, Coteaux Bourguignons, Les Paquiers</h3>
+        <p>Domaine Vincent Paindavoine</p>
+        <span class="badge">Bourgogne</span>
+      </div>
+    </a>
+    
+    <a href="/vins/vincent-pinard-sancerre-petit-chemarin.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Vincent Pinard Sancerre, Petit Chemarin</h3>
+        <p>Vincent Pinard</p>
+        <span class="badge">Vallée de la Loire</span>
+      </div>
+    </a>
+    
+    <a href="/vins/vincent-pinard-sancerre-grand-chemarin.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Vincent Pinard, Sancerre, Grand Chemarin</h3>
+        <p>Vincent Pinard</p>
+        <span class="badge">Vallée de la Loire</span>
+      </div>
+    </a>
+    
+    <a href="/vins/vincent-pinard-sancerre-petit-chemarin.html" class="wine-card" data-color="white">
+      <div class="color-indicator white"></div>
+      <div class="card-content">
+        <h3>Vincent Pinard, Sancerre, Petit Chemarin</h3>
+        <p>Vincent Pinard</p>
+        <span class="badge">Vallée de la Loire</span>
+      </div>
+    </a>
+    
+    <a href="/vins/yvon-metras-fleurie.html" class="wine-card" data-color="red">
+      <div class="color-indicator red"></div>
+      <div class="card-content">
+        <h3>Yvon Metras, Fleurie</h3>
+        <p>Domaine Yvon Métras</p>
+        <span class="badge">Beaujolais</span>
+      </div>
+    </a>
+    
+  </div>
+</main>
+<script>
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    this.classList.add('active');
+    const color = this.dataset.color;
+    document.querySelectorAll('.wine-card').forEach(card => {
+      if (color === 'all' || card.dataset.color === color) {
+        card.style.display = '';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  });
+});
+</script>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <img src="/assets/images/logo-roi-du-pinard.jpg" alt="Le Roi du Pinard" class="footer-logo">
+        <p><strong>LeRoiDuPinard.fr</strong></p>
+        <p>Parce que le vin, c'est sérieux, mais pas trop.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="/regions/">Régions viticoles</a></li>
+          <li><a href="/producteurs/">Producteurs</a></li>
+          <li><a href="/vins/">Tous les vins</a></li>
+          <li><a href="/search.html">Recherche</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Informations</h4>
+        <ul>
+          <li><a href="/mentions-legales.html">Mentions légales</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="alcohol-warning">⚠️ L'abus d'alcool est dangereux pour la santé. À consommer avec modération.</p>
+      <p class="copyright">© 2026 Le Roi du Pinard. Tous droits réservés.</p>
+    </div>
+  </div>
+</footer>
+<script src="/js/main.js"></script>
+<script src="/js/random.js"></script>
+</body>
+</html>
