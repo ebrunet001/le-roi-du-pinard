@@ -533,6 +533,43 @@
 }
 
 /* =============================================================================
+   BUY WINE (Connoisseurs)
+   ============================================================================= */
+
+.buy-wine {
+  margin: var(--spacing-xl) 0;
+  padding: var(--spacing-lg);
+  background: linear-gradient(135deg, var(--champagne) 0%, var(--parchemin) 100%);
+  border-radius: var(--border-radius-lg);
+  border: 2px solid var(--or);
+}
+
+.buy-wine h2 {
+  margin-top: 0;
+  color: var(--bourgogne);
+}
+
+.buy-wine p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.buy-wine a {
+  color: var(--bordeaux);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.buy-wine a:hover {
+  color: var(--bourgogne);
+}
+
+.buy-wine .sheet-mention {
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+/* =============================================================================
    RELATED WINES
    ============================================================================= */
 
