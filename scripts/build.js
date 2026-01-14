@@ -724,10 +724,18 @@ ${JSON.stringify(schemaWinery, null, 2)}
   return html;
 }
 
-function generateRegionPage(region) {
+function generateRegionPage(region, allAppellations = []) {
   const title = `Vins de ${region.name} - Guide complet | Le Roi du Pinard`;
   const description = region.descriptionSerieuse || `Explorez les vins de ${region.name} : ${region.appellations.length} appellations, ${region.producers.length} producteurs. Guide complet et avis humoristiques du Roi du Pinard.`;
   const canonicalUrl = `${BASE_URL}/regions/${region.slug}/`;
+
+  // Créer un map des appellations avec leurs descriptions
+  const appellationMap = new Map();
+  allAppellations.forEach(a => {
+    if (a.region === region.name) {
+      appellationMap.set(a.name, a);
+    }
+  });
 
   let html = getHead(title, description, canonicalUrl);
 
@@ -779,11 +787,22 @@ ${getHeader()}
 
     <section class="region-appellations">
       <h2>Les appellations de ${escapeHtml(region.name)}</h2>
-      <ul class="appellation-list">
-        ${region.appellations.map(a => `
-        <li><a href="/regions/${region.slug}/appellations/${createSlug(a)}.html">${escapeHtml(a)}</a></li>
-        `).join('')}
-      </ul>
+      <div class="appellation-grid">
+        ${region.appellations.map(aName => {
+          const appellation = appellationMap.get(aName);
+          const desc = appellation?.descriptionSerieuse || '';
+          const sentences = desc.split(/(?<=[.!?])\s+/).slice(0, 2).join(' ');
+          const excerpt = truncate(sentences, 200);
+          const wineCount = appellation?.wines?.length || 0;
+          return `
+        <a href="/regions/${region.slug}/appellations/${createSlug(aName)}.html" class="appellation-card">
+          <h3>${escapeHtml(aName)}</h3>
+          ${wineCount > 0 ? `<p class="appellation-meta">${wineCount} vins</p>` : ''}
+          ${excerpt ? `<p class="appellation-excerpt">${escapeHtml(excerpt)}</p>` : ''}
+        </a>
+        `;
+        }).join('')}
+      </div>
     </section>
 
     <section class="region-producers">
@@ -1076,7 +1095,12 @@ ${getHeader()}
   <p class="intro">Explorez les ${regions.length} régions viticoles référencées dans le royaume du Roi du Pinard.</p>
 
   <div class="regions-grid">
-    ${regions.map(r => `
+    ${regions.map(r => {
+      // Extraire 1-2 phrases de la description sérieuse
+      const desc = r.descriptionSerieuse || '';
+      const sentences = desc.split(/(?<=[.!?])\s+/).slice(0, 2).join(' ');
+      const excerpt = truncate(sentences, 200);
+      return `
     <a href="/regions/${r.slug}/" class="region-card">
       <h2>${escapeHtml(r.name)}</h2>
       <div class="region-stats">
@@ -1084,8 +1108,10 @@ ${getHeader()}
         <span>${r.appellations.length} appellations</span>
         <span>${r.producers.length} producteurs</span>
       </div>
+      ${excerpt ? `<p class="region-excerpt">${escapeHtml(excerpt)}</p>` : ''}
     </a>
-    `).join('')}
+    `;
+    }).join('')}
   </div>
 </main>
 ${getFooter()}`;
@@ -1486,7 +1512,7 @@ async function build() {
   // Générer les pages de régions
   console.log('\nGénération des pages de régions...');
   regions.forEach(region => {
-    const html = generateRegionPage(region);
+    const html = generateRegionPage(region, appellations);
     fs.writeFileSync(path.join(OUTPUT_DIR, 'regions', region.slug, 'index.html'), html);
   });
   console.log(`  - ${regions.length} pages de régions générées`);

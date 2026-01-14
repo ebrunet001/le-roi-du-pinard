@@ -188,6 +188,61 @@
   color: var(--bordeaux);
 }
 
+.region-card .region-excerpt {
+  font-size: 0.85rem;
+  margin-top: var(--spacing-sm);
+  color: var(--encre);
+  opacity: 0.85;
+  line-height: 1.5;
+}
+
+/* =============================================================================
+   APPELLATION CARDS
+   ============================================================================= */
+
+.appellation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.appellation-card {
+  background: var(--blanc-casse);
+  border: 1px solid var(--parchemin);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-md);
+  text-decoration: none;
+  color: inherit;
+  transition: all var(--transition-fast);
+}
+
+.appellation-card:hover {
+  border-color: var(--bordeaux);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+}
+
+.appellation-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: var(--spacing-xs);
+  color: var(--bourgogne);
+}
+
+.appellation-card .appellation-meta {
+  font-size: 0.85rem;
+  margin: 0 0 var(--spacing-sm) 0;
+  color: var(--bordeaux);
+  font-weight: 600;
+}
+
+.appellation-card .appellation-excerpt {
+  font-size: 0.9rem;
+  margin: 0;
+  color: var(--encre);
+  opacity: 0.85;
+  line-height: 1.5;
+}
+
 /* =============================================================================
    PRODUCER CARDS
    ============================================================================= */
