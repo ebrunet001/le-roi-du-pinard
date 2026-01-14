@@ -400,6 +400,23 @@ function generateAccordAnswer(wine) {
 }
 
 // =============================================================================
+// CORRECTION DES FAUTES DE FRAPPE
+// =============================================================================
+
+function fixTypos(text) {
+  if (!text) return '';
+
+  return text
+    .replace(/Ce cette/g, 'Cette')
+    .replace(/ce cette/g, 'cette')
+    .replace(/de de /g, 'de ')
+    .replace(/le le /g, 'le ')
+    .replace(/la la /g, 'la ')
+    .replace(/un un /g, 'un ')
+    .replace(/une une /g, 'une ');
+}
+
+// =============================================================================
 // UTILITAIRES
 // =============================================================================
 
@@ -523,7 +540,7 @@ function processWines(wines, winesXXL = []) {
       colorFr,
       appellationSlug: createSlug(wine.Appellation),
       producerSlug: createSlug(wine.Producer),
-      avisRoiPinard: xxlData.L_Avis_du_Roi_du_Pinard || ''
+      avisRoiPinard: fixTypos(xxlData.L_Avis_du_Roi_du_Pinard || '')
     };
   });
 }
