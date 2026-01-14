@@ -1130,7 +1130,7 @@ ${getHeader()}
     </section>
 
     <section class="buy-wine">
-      <h2>💰 Ça goûte bien, achetez-le chez les copains</h2>
+      <h2>🗝️ Ça goûte bien, achetez-le chez les copains</h2>
       <p>Envie de mettre la main sur cette merveille ? Filez donc faire un tour chez <a href="https://www.connoisseurs.wine/" target="_blank" rel="noopener">Connoisseurs.wine</a>, des passionnés qui savent dénicher les bonnes bouteilles.</p>
       <p class="sheet-mention">Ils ont même un <a href="https://docs.google.com/spreadsheets/d/1y4Wc6UDRQiPfKMoeithka2iGzXhk2qe3/" target="_blank" rel="noopener">Google Sheet antédiluvien</a> avec leurs pinards à monnayer !</p>
     </section>
