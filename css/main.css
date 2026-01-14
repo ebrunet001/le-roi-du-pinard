@@ -402,50 +402,6 @@ blockquote cite {
   margin: 0;
 }
 
-/* Wine Info Layout (deux colonnes avec image) */
-.wine-info-layout {
-  display: grid;
-  grid-template-columns: 1fr 200px;
-  gap: var(--spacing-xl);
-  align-items: start;
-}
-
-.wine-info-content h2 {
-  margin-top: 0;
-}
-
-.wine-bottle-image {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: var(--spacing-md);
-  background: linear-gradient(135deg, var(--parchemin) 0%, var(--champagne) 100%);
-  border-radius: var(--border-radius);
-  border: 1px solid var(--or);
-}
-
-.wine-bottle-svg {
-  width: 150px;
-  height: auto;
-  max-height: 280px;
-}
-
-@media (max-width: 768px) {
-  .wine-info-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .wine-bottle-image {
-    order: -1;
-    max-width: 200px;
-    margin: 0 auto var(--spacing-lg);
-  }
-
-  .wine-bottle-svg {
-    width: 120px;
-  }
-}
-
 /* Badges */
 .badge {
   display: inline-block;
