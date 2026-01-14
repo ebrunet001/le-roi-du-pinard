@@ -378,6 +378,125 @@ function generateAccordAnswer(wine) {
 }
 
 // =============================================================================
+// GÉNÉRATION IMAGE VIN SVG
+// =============================================================================
+
+function generateWineBottleSVG(wine) {
+  const color = wine.colorFr || 'Rouge';
+  const region = wine.regionFr || '';
+  const isChampagne = region === 'Champagne' || color === 'Effervescent';
+
+  // Couleurs selon le type de vin
+  let wineColor, wineColorLight, labelColor;
+  switch (color) {
+    case 'Rouge':
+      wineColor = '#722F37';
+      wineColorLight = '#8B3A42';
+      labelColor = '#F5E6D3';
+      break;
+    case 'Blanc':
+      wineColor = '#E8D5A3';
+      wineColorLight = '#F0E4C2';
+      labelColor = '#2C1810';
+      break;
+    case 'Rosé':
+      wineColor = '#E8A0A0';
+      wineColorLight = '#F0B8B8';
+      labelColor = '#2C1810';
+      break;
+    case 'Effervescent':
+      wineColor = '#E8D5A3';
+      wineColorLight = '#F0E4C2';
+      labelColor = '#2C1810';
+      break;
+    default:
+      wineColor = '#722F37';
+      wineColorLight = '#8B3A42';
+      labelColor = '#F5E6D3';
+  }
+
+  // Couleur de la bouteille (verre)
+  const bottleColor = color === 'Blanc' || color === 'Rosé' || color === 'Effervescent'
+    ? '#2A4A3A' // vert foncé pour blancs
+    : '#1A2A1A'; // presque noir pour rouges
+
+  // Forme de bouteille selon la région
+  let bottlePath, neckPath;
+  if (isChampagne) {
+    // Bouteille Champagne (épaules plus larges, col plus court)
+    bottlePath = 'M70,280 L70,180 Q70,140 85,120 L85,60 Q85,50 100,50 Q115,50 115,60 L115,120 Q130,140 130,180 L130,280 Q130,290 100,290 Q70,290 70,280 Z';
+    neckPath = 'M88,50 L88,30 Q88,20 100,20 Q112,20 112,30 L112,50';
+  } else if (region === 'Bourgogne' || region === 'Rhône Nord') {
+    // Bouteille Bourguignonne (épaules douces)
+    bottlePath = 'M70,280 L70,160 Q70,120 90,100 L90,60 Q90,50 100,50 Q110,50 110,60 L110,100 Q130,120 130,160 L130,280 Q130,290 100,290 Q70,290 70,280 Z';
+    neckPath = 'M92,50 L92,30 Q92,20 100,20 Q108,20 108,30 L108,50';
+  } else {
+    // Bouteille Bordelaise (épaules marquées)
+    bottlePath = 'M70,280 L70,140 L80,120 L80,60 Q80,50 100,50 Q120,50 120,60 L120,120 L130,140 L130,280 Q130,290 100,290 Q70,290 70,280 Z';
+    neckPath = 'M85,50 L85,30 Q85,20 100,20 Q115,20 115,30 L115,50';
+  }
+
+  // Niveau de vin dans la bouteille
+  const wineLevel = 'M72,280 L72,150 Q80,145 100,145 Q120,145 128,150 L128,280 Q128,288 100,288 Q72,288 72,280 Z';
+
+  // Générer le SVG
+  return `<svg viewBox="0 0 200 320" xmlns="http://www.w3.org/2000/svg" class="wine-bottle-svg">
+  <defs>
+    <linearGradient id="bottleGradient-${wine.slug}" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:${bottleColor};stop-opacity:1" />
+      <stop offset="50%" style="stop-color:${bottleColor};stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:${bottleColor};stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="wineGradient-${wine.slug}" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:${wineColor};stop-opacity:1" />
+      <stop offset="50%" style="stop-color:${wineColorLight};stop-opacity:1" />
+      <stop offset="100%" style="stop-color:${wineColor};stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow-${wine.slug}" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="3" dy="5" stdDeviation="4" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Ombre de la bouteille -->
+  <ellipse cx="100" cy="295" rx="35" ry="8" fill="rgba(0,0,0,0.2)"/>
+
+  <!-- Corps de la bouteille -->
+  <path d="${bottlePath}" fill="url(#bottleGradient-${wine.slug})" filter="url(#shadow-${wine.slug})"/>
+
+  <!-- Niveau de vin -->
+  <path d="${wineLevel}" fill="url(#wineGradient-${wine.slug})" opacity="0.9"/>
+
+  <!-- Col de la bouteille -->
+  <path d="${neckPath}" fill="${bottleColor}"/>
+
+  <!-- Capsule -->
+  <rect x="88" y="15" width="24" height="18" rx="2" fill="#C9A227"/>
+  <rect x="90" y="17" width="20" height="14" rx="1" fill="#DAB84A"/>
+
+  <!-- Étiquette -->
+  <rect x="75" y="180" width="50" height="70" rx="3" fill="${labelColor}" stroke="#C9A227" stroke-width="1"/>
+  <rect x="78" y="183" width="44" height="30" fill="none" stroke="#C9A227" stroke-width="0.5"/>
+
+  <!-- Texte sur l'étiquette -->
+  <text x="100" y="198" text-anchor="middle" font-family="serif" font-size="6" fill="${color === 'Blanc' || color === 'Rosé' ? '#2C1810' : '#722F37'}">
+    ${escapeHtml(region).substring(0, 12)}
+  </text>
+  <text x="100" y="207" text-anchor="middle" font-family="serif" font-size="4" fill="${color === 'Blanc' || color === 'Rosé' ? '#4A3828' : '#8B4513'}">
+    ${escapeHtml(wine.Appellation || '').substring(0, 15)}
+  </text>
+
+  <!-- Décoration étiquette -->
+  <line x1="80" y1="215" x2="120" y2="215" stroke="#C9A227" stroke-width="0.5"/>
+  <text x="100" y="230" text-anchor="middle" font-family="serif" font-size="8" font-weight="bold" fill="${color === 'Blanc' || color === 'Rosé' ? '#2C1810' : '#722F37'}">
+    ${escapeHtml(color)}
+  </text>
+
+  <!-- Reflet sur la bouteille -->
+  <path d="M75,160 Q78,200 75,260" stroke="rgba(255,255,255,0.15)" stroke-width="8" fill="none"/>
+</svg>`;
+}
+
+// =============================================================================
 // UTILITAIRES
 // =============================================================================
 
@@ -876,24 +995,31 @@ ${getHeader()}
     </section>
 
     <section class="wine-info">
-      <h2>Caractéristiques</h2>
-      <dl class="info-grid">
-        <dt>Producteur</dt>
-        <dd><a href="/producteurs/${wine.producerSlug}.html">${escapeHtml(wine.Producer)}</a></dd>
+      <div class="wine-info-layout">
+        <div class="wine-info-content">
+          <h2>Caractéristiques</h2>
+          <dl class="info-grid">
+            <dt>Producteur</dt>
+            <dd><a href="/producteurs/${wine.producerSlug}.html">${escapeHtml(wine.Producer)}</a></dd>
 
-        <dt>Région</dt>
-        <dd><a href="/regions/${wine.regionSlug}/">${escapeHtml(wine.regionFr)}</a></dd>
+            <dt>Région</dt>
+            <dd><a href="/regions/${wine.regionSlug}/">${escapeHtml(wine.regionFr)}</a></dd>
 
-        <dt>Appellation</dt>
-        <dd><a href="/regions/${wine.regionSlug}/appellations/${wine.appellationSlug}.html">${escapeHtml(wine.Appellation)}</a></dd>
+            <dt>Appellation</dt>
+            <dd><a href="/regions/${wine.regionSlug}/appellations/${wine.appellationSlug}.html">${escapeHtml(wine.Appellation)}</a></dd>
 
-        ${wine.Grape_Variety ? `<dt>Cépage(s)</dt><dd>${escapeHtml(wine.Grape_Variety)}</dd>` : ''}
-        ${wine.Terroir_Soil ? `<dt>Terroir</dt><dd>${escapeHtml(translateWineTerms(wine.Terroir_Soil))}</dd>` : ''}
-        ${wine.Viticulture ? `<dt>Viticulture</dt><dd>${escapeHtml(translateWineTerms(wine.Viticulture))}</dd>` : ''}
-        ${wine.Winemaking ? `<dt>Vinification</dt><dd>${escapeHtml(translateWineTerms(wine.Winemaking))}</dd>` : ''}
-        ${wine.Aging ? `<dt>Élevage</dt><dd>${escapeHtml(translateWineTerms(wine.Aging))}${wine.Aging_Duration ? ` (${wine.Aging_Duration})` : ''}</dd>` : ''}
-        ${wine.Style ? `<dt>Style</dt><dd>${escapeHtml(translateWineTerms(wine.Style))}</dd>` : ''}
-      </dl>
+            ${wine.Grape_Variety ? `<dt>Cépage(s)</dt><dd>${escapeHtml(wine.Grape_Variety)}</dd>` : ''}
+            ${wine.Terroir_Soil ? `<dt>Terroir</dt><dd>${escapeHtml(translateWineTerms(wine.Terroir_Soil))}</dd>` : ''}
+            ${wine.Viticulture ? `<dt>Viticulture</dt><dd>${escapeHtml(translateWineTerms(wine.Viticulture))}</dd>` : ''}
+            ${wine.Winemaking ? `<dt>Vinification</dt><dd>${escapeHtml(translateWineTerms(wine.Winemaking))}</dd>` : ''}
+            ${wine.Aging ? `<dt>Élevage</dt><dd>${escapeHtml(translateWineTerms(wine.Aging))}${wine.Aging_Duration ? ` (${wine.Aging_Duration})` : ''}</dd>` : ''}
+            ${wine.Style ? `<dt>Style</dt><dd>${escapeHtml(translateWineTerms(wine.Style))}</dd>` : ''}
+          </dl>
+        </div>
+        <div class="wine-bottle-image">
+          ${generateWineBottleSVG(wine)}
+        </div>
+      </div>
     </section>
 
     ${wine.Tasting_Notes || wine.Food_Pairing ? `
