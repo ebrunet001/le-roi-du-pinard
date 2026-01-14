@@ -38,6 +38,131 @@ const TRANSLATIONS = {
   }
 };
 
+// Dictionnaire de traduction pour phrases complètes (prioritaires)
+const WINE_PHRASES_FR = {
+  // Terroir - Phrases complètes
+  'Limestone and clay soils of Burgundy': 'Sols argilo-calcaires de Bourgogne',
+  'Limestone and clay-limestone soils': 'Sols calcaires et argilo-calcaires',
+  'Limestone, marl and clay': 'Calcaire, marne et argile',
+  'Clay and limestone': 'Argile et calcaire',
+  'Clay-limestone': 'Argilo-calcaire',
+  'Limestone with chalky subsoil': 'Calcaire avec sous-sol crayeux',
+  'Limestone - near quarry': 'Calcaire - près de la carrière',
+  'Varied limestone and clay soils': 'Sols variés de calcaire et argile',
+  'Granite and schist slopes': 'Coteaux de granit et schiste',
+  'Blue and grey marl, limestone': 'Marne bleue et grise, calcaire',
+  'Old worn granite (gores)': 'Granit ancien altéré (gores)',
+  'Deep gravel over clay': 'Graves profondes sur argile',
+  'Gravel and clay': 'Graves et argile',
+  'Tuffeau limestone': 'Tuffeau calcaire',
+
+  // Viticulture - Phrases complètes
+  'Traditional': 'Traditionnelle',
+  'Organic certified': 'Agriculture biologique certifiée',
+  'Organic, biodynamic influences': 'Biologique, influences biodynamiques',
+  'Organic, biodynamic practices': 'Biologique, pratiques biodynamiques',
+  'Organic, moving towards biodynamic': 'Biologique, en conversion biodynamique',
+  'Sustainable viticulture': 'Viticulture raisonnée',
+  'Sustainable': 'Raisonnée',
+  'Traditional, organic practices': 'Traditionnelle, pratiques biologiques',
+  'Traditional, old vine focus': 'Traditionnelle, accent vieilles vignes',
+  'Certified biodynamic (Demeter)': 'Biodynamie certifiée (Demeter)',
+  '100% biodynamic (certified), horses used in vineyard': 'Biodynamie 100% certifiée, travail au cheval',
+  'Organic, biodynamic, max 6 bunches/vine': 'Biologique, biodynamique, max 6 grappes/pied',
+  'Organic, biodynamic, very old vines': 'Biologique, biodynamique, très vieilles vignes',
+
+  // Vinification - Phrases complètes
+  'Traditional Burgundian methods, barrel fermentation and aging': 'Méthodes bourguignonnes traditionnelles, fermentation et élevage en fûts',
+  'Traditional Burgundian methods': 'Méthodes bourguignonnes traditionnelles',
+  'Traditional Burgundian': 'Bourguignonne traditionnelle',
+  'Traditional methods, structured approach': 'Méthodes traditionnelles, approche structurée',
+  'Traditional methods, long aging': 'Méthodes traditionnelles, élevage long',
+  'Traditional winemaking methods': 'Méthodes de vinification traditionnelles',
+  'Traditional approach': 'Approche traditionnelle',
+  'Traditional Moreau approach': 'Approche traditionnelle Moreau',
+  'Traditional Boisson methods, long lees aging': 'Méthodes traditionnelles Boisson, longue lies',
+  'Traditional Loire methods': 'Méthodes ligériennes traditionnelles',
+  'Traditional Jura methods, oxidative or ouillé': 'Méthodes jurassiennes traditionnelles, oxydatif ou ouillé',
+  'Formal training, international experience': 'Formation classique, expérience internationale',
+  'Respect for fruit, silky extraction': 'Respect du fruit, extraction soyeuse',
+  'Indigenous yeast': 'Levures indigènes',
+  'natural yeast': 'levures naturelles',
+
+  // Élevage - Phrases complètes
+  'Oak barrels': 'Fûts de chêne',
+  'Oak barrels, extended aging': 'Fûts de chêne, élevage prolongé',
+  'Old oak barrels': 'Vieux fûts de chêne',
+  'Old oak barrels, 18-24 months': 'Vieux fûts de chêne, 18-24 mois',
+  'Old oak barrels, 24+ months': 'Vieux fûts de chêne, 24+ mois',
+  'Old oak barrels, 12-18 months': 'Vieux fûts de chêne, 12-18 mois',
+  'Old oak barrels, 12-18 months on lees': 'Vieux fûts de chêne, 12-18 mois sur lies',
+  'Used barrels': 'Fûts usagés',
+  '12 months used barrels': '12 mois en fûts usagés',
+  '12-18 months in oak (30-40% new)': '12-18 mois en fûts (30-40% neufs)',
+  'Mostly used oak': 'Majoritairement fûts usagés',
+  '18-24 months in old oak': '18-24 mois en vieux fûts',
+  'Extended barrel aging': 'Élevage prolongé en fûts',
+
+  // Termes simples qui peuvent apparaître seuls
+  'Biodynamic': 'Biodynamique',
+  'Organic': 'Biologique',
+  'Whole cluster': 'Grappe entière',
+  'Whole bunch': 'Vendange entière',
+  'Limestone': 'Calcaire',
+  'Granite': 'Granit',
+
+  // Style - Phrases complètes
+  'Traditional Burgundy red with finesse and terroir expression': 'Rouge bourguignon traditionnel avec finesse et expression du terroir',
+  'Firm, tannic, earthy red Burgundy': 'Bourgogne rouge ferme, tannique, terreux',
+  'Powerful, classic': 'Puissant, classique',
+  'Elegant, mineral': 'Élégant, minéral',
+  'Pure, classic': 'Pur, classique',
+  'Structured, deep': 'Structuré, profond',
+  'Classic, complex': 'Classique, complexe',
+  'Fresh, fruity Loire Cabernet Franc': 'Cabernet Franc de Loire frais et fruité',
+  'Fresh, silky, accessible': 'Frais, soyeux, accessible',
+  'Powerful, concentrated, age-worthy Syrah': 'Syrah puissante, concentrée, de garde',
+  'Distinctive Jura character with nutty, oxidative notes': 'Caractère jurassien distinctif avec notes de noix, oxydatif',
+  'Classic white Burgundy with purity and mineral character': 'Bourgogne blanc classique avec pureté et caractère minéral',
+  'Fresh, precise': 'Frais, précis',
+  'Balanced, accessible Burgundy with fruit and structure': 'Bourgogne équilibré et accessible avec fruit et structure',
+  'Precise, mineral': 'Précis, minéral',
+  'Elegant, precise': 'Élégant, précis',
+  'Vibrant, zesty': 'Vibrant, vif',
+  'Pure, mineral': 'Pur, minéral',
+  'Elegant': 'Élégant',
+  'Complex, silky': 'Complexe, soyeux'
+};
+
+// Fonction pour traduire un texte technique
+function translateWineTerms(text) {
+  if (!text) return '';
+
+  // Si le texte est déjà majoritairement en français, le retourner tel quel
+  const frenchIndicators = ['é', 'è', 'ê', 'à', 'ù', 'ç', 'œ', 'î', 'ô'];
+  const hasFrenchChars = frenchIndicators.some(c => text.includes(c));
+  if (hasFrenchChars && !text.includes('Traditional') && !text.includes('Organic') && !text.includes('Oak')) {
+    return text;
+  }
+
+  // D'abord chercher une correspondance exacte dans les phrases
+  if (WINE_PHRASES_FR[text]) {
+    return WINE_PHRASES_FR[text];
+  }
+
+  // Sinon, essayer de remplacer les phrases connues dans le texte
+  let result = text;
+  const sortedPhrases = Object.keys(WINE_PHRASES_FR).sort((a, b) => b.length - a.length);
+
+  for (const phrase of sortedPhrases) {
+    if (result.includes(phrase)) {
+      result = result.replace(phrase, WINE_PHRASES_FR[phrase]);
+    }
+  }
+
+  return result;
+}
+
 // =============================================================================
 // UTILITAIRES
 // =============================================================================
@@ -549,11 +674,11 @@ ${getHeader()}
         <dd><a href="/regions/${wine.regionSlug}/appellations/${wine.appellationSlug}.html">${escapeHtml(wine.Appellation)}</a></dd>
 
         ${wine.Grape_Variety ? `<dt>Cépage(s)</dt><dd>${escapeHtml(wine.Grape_Variety)}</dd>` : ''}
-        ${wine.Terroir_Soil ? `<dt>Terroir</dt><dd>${escapeHtml(wine.Terroir_Soil)}</dd>` : ''}
-        ${wine.Viticulture ? `<dt>Viticulture</dt><dd>${escapeHtml(wine.Viticulture)}</dd>` : ''}
-        ${wine.Winemaking ? `<dt>Vinification</dt><dd>${escapeHtml(wine.Winemaking)}</dd>` : ''}
-        ${wine.Aging ? `<dt>Élevage</dt><dd>${escapeHtml(wine.Aging)}${wine.Aging_Duration ? ` (${wine.Aging_Duration})` : ''}</dd>` : ''}
-        ${wine.Style ? `<dt>Style</dt><dd>${escapeHtml(wine.Style)}</dd>` : ''}
+        ${wine.Terroir_Soil ? `<dt>Terroir</dt><dd>${escapeHtml(translateWineTerms(wine.Terroir_Soil))}</dd>` : ''}
+        ${wine.Viticulture ? `<dt>Viticulture</dt><dd>${escapeHtml(translateWineTerms(wine.Viticulture))}</dd>` : ''}
+        ${wine.Winemaking ? `<dt>Vinification</dt><dd>${escapeHtml(translateWineTerms(wine.Winemaking))}</dd>` : ''}
+        ${wine.Aging ? `<dt>Élevage</dt><dd>${escapeHtml(translateWineTerms(wine.Aging))}${wine.Aging_Duration ? ` (${wine.Aging_Duration})` : ''}</dd>` : ''}
+        ${wine.Style ? `<dt>Style</dt><dd>${escapeHtml(translateWineTerms(wine.Style))}</dd>` : ''}
       </dl>
     </section>
 
