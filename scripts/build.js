@@ -928,6 +928,20 @@ function getBreadcrumb(items) {
   return `<nav class="breadcrumb" aria-label="Fil d'Ariane">${links}</nav>`;
 }
 
+function getBreadcrumbSchema(items) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": items.map((item, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": item.label,
+      ...(item.url ? { "item": `${BASE_URL}${item.url}` } : {})
+    }))
+  };
+  return schema;
+}
+
 // =============================================================================
 // GÉNÉRATION DES PAGES
 // =============================================================================
@@ -996,6 +1010,16 @@ function generateWinePage(wine, allWines) {
     ]
   };
 
+  const breadcrumbItems = [
+    { label: 'Accueil', url: '/' },
+    { label: 'Régions', url: '/regions/' },
+    { label: wine.regionFr, url: `/regions/${wine.regionSlug}/` },
+    { label: wine.Appellation, url: `/regions/${wine.regionSlug}/appellations/${wine.appellationSlug}.html` },
+    { label: wine.WINE }
+  ];
+
+  const schemaBreadcrumb = getBreadcrumbSchema(breadcrumbItems);
+
   let html = getHead(title, description, canonicalUrl, 'product');
 
   html += `
@@ -1003,13 +1027,7 @@ function generateWinePage(wine, allWines) {
 ${getHeader()}
 
 <main class="container">
-  ${getBreadcrumb([
-    { label: 'Accueil', url: '/' },
-    { label: 'Régions', url: '/regions/' },
-    { label: wine.regionFr, url: `/regions/${wine.regionSlug}/` },
-    { label: wine.Appellation, url: `/regions/${wine.regionSlug}/appellations/${wine.appellationSlug}.html` },
-    { label: wine.WINE }
-  ])}
+  ${getBreadcrumb(breadcrumbItems)}
 
   <article class="wine-detail">
     <section class="wine-hero">
@@ -1160,6 +1178,9 @@ ${JSON.stringify(schemaProduct, null, 2)}
 <script type="application/ld+json">
 ${JSON.stringify(schemaFAQ, null, 2)}
 </script>
+<script type="application/ld+json">
+${JSON.stringify(schemaBreadcrumb, null, 2)}
+</script>
 `;
 
   html += getFooter();
@@ -1182,6 +1203,14 @@ function generateProducerPage(producer) {
     }
   };
 
+  const breadcrumbItems = [
+    { label: 'Accueil', url: '/' },
+    { label: 'Producteurs', url: '/producteurs/' },
+    { label: producer.name }
+  ];
+
+  const schemaBreadcrumb = getBreadcrumbSchema(breadcrumbItems);
+
   let html = getHead(title, description, canonicalUrl);
 
   html += `
@@ -1189,11 +1218,7 @@ function generateProducerPage(producer) {
 ${getHeader()}
 
 <main class="container">
-  ${getBreadcrumb([
-    { label: 'Accueil', url: '/' },
-    { label: 'Producteurs', url: '/producteurs/' },
-    { label: producer.name }
-  ])}
+  ${getBreadcrumb(breadcrumbItems)}
 
   <article class="producer-detail">
     <h1>${escapeHtml(producer.name)}</h1>
@@ -1246,6 +1271,9 @@ ${getHeader()}
 <script type="application/ld+json">
 ${JSON.stringify(schemaWinery, null, 2)}
 </script>
+<script type="application/ld+json">
+${JSON.stringify(schemaBreadcrumb, null, 2)}
+</script>
 `;
 
   html += getFooter();
@@ -1265,6 +1293,14 @@ function generateRegionPage(region, allAppellations = []) {
     }
   });
 
+  const breadcrumbItems = [
+    { label: 'Accueil', url: '/' },
+    { label: 'Régions', url: '/regions/' },
+    { label: region.name }
+  ];
+
+  const schemaBreadcrumb = getBreadcrumbSchema(breadcrumbItems);
+
   let html = getHead(title, description, canonicalUrl);
 
   html += `
@@ -1272,11 +1308,7 @@ function generateRegionPage(region, allAppellations = []) {
 ${getHeader()}
 
 <main class="container">
-  ${getBreadcrumb([
-    { label: 'Accueil', url: '/' },
-    { label: 'Régions', url: '/regions/' },
-    { label: region.name }
-  ])}
+  ${getBreadcrumb(breadcrumbItems)}
 
   <article class="region-detail">
     <h1>Vins de ${escapeHtml(region.name)}</h1>
@@ -1359,6 +1391,10 @@ ${getHeader()}
     </section>
   </article>
 </main>
+
+<script type="application/ld+json">
+${JSON.stringify(schemaBreadcrumb, null, 2)}
+</script>
 `;
 
   html += getFooter();
@@ -1370,6 +1406,15 @@ function generateAppellationPage(appellation) {
   const description = appellation.descriptionSerieuse || `Tout savoir sur ${appellation.name} : terroir, cépages, producteurs et vins. Découvrez l'avis royal du Roi du Pinard.`;
   const canonicalUrl = `${BASE_URL}/regions/${appellation.regionSlug}/appellations/${appellation.slug}.html`;
 
+  const breadcrumbItems = [
+    { label: 'Accueil', url: '/' },
+    { label: 'Régions', url: '/regions/' },
+    { label: appellation.region, url: `/regions/${appellation.regionSlug}/` },
+    { label: appellation.name }
+  ];
+
+  const schemaBreadcrumb = getBreadcrumbSchema(breadcrumbItems);
+
   let html = getHead(title, description, canonicalUrl);
 
   html += `
@@ -1377,12 +1422,7 @@ function generateAppellationPage(appellation) {
 ${getHeader()}
 
 <main class="container">
-  ${getBreadcrumb([
-    { label: 'Accueil', url: '/' },
-    { label: 'Régions', url: '/regions/' },
-    { label: appellation.region, url: `/regions/${appellation.regionSlug}/` },
-    { label: appellation.name }
-  ])}
+  ${getBreadcrumb(breadcrumbItems)}
 
   <article class="appellation-detail">
     <h1>${escapeHtml(appellation.name)}</h1>
@@ -1428,6 +1468,10 @@ ${getHeader()}
     </section>
   </article>
 </main>
+
+<script type="application/ld+json">
+${JSON.stringify(schemaBreadcrumb, null, 2)}
+</script>
 `;
 
   html += getFooter();
@@ -1604,6 +1648,12 @@ function generateIndexPages(wines, regions, producers) {
   const pages = {};
 
   // Index des régions
+  const regionsBreadcrumb = [
+    { label: 'Accueil', url: '/' },
+    { label: 'Régions' }
+  ];
+  const regionsBreadcrumbSchema = getBreadcrumbSchema(regionsBreadcrumb);
+
   let regionsHtml = getHead(
     'Régions viticoles de France | Le Roi du Pinard',
     'Découvrez toutes les régions viticoles de France : Bourgogne, Bordeaux, Champagne, Rhône et bien d\'autres.',
@@ -1614,10 +1664,7 @@ function generateIndexPages(wines, regions, producers) {
 <body class="index-page">
 ${getHeader()}
 <main class="container">
-  ${getBreadcrumb([
-    { label: 'Accueil', url: '/' },
-    { label: 'Régions' }
-  ])}
+  ${getBreadcrumb(regionsBreadcrumb)}
 
   <h1>Les Régions Viticoles de France</h1>
   <p class="intro">Explorez les ${regions.length} régions viticoles référencées dans le royaume du Roi du Pinard.</p>
@@ -1642,10 +1689,19 @@ ${getHeader()}
     }).join('')}
   </div>
 </main>
+<script type="application/ld+json">
+${JSON.stringify(regionsBreadcrumbSchema, null, 2)}
+</script>
 ${getFooter()}`;
   pages['regions/index.html'] = regionsHtml;
 
   // Index des producteurs
+  const producersBreadcrumb = [
+    { label: 'Accueil', url: '/' },
+    { label: 'Producteurs' }
+  ];
+  const producersBreadcrumbSchema = getBreadcrumbSchema(producersBreadcrumb);
+
   let producersHtml = getHead(
     'Producteurs de vins de France | Le Roi du Pinard',
     `Découvrez les ${producers.length} producteurs et domaines viticoles référencés par le Roi du Pinard.`,
@@ -1656,10 +1712,7 @@ ${getFooter()}`;
 <body class="index-page">
 ${getHeader()}
 <main class="container">
-  ${getBreadcrumb([
-    { label: 'Accueil', url: '/' },
-    { label: 'Producteurs' }
-  ])}
+  ${getBreadcrumb(producersBreadcrumb)}
 
   <h1>Les Producteurs du Royaume</h1>
   <p class="intro">${producers.length} domaines et vignerons à découvrir.</p>
@@ -1680,10 +1733,19 @@ ${getHeader()}
     }).join('')}
   </div>
 </main>
+<script type="application/ld+json">
+${JSON.stringify(producersBreadcrumbSchema, null, 2)}
+</script>
 ${getFooter()}`;
   pages['producteurs/index.html'] = producersHtml;
 
   // Index des vins
+  const winesBreadcrumb = [
+    { label: 'Accueil', url: '/' },
+    { label: 'Tous les vins' }
+  ];
+  const winesBreadcrumbSchema = getBreadcrumbSchema(winesBreadcrumb);
+
   let winesHtml = getHead(
     'Tous les vins de France | Le Roi du Pinard',
     `Découvrez les ${wines.length} vins référencés par le Roi du Pinard. Fiches détaillées, notes de dégustation et avis royaux.`,
@@ -1694,10 +1756,7 @@ ${getFooter()}`;
 <body class="index-page">
 ${getHeader()}
 <main class="container">
-  ${getBreadcrumb([
-    { label: 'Accueil', url: '/' },
-    { label: 'Tous les vins' }
-  ])}
+  ${getBreadcrumb(winesBreadcrumb)}
 
   <h1>Tous les Vins du Royaume</h1>
   <p class="intro">${wines.length} vins à explorer. De quoi occuper vos soirées pour les années à venir !</p>
@@ -1738,6 +1797,9 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
     });
   });
 });
+</script>
+<script type="application/ld+json">
+${JSON.stringify(winesBreadcrumbSchema, null, 2)}
 </script>
 ${getFooter()}`;
   pages['vins/index.html'] = winesHtml;
